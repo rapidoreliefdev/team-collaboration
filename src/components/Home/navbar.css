@@ -1,0 +1,97 @@
+/* CSS */
+
+.ant-modal{
+    width: 800px !important;
+}
+.ant-modal-body {
+  padding: 24px 0px 24px 0px !important;
+  width: 100% !important;
+}
+.green-modal .ant-modal-content {
+  background-color: #b2ff87; /* Change the background color to green */
+}
+
+.green-modal .ant-modal-header {
+  background-color: #b2ff87; /* Change the header background color to green */
+  border-bottom: none; /* Remove the border from the header */
+}
+
+.modal-title {
+  margin-bottom: 0; /* Adjust spacing if needed */
+  position: relative;
+}
+
+
+.green-modal .ant-modal-body {
+  padding: 24px; /* Adjust body padding if needed */
+}
+
+.green-modal .ant-modal-footer {
+  display: none; /* Hide the footer */
+}
+
+/* Common styles for category items */
+.category-item {
+    width: calc(25% - 40px);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  
+  .category-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 20px); /* Adjust the width to account for gap */
+    height: 1px;
+    background-color: black; /* Border bottom color */
+  }
+  
+  .category-item:last-child::after {
+    display: none; /* Hide border bottom for the last item in each row */
+  }
+  
+  /* Category container */
+  .category-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .category-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 120%;
+  }
+  
+  /* Image container */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .image-container img {
+    /* max-width: calc(25% - 20px);  */
+    height: auto;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .category-item {
+      width: calc(50% - 40px); /* Show two items per row on smaller screens */
+    }
+  
+    .image-container {
+      display: none; /* Hide the image container on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .category-item {
+      width: calc(50% - 40px); /* Show one item per row on even smaller screens */
+    }
+  }
+  

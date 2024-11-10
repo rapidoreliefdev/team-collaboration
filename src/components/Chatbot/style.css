@@ -1,0 +1,35 @@
+.rcw-launcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a8c09 !important;
+  color: #1a4402 !important;
+}
+
+.rcw-header {
+  background-color: #1a4402 !important;
+}
+
+.rcw-close-button {
+  background-color: #1a4402 !important;
+}
+
+/* style.css */
+.custom-launcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.quick-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quick-list-button {
+  padding-bottom: 10px;
+}
+
