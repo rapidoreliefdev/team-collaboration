@@ -26,9 +26,9 @@ import Login from "../Login";
 export default function Index() {
   const { isModalVisible, modalContent } = useModal();
   return (
-    <div className="f-f-r">
+    <div className="f-f-r m-0 w-screen p-0">
       {/* <ChatBot/> */}
-      <div className={` bg-cover bg-no-repeat bg-center w-full herobg`}>
+      <div className={`herobg w-full bg-cover bg-center bg-no-repeat`}>
         {/* <Header /> */}
         <Navbar />
         <Hero />
@@ -38,7 +38,7 @@ export default function Index() {
       </Modal>
       <HowRapidoReliefWorks />
       <div className="bg-[#f6fbf4] py-[88px]">
-        <h1 className="text-10xl font-extrabold text-green-dark mb-[34px] mx-auto w-fit">
+        <h1 className="mx-auto mb-[34px] w-fit text-10xl font-extrabold text-green-dark">
           See a doctor with or without insurance!
         </h1>
         <Option />

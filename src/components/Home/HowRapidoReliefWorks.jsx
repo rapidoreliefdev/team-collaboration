@@ -4,16 +4,16 @@ import heart from "../../assets/images/heart-pulse-fill.svg";
 
 export default function HowRapidoReliefWorks() {
   return (
-    <div className="w-11/12 xl:w-[1161px] mx-auto py-[81px]">
-      <div className="flex items-center gap-[27px] justify-center mb-8">
+    <div className="mx-auto w-11/12 py-[81px] xl:w-[1161px]">
+      <div className="mb-8 flex items-center justify-center gap-[27px]">
         <h1 className="text-[35px] font-medium text-green-dark">
           How Rapido Relief Works
         </h1>
-        <h2 className="bg-green-dark px-[22px] f-f-li text-[40px] italic text-[#58fd0a] rounded-[10px]">
+        <h2 className="f-f-li rounded-[10px] bg-green-dark px-[22px] text-[40px] italic text-[#58fd0a]">
           it's very simple
         </h2>
       </div>
-      <div className="flex gap-[25px]">
+      <div className="flex flex-wrap justify-center gap-[25px]">
         {[
           {
             image: contact,
@@ -53,8 +53,8 @@ export default function HowRapidoReliefWorks() {
 
 const Card = ({ image, topic, listItems }) => {
   return (
-    <div className="bg-[#EAF9D6] flex px-[13px] py-4 rounded-b-[15px] gap-4 w-full">
-      <div className="w-[66px] h-[66px]">
+    <div className="flex w-[360px] gap-4 rounded-b-[15px] bg-[#EAF9D6] px-[13px] py-4">
+      <div className="h-[66px] w-[66px]">
         <img src={image} alt="" classname="w-full h-full" />
       </div>
       <section>

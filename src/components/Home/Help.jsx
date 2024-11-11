@@ -46,25 +46,25 @@ const features = [
 
 export default function Help() {
   return (
-    <section className="w-11/12 mx-auto 2xl:max-w-[1161px] py-[50px]">
-      <div className="flex flex-col justify-start items-center lg:flex-row gap-5 max-md:flex-col">
+    <section className="mx-auto w-11/12 py-[50px] 2xl:max-w-[1161px]">
+      <div className="max-md:flex-col flex flex-col items-center justify-start gap-5 lg:flex-row">
         {/* Mobile-phone image */}
-        <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+        <div className="max-md:ml-0 max-md:w-full flex w-[33%] flex-col">
           <img
             loading="lazy"
             src={Helpmobile}
             alt="Rapido Relief App illustration"
-            className="object-contain grow w-full aspect-[0.58] max-md:mt-10"
+            className="max-md:mt-10 aspect-[0.58] w-full grow object-contain"
           />
         </div>
 
-        <div className="flex flex-col md:w-[67%] max-md:ml-0 max-md:w-full ">
-          <div className="flex flex-col items-start mt-2 w-full max-md:mt-10 max-md:max-w-full">
-            <h1 className="text-black text-center md:text-start f-f-r text-[40px] font-semibold leading-[64px] tracking-[-0.4px]">
+        <div className="max-md:ml-0 max-md:w-full flex flex-col md:w-[67%]">
+          <div className="max-md:mt-10 max-md:max-w-full mt-2 flex w-full flex-col items-start">
+            <h1 className="f-f-r text-center text-[40px] font-semibold leading-[64px] tracking-[-0.4px] text-black md:text-start">
               About Rapido Relief App
             </h1>
 
-            <p className="text-[#647067] f-f-r text-[18px] font-normal leading-[28.8px] tracking-[-0.18px]">
+            <p className="f-f-r text-[18px] font-medium leading-[28.8px] tracking-[-0.18px] text-[#647067]">
               Rapido Relief App is revolutionizing emergency healthcare by
               offering immediate access to qualified professionals through our
               innovative telehealthcare platform. We prioritize rapid response
@@ -77,7 +77,7 @@ export default function Help() {
               advice to urgent care, we ensure swift and efficient connections
               when you need it the most.
             </p>
-            <div className="flex flex-wrap gap-6 mt-6 w-full">
+            <div className="mt-6 flex w-full flex-wrap justify-center gap-6">
               {features.map((feature, index) => (
                 <FeatureItem key={index} {...feature} />
               ))}
@@ -91,18 +91,18 @@ export default function Help() {
 
 function FeatureItem({ title, description, iconSrc }) {
   return (
-    <div className="flex flex-col items-center gap-[25px] px-[22px] py-[28px] rounded-b-[20px] shadow-custom w-1/4 text-nowrap">
+    <div className="flex h-[250px] w-[220px] flex-col items-center gap-[25px] text-nowrap rounded-b-[20px] px-[22px] py-[28px] shadow-custom">
       <img
         loading="lazy"
         src={iconSrc}
         alt={`${title} icon`}
-        className="object-contain w-20 aspect-square"
+        className="aspect-square h-[125px] w-20 object-contain"
       />
       <div>
-        <h5 className="text-green-dark text-center  f-f-r  text-[25px] font-bold leading-[32px] tracking-[-0.72px]">
+        <h5 className="f-f-r text-center text-[25px] font-bold leading-[32px] tracking-[-0.72px] text-green-dark">
           {title}
         </h5>
-        <p className="text-[#000000] f-f-r mt-2 text-center text-[15px] font-medium leading-[21.6px] tracking-[-0.18px]">
+        <p className="f-f-r mt-2 text-center text-[15px] font-medium leading-[21.6px] tracking-[-0.18px] text-[#000000]">
           {description}
         </p>
       </div>

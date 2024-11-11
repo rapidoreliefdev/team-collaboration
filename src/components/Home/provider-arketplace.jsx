@@ -4,30 +4,34 @@ import ImageThree from "../../assets/images/market-3.svg";
 
 export default function ProviderMarketplace() {
   return (
-    <div className="w-11/12 mx-auto 2xl:max-w-[1161px] my-5">
-      <div className=" relative flex flex-col justify-center gap-5 lg:flex-row lg:justify-between items-center bg-[#1A4402] p-4 lg:pr-16">
+    <div className="my-5 w-full bg-[#1A4402] 2xl:mx-auto 2xl:max-w-[1161px]">
+      <div className="relative mx-auto flex w-11/12 flex-col items-center justify-center gap-5 p-4 lg:flex-row lg:justify-between lg:pr-16">
         <div>
           <h1
             style={{ fontFamily: "DM Sans" }}
-            className="text-[#EAF9D6]  text-[25px] font-medium leading-[45px]">
+            className="text-[25px] font-medium leading-[45px] text-[#EAF9D6]"
+          >
             Are you a provider & interested in reaching new patients?
           </h1>
           <p
             style={{ fontFamily: "DM Sans" }}
-            className="text-[#B2FF87]  text-[20px] font-normal leading-[32px] tracking-[-0.2px]">
+            className="text-[20px] font-normal leading-[32px] tracking-[-0.2px] text-[#B2FF87]"
+          >
             List your practice on Rapido Relief Marketplace & be discovered
           </p>
 
           <button
             style={{ fontWeight: 500 }}
-            className="text-[#1A4402] bg-[#EAF9D6] mt-2 rounded-[10px]  f-f-m text-[18px] flex justify-start items-center gap-3 px-[16px] py-[12px] font-medium leading-normal tracking-[-0.36px]">
+            className="f-f-m mt-2 flex items-center justify-start gap-3 rounded-[10px] bg-[#EAF9D6] px-[16px] py-[12px] text-[18px] font-medium leading-normal tracking-[-0.36px] text-[#1A4402]"
+          >
             Enlist your Practice or Store on Rapido Relief App
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="none">
+              fill="none"
+            >
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -41,9 +45,9 @@ export default function ProviderMarketplace() {
             </svg>
           </button>
         </div>
-        <div className=" flex flex-col  md:flex-row justify-start items-center gap-6">
-          <img className="w-[189.029px] h-[160px]" src={ImageOne} />
-          <img className="w-[189.029px] h-[160px]" src={ImageTwo} />
+        <div className="flex flex-col items-center justify-start gap-6 md:flex-row">
+          <img className="h-[160px] w-[189.029px]" src={ImageOne} />
+          <img className="h-[160px] w-[189.029px]" src={ImageTwo} />
         </div>
         <img className="absolute -bottom-3 -right-1" src={ImageThree} />
       </div>

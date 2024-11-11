@@ -36,53 +36,53 @@ const products = [
 const TrendingProduct = () => {
   return (
     <>
-      <div className=" flex justify-between items-center mt-28 ">
-        <span className=" hidden md:block w-[10%] lg:w-[20%] 2xl:w-[50%] h-[1px] bg-black"></span>
+      <div className="mt-28 flex items-center justify-between">
+        <span className="hidden h-[1px] w-[10%] bg-black md:block lg:w-[20%] 2xl:w-[50%]"></span>
         <span
           style={{ fontFamily: "inter" }}
-          className="text-[#000] xl:pl-0 text-7xl text-center w-full   2xl:w-[80%] md:text-[48px] font-medium leading-normal"
+          className="mx-2 w-full text-center text-7xl font-medium leading-normal text-[#000] md:text-[48px] xl:pl-0 2xl:w-[80%]"
         >
           Trending Products Reviews
         </span>
-        <span className="hidden md:block w-[10%] lg:w-[20%] 2xl:w-[50%] h-[1px] bg-black"></span>
+        <span className="hidden h-[1px] w-[10%] bg-black md:block lg:w-[20%] 2xl:w-[50%]"></span>
       </div>
 
-      <div className="w-11/12 mx-auto 2xl:max-w-[1325px] py-[104px] ">
-        <div className="px-20 flex py-[30] gap-8 w-[1280px]">
-          <div className="rounded-[20px] overflow-hidden h-[307px] w-[256px] border border-[#C9C9C9] shadow-xl">
-            <div className="w-full h-[236px] bg-[url('assets/images/trending-product-image1.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="mt-[10px] ml-[15px]">
-              <p className="text-sm text-[#6F6F70] font-medium">Branded</p>
+      <div className="mx-auto w-11/12 py-[104px] 2xl:max-w-[1325px]">
+        <div className="flex w-fit flex-wrap justify-center gap-8 py-[30] md:px-20 2xl:w-[1280px]">
+          <div className="h-[334px] min-w-[256px] max-w-[300px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
+            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image1.jpeg')] bg-cover bg-[50%]"></div>
+            <div className="ml-[15px] mt-[10px]">
+              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
               <h5 className="text-2xl font-semibold text-[#323234]">
                 Ayurvedic Products
               </h5>
             </div>
           </div>
 
-          <div className="rounded-[20px] overflow-hidden h-[307px] w-[256px] border border-[#C9C9C9] shadow-xl">
-            <div className="w-full h-[236px] bg-[url('assets/images/trending-product-image2.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="mt-[10px] ml-[15px]">
-              <p className="text-sm text-[#6F6F70] font-medium">Branded</p>
+          <div className="h-[334px] w-[256px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
+            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image2.jpeg')] bg-cover bg-[50%]"></div>
+            <div className="my-[10px] ml-[15px]">
+              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
               <h5 className="text-2xl font-semibold text-[#323234]">
                 Vitamins & Protein suplement
               </h5>
             </div>
           </div>
 
-          <div className="rounded-[20px] overflow-hidden h-[307px] w-[256px] border border-[#C9C9C9] shadow-xl">
-            <div className="w-full h-[236px] bg-[url('assets/images/trending-product-image3.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="mt-[10px] ml-[15px]">
-              <p className="text-sm text-[#6F6F70] font-medium">Branded</p>
+          <div className="h-[334px] w-[256px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
+            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image3.jpeg')] bg-cover bg-[50%]"></div>
+            <div className="ml-[15px] mt-[10px]">
+              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
               <h5 className="text-2xl font-semibold text-[#323234]">
                 Mother & Baby care
               </h5>
             </div>
           </div>
 
-          <div className="rounded-[20px] overflow-hidden h-[307px] w-[256px] border border-[#C9C9C9] shadow-xl">
-            <div className="w-full h-[236px] bg-[url('assets/images/trending-product-image4.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="mt-[10px] ml-[15px]">
-              <p className="text-sm text-[#6F6F70] font-medium">Branded</p>
+          <div className="h-[334px] w-[256px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
+            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image4.jpeg')] bg-cover bg-[50%]"></div>
+            <div className="ml-[15px] mt-[10px]">
+              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
               <h5 className="text-2xl font-semibold text-[#323234]">
                 Healthy foods & Drinks
               </h5>
