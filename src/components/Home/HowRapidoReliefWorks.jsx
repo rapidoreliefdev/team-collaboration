@@ -5,11 +5,11 @@ import heart from "../../assets/images/heart-pulse-fill.svg";
 export default function HowRapidoReliefWorks() {
   return (
     <div className="mx-auto w-11/12 py-[81px] xl:w-[1161px]">
-      <div className="mb-8 flex items-center justify-center gap-[27px]">
-        <h1 className="text-[35px] font-medium text-green-dark">
+      <div className="mb-8 flex flex-wrap items-center justify-center gap-4 md:gap-[27px]">
+        <h1 className="text-5xl font-medium text-green-dark md:text-7xl">
           How Rapido Relief Works
         </h1>
-        <h2 className="f-f-li rounded-[10px] bg-green-dark px-[22px] text-[40px] italic text-[#58fd0a]">
+        <h2 className="f-f-li w-full rounded-[10px] bg-green-dark px-3 text-center text-6xl italic text-[#58fd0a] sm:w-fit md:px-[22px] md:text-7xl lg:text-[40px]">
           it's very simple
         </h2>
       </div>

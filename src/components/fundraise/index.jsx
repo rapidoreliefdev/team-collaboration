@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../Home/Navbar";
 import Footer from "../Home/Footer";
 import Subscribe from "../Home/Subscribe";
@@ -14,7 +13,7 @@ import TrendingProduct from "./trending-product";
 const Fundraise = () => {
   return (
     <>
-      <div className={` bg-cover bg-no-repeat bg-center w-full herobg`}>
+      <div className={`herobg w-full bg-cover bg-center bg-no-repeat`}>
         {/* <Header/> */}
         <Navbar />
         <HeroSection />

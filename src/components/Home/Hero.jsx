@@ -47,7 +47,7 @@ export default function Hero() {
             <WatchVideo />
           </div>
 
-          <div className="flex items-center gap-5">
+          <div className="mt-5 flex flex-wrap items-center gap-3 xl:gap-5">
             <button
               onClick={() => handleOpen()}
               className="text-nowrap rounded-[10px] bg-[#58FD0A] px-[17px] py-2 text-[25px] font-medium text-green-dark"

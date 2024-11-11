@@ -19,7 +19,7 @@ export default function Navbar() {
   const [modal2Open, setModal2Open] = useState(false);
 
   const [selectedLanguage, setSelectedLanguage] = useState(
-    localStorage.getItem("selectedLanguage") || "English"
+    localStorage.getItem("selectedLanguage") || "English",
   );
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -65,16 +65,16 @@ export default function Navbar() {
         <button
           id="dropdownNavbarLink"
           onClick={toggleDropdown}
-          className="flex items-center justify-between w-full py-2 px-3 lg:p-0 md:w-auto"
+          className="flex w-full items-center justify-between px-3 py-2 md:w-auto lg:p-0"
         >
           {selectedLanguage === "English" ? (
             <>
-              <img src={engFlag} className="w-[33px] h-[23px]" alt="English" />
+              <img src={engFlag} className="h-[23px] w-[33px]" alt="English" />
               {/* <span className="ml-2">English</span> */}
             </>
           ) : (
             <>
-              <img src={flags} className="w-[33px] h-[23px]" alt="Portuguese" />
+              <img src={flags} className="h-[23px] w-[33px]" alt="Portuguese" />
               {/* <span className="ml-2">Portuguese</span> */}
             </>
           )}
@@ -93,15 +93,15 @@ export default function Navbar() {
           </svg>
         </button>
         {isDropdownOpen && (
-          <ul className="absolute top-full left-0 bg-white shadow-md">
+          <ul className="absolute left-0 top-full bg-white shadow-md">
             <li>
               <button
-                className="w-full py-2 px-3 text-left"
+                className="w-full px-3 py-2 text-left"
                 onClick={() => handleLanguageChange("English")}
               >
                 <img
                   src={engFlag}
-                  className="w-[33px] h-[23px]"
+                  className="h-[23px] w-[33px]"
                   alt="English"
                 />
                 {/* <span className="ml-2">English</span> */}
@@ -109,12 +109,12 @@ export default function Navbar() {
             </li>
             <li>
               <button
-                className="w-full py-2 px-3 text-left"
+                className="w-full px-3 py-2 text-left"
                 onClick={() => handleLanguageChange("Portuguese")}
               >
                 <img
                   src={flags}
-                  className="w-[33px] h-[23px]"
+                  className="h-[23px] w-[33px]"
                   alt="Portuguese"
                 />
                 {/* <span className="ml-2">Portuguese</span> */}
@@ -128,8 +128,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className=" border-gray-200 bg-[#336109] ">
-        <div className="  w-11/12 xl:w-[1161px] flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="border-gray-200 bg-[#336109]">
+        <div className="mx-auto flex w-11/12 flex-wrap items-center justify-between p-4 xl:w-[1161px]">
           <Link
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -187,13 +187,13 @@ export default function Navbar() {
             onClick={() => setnavbar(!navbar)}
             data-collapse-toggle="navbar-dropdown"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center lg:hidden "
+            className="inline-flex h-10 w-10 items-center justify-center p-2 lg:hidden"
             aria-controls="navbar-dropdown"
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
             <svg
-              className="w-5 h-5"
+              className="h-5 w-5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="#B2FF87"
@@ -215,7 +215,7 @@ export default function Navbar() {
             } w-full lg:block lg:w-auto`}
             id="navbar-dropdown"
           >
-            <ul className=" text-left items-baseline  flex flex-col p-4 lg:p-0 mt-4 border border-green-light rounded-lg bg-transparent lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:items-center lg:mt-0 lg:border-0  ">
+            <ul className="mt-4 flex flex-col items-baseline rounded-lg border border-green-light bg-transparent p-4 text-left lg:mt-0 lg:flex-row lg:items-center lg:space-x-8 lg:border-0 lg:p-0 rtl:space-x-reverse">
               {selectedLanguage === "English" ? (
                 <MenuItem
                   link="/aboutus"
@@ -245,8 +245,8 @@ export default function Navbar() {
                   // { label: "FAQ" },
                 ]}
               />
-              <MenuItem label="Product" />
-              <MenuItem label="Partners" />
+              <MenuItem label="Mental Health" />
+              {/* <MenuItem label="Partners" /> */}
 
               {/* <li>
                 {selectedLanguage === "English" ? (
@@ -261,8 +261,8 @@ export default function Navbar() {
 
               <AccountCreate />
 
-              <li className=" hidden lg:block ">
-                <p className="block py-2 px-3 border border-white h-[27px]   lg:p-0 f-f-b "></p>
+              <li className="hidden lg:block">
+                <p className="f-f-b block h-[27px] border border-white px-3 py-2 lg:p-0"></p>
               </li>
               {/* <li className=" relative  text-left w-full lg:w-auto py-2">
                 <button
@@ -285,12 +285,12 @@ export default function Navbar() {
                 </button>
               </li> */}
 
-              <li className="text-left w-full lg:w-auto py-2">
+              <li className="w-full py-2 text-left lg:w-auto">
                 <Link
                   to="/fundraise"
-                  className=" block  bg-[#58fd09] p-[2px] pr-[5px] rounded-[50px] "
+                  className="block rounded-[50px] bg-[#58fd09] p-[2px] pr-[5px]"
                 >
-                  <button className="f-f-r w-full rounded-[50px] p-4 bg-[#1A4402] text-white text-[15px] font-normal leading-[1.5px] uppercase">
+                  <button className="f-f-r w-full rounded-[50px] bg-[#1A4402] p-4 text-[15px] font-normal uppercase leading-[1.5px] text-white">
                     SUPPORTS US!
                   </button>
                 </Link>

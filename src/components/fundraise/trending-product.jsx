@@ -48,49 +48,31 @@ const TrendingProduct = () => {
       </div>
 
       <div className="mx-auto w-11/12 py-[104px] 2xl:max-w-[1325px]">
-        <div className="flex w-fit flex-wrap justify-center gap-8 py-[30] md:px-20 2xl:w-[1280px]">
-          <div className="h-[334px] min-w-[256px] max-w-[300px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
-            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image1.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="ml-[15px] mt-[10px]">
-              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
-              <h5 className="text-2xl font-semibold text-[#323234]">
-                Ayurvedic Products
-              </h5>
-            </div>
-          </div>
+        <div className="flex w-fit flex-wrap justify-center gap-8 py-[30] md:px-20 xl:flex-nowrap xl:justify-between 2xl:w-[1280px]">
+          <Product imageNumber="1" text="Ayurvedic Products" />
 
-          <div className="h-[334px] w-[256px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
-            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image2.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="my-[10px] ml-[15px]">
-              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
-              <h5 className="text-2xl font-semibold text-[#323234]">
-                Vitamins & Protein suplement
-              </h5>
-            </div>
-          </div>
+          <Product imageNumber="2" text="Vitamins & Protein suplement" />
 
-          <div className="h-[334px] w-[256px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
-            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image3.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="ml-[15px] mt-[10px]">
-              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
-              <h5 className="text-2xl font-semibold text-[#323234]">
-                Mother & Baby care
-              </h5>
-            </div>
-          </div>
+          <Product imageNumber="3" text="Mother & Baby care" />
 
-          <div className="h-[334px] w-[256px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
-            <div className="h-[236px] w-full bg-[url('assets/images/trending-product-image4.jpeg')] bg-cover bg-[50%]"></div>
-            <div className="ml-[15px] mt-[10px]">
-              <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
-              <h5 className="text-2xl font-semibold text-[#323234]">
-                Healthy foods & Drinks
-              </h5>
-            </div>
-          </div>
+          <Product imageNumber="4" text="Healthy foods & Drinks" />
         </div>
       </div>
     </>
+  );
+};
+
+const Product = ({ imageNumber, text }) => {
+  return (
+    <div className="h-[334px] w-[256px] overflow-hidden rounded-[20px] border border-[#C9C9C9] shadow-xl">
+      <div
+        className={`h-[236px] w-full ${imageNumber === "1" ? "bg-[url('assets/images/trending-product-image1.jpeg')]" : imageNumber === "2" ? "bg-[url('assets/images/trending-product-image2.jpeg')]" : imageNumber === "3" ? "bg-[url('assets/images/trending-product-image3.jpeg')]" : imageNumber === "4" ? "bg-[url('assets/images/trending-product-image4.jpeg')]" : ""} bg-cover bg-[50%]`}
+      ></div>
+      <div className="ml-[15px] mt-[10px]">
+        <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
+        <h5 className="text-2xl font-semibold text-[#323234]">{text}</h5>
+      </div>
+    </div>
   );
 };
 

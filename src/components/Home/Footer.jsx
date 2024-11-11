@@ -13,68 +13,68 @@ import LanguageSelector from "./language-select";
 
 export default function Footer() {
   return (
-    <div className="bg-green-dark ">
-      <div className="w-10/12 mx-auto 2xl:max-w-[1161px] py-9 relative">
-        <div className=" absolute bottom-16 -right-6 xl:-right-6 hidden md:block">
+    <div className="bg-green-dark">
+      <div className="relative mx-auto w-10/12 py-9 2xl:max-w-[1161px]">
+        <div className="absolute -right-6 bottom-16 hidden md:block xl:-right-6">
           <HoverPersistentComponent />
         </div>
         <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-12  xl:col-span-3">
-            <div className="text-center xl:text-start ">
-              <ul className="xl:inline-flex w-full  items-center space-x-2">
+          <div className="col-span-12 xl:col-span-3">
+            <div className="text-center xl:text-start">
+              <ul className="w-full items-center space-x-2 xl:inline-flex">
                 <li>
-                  <img src={Rapidologo} className="w-12 h-12 mx-auto" alt="" />
+                  <img src={Rapidologo} className="mx-auto h-12 w-12" alt="" />
                 </li>
                 <li>
-                  <h1 className="f-f-r font-semibold text-white text-[32px]">
+                  <h1 className="f-f-r text-[32px] font-semibold text-white">
                     RapidoRelief
                   </h1>
                 </li>
               </ul>
 
-              <ul className="xl:inline-flex w-full items-center space-x-4 md:space-x-4 mt-4 xl:mt-[47px]">
+              <ul className="mt-4 w-full items-center space-x-4 md:space-x-4 xl:mt-[47px] xl:inline-flex">
                 <li>
                   <img
                     src={Email}
-                    className="w-[38px] h-[35px] mx-auto "
+                    className="mx-auto h-[35px] w-[38px]"
                     alt=""
                   />
                 </li>
-                <div className="xl:w-[160px] ">
+                <div className="xl:w-[160px]">
                   <li>
-                    <h1 className="f-f-r  text-white text-sm  mt-3 xl:mt-0">
+                    <h1 className="f-f-r mt-3 text-sm text-white xl:mt-0">
                       For support or any-related inquiries, please write to us
                       at{" "}
-                      <span className="f-f-li  text-green">
+                      <span className="f-f-li text-green">
                         contact@rapidorelief.com
                       </span>{" "}
                     </h1>
                   </li>
                 </div>
               </ul>
-              <h3 className="f-f-r text-xl text-white mt-4">
+              <h3 className="f-f-r mt-4 text-xl text-white">
                 Follow Us On Social Media
               </h3>
-              <div className=" px-6 mt-[17px] ">
-                <ul className="inline-flex items-center space-x-[10px]  ">
+              <div className="mt-[17px] px-6">
+                <ul className="inline-flex items-center space-x-[10px]">
                   <li>
                     <a href="https://web.facebook.com/RapidoReliefApp/">
-                      <img src={Gfacebook} className="w-6 h-6" alt="" />
+                      <img src={Gfacebook} className="h-6 w-6" alt="" />
                     </a>
                   </li>
                   <li>
                     <a href="https://www.instagram.com/rapidreliefapp/">
-                      <img src={Ginstagram} className="w-6 h-6" alt="" />
+                      <img src={Ginstagram} className="h-6 w-6" alt="" />
                     </a>
                   </li>
                   <li>
                     <a href="https://twitter.com/rapidoreliefapp">
-                      <img src={Gsocial} className="w-6 h-6" alt="" />
+                      <img src={Gsocial} className="h-6 w-6" alt="" />
                     </a>
                   </li>
                   <li>
                     <a href="https://www.linkedin.com/company/rapidreliefapp">
-                      <img src={Glinkedin} className="w-6 h-6" alt="" />
+                      <img src={Glinkedin} className="h-6 w-6" alt="" />
                     </a>
                   </li>
                   {/* <li>
@@ -87,81 +87,77 @@ export default function Footer() {
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <div className="text-center xl:text-start xl:pl-20 mt-3 xl:mt-0">
-              <h1 className="f-f-r font-semibold text-white text-xl">
+            <div className="mt-3 text-center xl:mt-0 xl:pl-20">
+              <h1 className="f-f-r text-xl font-semibold text-white">
                 Solution
               </h1>
-              <h1 className="f-f-r  text-white text-xl mt-4">Find Doctors</h1>
-              <h1 className="f-f-r  text-white text-xl mt-3 ">
-                Find Pharmacy{" "}
-              </h1>
-              <h1 className="f-f-r  text-white text-xl mt-3">
+              <h1 className="f-f-r mt-4 text-xl text-white">Find Doctors</h1>
+              <h1 className="f-f-r mt-3 text-xl text-white">Find Pharmacy </h1>
+              <h1 className="f-f-r mt-3 text-xl text-white">
                 Healthcare Expertise
               </h1>
-              <h1 className="f-f-r  text-white text-xl mt-3">
+              <h1 className="f-f-r mt-3 text-xl text-white">
                 Patient Communication
               </h1>
-              <h1 className="f-f-r  text-white text-xl mt-3">
+              <h1 className="f-f-r mt-3 text-xl text-white">
                 rovider Collaboration
               </h1>
-              <h1 className="f-f-r  text-white text-xl mt-3">
+              <h1 className="f-f-r mt-3 text-xl text-white">
                 Workflow Automation
               </h1>
             </div>
           </div>
 
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <div className=" text-center xl:text-start xl:pl-20 mt-3 xl:mt-0">
-              <h1 className="f-f-r font-semibold text-white text-xl">
+            <div className="mt-3 text-center xl:mt-0 xl:pl-20">
+              <h1 className="f-f-r text-xl font-semibold text-white">
                 Resources
               </h1>
-              <h1 className="f-f-r  text-white text-xl mt-4">About Us</h1>
-              <h1 className="f-f-r  text-white text-xl mt-2">Blog </h1>
-              <h1 className="f-f-r  text-white text-xl mt-2">
-                Success stories
-              </h1>
-              <h1 className="f-f-r  text-white text-xl mt-2">White papers</h1>
-              <h1 className="f-f-r  text-white text-xl mt-2"> Career / CSR</h1>
-              <h1 className="f-f-r  text-white text-xl mt-2">
+              <h1 className="f-f-r mt-4 text-xl text-white">About Us</h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">Blog </h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">Success stories</h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">White papers</h1>
+              <h1 className="f-f-r mt-2 text-xl text-white"> Career / CSR</h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">
                 Podcasts / Videos
               </h1>
             </div>
           </div>
-          <div className="col-span-12  xl:col-span-3">
-            <div className="text-center xl:text-end mt-3 xl:mt-0">
-              <h1 className="f-f-m f text-white text-2xl ">Coming Soon on </h1>
+          <div className="col-span-12 xl:col-span-3">
+            <div className="mt-3 text-center xl:mt-0 xl:text-end">
+              <h1 className="f-f-m f text-2xl text-white">Coming Soon on </h1>
               <div className="sm:space-x-4 xl:space-x-0">
-                <button className="w-full sm:w-[170px] h-[39px] mt-3  border border-green rounded-[10px] cursor-pointer">
+                <button className="mt-3 h-[39px] w-full cursor-pointer rounded-[10px] border border-green sm:w-[170px]">
                   <ul className="inline-flex items-center space-x-2">
                     <li>
-                      <img src={Google} className="w-[30px] h-[26px]" alt="" />
+                      <img src={Google} className="h-[26px] w-[30px]" alt="" />
                     </li>
                     <li>
-                      <h5 className="f-f-r text-xs text-white text-start ">
+                      <h5 className="f-f-r text-start text-xs text-white">
                         GET IT ON
                       </h5>
-                      <h3 className="f-f-m text-lg sm:text-2xl text-white leading-4">
+                      <h3 className="f-f-m text-lg leading-4 text-white sm:text-2xl">
                         Google Play
                       </h3>
                     </li>
                   </ul>
                 </button>
-                <button className="w-full sm:w-[152px] h-[39px] border border-green rounded-[10px] cursor-pointer mt-[14px]">
+                <button className="mt-[14px] h-[39px] w-full cursor-pointer rounded-[10px] border border-green sm:w-[152px]">
                   <ul className="inline-flex items-center space-x-2">
                     <li>
-                      <img src={Apple} className="w-[35px] h-[30px]" alt="" />
+                      <img src={Apple} className="h-[30px] w-[35px]" alt="" />
                     </li>
                     <li>
-                      <h5 className="f-f-r text-xs text-white text-start  ">
+                      <h5 className="f-f-r text-start text-xs text-white">
                         Download on the
                       </h5>
-                      <h3 className="f-f-m text-lg sm:text-2xl text-white leading-4">
+                      <h3 className="f-f-m text-lg leading-4 text-white sm:text-2xl">
                         App Store
                       </h3>
                     </li>
                   </ul>
                 </button>
-                <div className=" mt-10">
+                <div className="mt-10">
                   <LanguageSelector />
                 </div>
               </div>
@@ -169,30 +165,30 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="w-full h-[2px] bg-white mt-7"></div>
+        <div className="mt-7 h-[2px] w-full bg-white"></div>
 
-        <div className="grid grid-cols-12 items-center mt-6">
+        <div className="mt-6 grid grid-cols-12 items-center">
           <div className="col-span-12 md:col-span-4">
-            <h1 className="f-f-m text-base lg:text-base text-white text-center md:text-star">
+            <h1 className="f-f-m md:text-star text-center text-base text-white lg:text-base">
               © 2024 © RapidoRelief. All Rights Reserved.
             </h1>
           </div>
           <div className="col-span-12 md:col-span-8">
-            <div className="text-center md:text-end mt-3 md:mt-0">
-              <ul className="inline-flex space-x-3 sm:space-x-5 items-center uppercase">
+            <div className="mt-3 text-center md:mt-0 md:text-end">
+              <ul className="inline-flex items-center space-x-3 uppercase sm:space-x-5">
                 <Link to="/privacy-policy">
-                  <li className="f-f-m text-sm text-white ">Privacy Policy </li>
+                  <li className="f-f-m text-sm text-white">Privacy Policy </li>
                 </Link>
                 <li>
-                  <div className="bg-white h-3 w-[2px]"></div>
+                  <div className="h-3 w-[2px] bg-white"></div>
                 </li>
                 <li className="f-f-m text-sm text-white">legal</li>
                 <li>
-                  <div className="bg-white h-3 w-[2px]"></div>
+                  <div className="h-3 w-[2px] bg-white"></div>
                 </li>
                 <li className="f-f-m text-sm text-white">cookies </li>
                 <li>
-                  <div className="bg-white h-3 w-[2px]"></div>
+                  <div className="h-3 w-[2px] bg-white"></div>
                 </li>
                 <li className="f-f-m text-sm text-white">terms & conditions</li>
               </ul>
@@ -224,7 +220,7 @@ const HoverPersistentComponent = () => {
 
   return (
     <div
-      className="relative w-[121.971px] h-[122.027px] cursor-pointer flex justify-center items-center bg-[#456c0f] rounded-full group"
+      className="group relative flex h-[122.027px] w-[121.971px] cursor-pointer items-center justify-center rounded-full bg-[#456c0f]"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
@@ -246,25 +242,25 @@ const HoverPersistentComponent = () => {
 
       {/* Hidden Items Initially, will become visible when hovered */}
       <div
-        className={`absolute -top-[380px] w-[25.594px] h-[25.594px] rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out translate-y-full ${
+        className={`absolute -top-[380px] h-[25.594px] w-[25.594px] translate-y-full rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out ${
           isHovered ? "translate-y-0 opacity-30" : "opacity-0"
         }`}
       ></div>
 
       <div
-        className={`absolute -top-[305px] w-[25.594px] h-[25.594px] rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out translate-y-full ${
+        className={`absolute -top-[305px] h-[25.594px] w-[25.594px] translate-y-full rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out ${
           isHovered ? "translate-y-0 opacity-30" : "opacity-0"
         }`}
       ></div>
 
       <div
-        className={`absolute -top-[235px] w-[25.594px] h-[25.594px] rotate-[-45deg] rounded-[7px] border-4 border-[#749D1C] bg-[#749D1C] shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out translate-y-full ${
+        className={`absolute -top-[235px] h-[25.594px] w-[25.594px] translate-y-full rotate-[-45deg] rounded-[7px] border-4 border-[#749D1C] bg-[#749D1C] shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out ${
           isHovered ? "translate-y-0 opacity-100" : "opacity-0"
         }`}
       ></div>
 
       <div
-        className={`absolute text-[32px] -top-[250px] right-20 rounded-[7px] px-3 font-normal leading-normal bg-[#749D1C] text-white transition-all duration-500 ease-out translate-y-full ${
+        className={`absolute -top-[250px] right-20 translate-y-full rounded-[7px] bg-[#749D1C] px-3 text-[32px] font-normal leading-normal text-white transition-all duration-500 ease-out ${
           isHovered ? "translate-y-0 opacity-100" : "opacity-0"
         }`}
       >
@@ -272,13 +268,13 @@ const HoverPersistentComponent = () => {
       </div>
 
       <div
-        className={`absolute -top-[150px] w-[25.594px] h-[25.594px] rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out translate-y-full ${
+        className={`absolute -top-[150px] h-[25.594px] w-[25.594px] translate-y-full rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out ${
           isHovered ? "translate-y-0 opacity-30" : "opacity-0"
         }`}
       ></div>
 
       <div
-        className={`absolute -top-[75px] w-[25.594px] h-[25.594px] rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out translate-y-full ${
+        className={`absolute -top-[75px] h-[25.594px] w-[25.594px] translate-y-full rotate-[-45deg] rounded-[7px] border-4 border-[#1A4402] bg-white shadow-[0_0_49px_-2px_rgba(0,0,0,0.19)] transition-all duration-500 ease-out ${
           isHovered ? "translate-y-0 opacity-30" : "opacity-0"
         }`}
       ></div>
