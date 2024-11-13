@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import DownloadButton from "./download-btn";
 import { Dialog } from "@material-tailwind/react";
 import WatchVideo from "./watch-video";
+import { t } from "i18next";
 
 export default function Hero() {
   const [open, setOpen] = useState(false);
@@ -21,28 +22,27 @@ export default function Hero() {
             Rápido Relief
           </h1>
           <div className="w-full lg:max-w-[475px]">
-            <div className="f-f-m text-[35px] leading-[46px] text-white xl:text-[40px]">
-              Revolutionary Healthcare for the 21st Century
-            </div>
+            <h1 className="f-f-m text-[35px] leading-[46px] text-white xl:text-[40px]">
+              {t("home.heroHeading")}
+            </h1>
           </div>
 
           <div className="mt-5 w-full lg:max-w-[560px] xl:mt-[40px]">
             <h5 className="f-f-r mt-6 text-[20px] font-normal leading-[140%] text-white xl:text-[30px]">
-              We're pioneering the future of healthcare with cutting-edge
-              telehealth and telemedicine solution
+              {t("home.heroSubHeading")}
             </h5>
           </div>
 
           <div className="mt-6 flex flex-wrap items-center justify-start gap-5 xl:mt-[60px]">
             <DownloadButton
               imageSrc={Google}
-              primaryText="GET IT ON"
-              secondaryText="Google Play"
+              primaryText={t("getItOn")}
+              secondaryText={t("googlePlay")}
             />
             <DownloadButton
               imageSrc={Apple}
-              primaryText="Download on the"
-              secondaryText="App Store"
+              primaryText={t("downloadOn")}
+              secondaryText={t("appStore")}
             />
             <WatchVideo />
           </div>
@@ -52,13 +52,13 @@ export default function Hero() {
               onClick={() => handleOpen()}
               className="text-nowrap rounded-[10px] bg-[#58FD0A] px-[17px] py-2 text-[25px] font-medium text-green-dark"
             >
-              Subscribe Now
+              {t("home.subscribeNow")}
             </button>
             <h1
               style={{ fontWeight: 500 }}
               className="f-f-r text-[25px] leading-normal text-white"
             >
-              To become community member
+              {t("home.invitationText")}
             </h1>
           </div>
 

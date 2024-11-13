@@ -1,42 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Heroimg from "../../assets/images/fandr.png";
+import { t } from "i18next";
 
 const HeroSection = () => {
   return (
-    <div className="w-11/12 mx-auto 2xl:max-w-[1161px]">
-      <div className="relative pt-[108px] pb-[90px] ">
+    <div className="mx-auto w-11/12 2xl:max-w-[1161px]">
+      <div className="relative pb-[90px] pt-[108px]">
         <div className="">
-          <h1 className="text-[#58FD0A] font-[outfit] max-w-[595px] text-[45px] xl:text-[75px] font-bold leading-[45px] xl:leading-[75px] capitalize">
-            Help build The Future of Instant Medical Care
+          <h1 className="max-w-[595px] font-[outfit] text-[45px] font-bold capitalize leading-[45px] text-[#58FD0A] xl:text-[75px] xl:leading-[75px]">
+            {t("fundraise.heading")}
           </h1>
-          <p className="mt-7 text-[#FEFEFE] f-f-r text-[20px] xl:text-[30px] max-w-[560px] font-normal leading-[120%]">
-            Your support helps connect individuals to life-saving medical care
-            when they need it most. Join us in making healthcare accessible to
-            everyone, everywhere.
+          <p className="f-f-r mt-7 max-w-[560px] text-[20px] font-normal leading-[120%] text-[#FEFEFE] xl:text-[30px]">
+            {t("fundraise.body")}
           </p>
-          <div className=" mt-7 flex flex-col md:flex-row justify-start items-center gap-4 ">
-            <button className="text-[#58FD0A] rounded-[13px] border-[1px] border-[#58FD0A] uppercase f-f-m text-[26px] font-medium leading-normal px-3 ">
-              Donate Now
+          <div className="mt-7 flex flex-col items-center justify-start gap-4 md:flex-row">
+            <button className="f-f-m rounded-[13px] border-[1px] border-[#58FD0A] px-3 text-[26px] font-medium uppercase leading-normal text-[#58FD0A]">
+              {t("fundraise.donate")}
             </button>
-            <button className="text-[#58FD0A] rounded-[13px] border-[1px] border-[#58FD0A] uppercase f-f-m text-[26px] font-medium leading-normal px-3 ">
-              Support by Shopping
+            <button className="f-f-m rounded-[13px] border-[1px] border-[#58FD0A] px-3 text-[26px] font-medium uppercase leading-normal text-[#58FD0A]">
+              {t("fundraise.supportByShopping")}
             </button>
           </div>
 
           <h1
             style={{ fontWeight: 500 }}
-            className="f-f-r text-[25px] leading-normal text-white mt-3 xl:mt-[24px] ">
-            Become member of our community?
-            <Link to="#" className=" text-[#58FD0A] pl-4">
-              Sign up
+            className="f-f-r mt-3 text-[25px] leading-normal text-white xl:mt-[24px]"
+          >
+            {t("fundraise.invitation")}
+            <Link to="#" className="pl-4 text-[#58FD0A]">
+              {t("fundraise.signUp")}
             </Link>
           </h1>
         </div>
 
         <img
           src={Heroimg}
-          className=" w-auto mt-10 lg:mt-0 lg:w-[40%] xl:w-[51%] h-auto  lg:absolute   lg:-right-0 lg:top-20"
+          className="mt-10 h-auto w-auto lg:absolute lg:-right-0 lg:top-20 lg:mt-0 lg:w-[40%] xl:w-[51%]"
           alt=""
         />
       </div>

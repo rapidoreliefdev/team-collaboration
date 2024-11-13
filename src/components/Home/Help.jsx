@@ -5,6 +5,7 @@ import Helpmobile from "../../assets/images/help.png";
 import doctors from "../../assets/images/undraw_doctors_p6aq 1.svg";
 import fastLoading from "../../assets/images/undraw_fast_loading_re_8oi3 1.svg";
 import customerSupport from "../../assets/images/customer-support-24_7.svg";
+import { t } from "i18next";
 
 // const features = [
 //   {
@@ -28,18 +29,18 @@ import customerSupport from "../../assets/images/customer-support-24_7.svg";
 // ];
 const features = [
   {
-    title: "All-in-one",
-    description: "Complete healthcare",
+    title: t("home.help.featureTitle1"),
+    description: t("home.help.featureDescription1"),
     iconSrc: doctors,
   },
   {
-    title: "Fast & Accurate",
-    description: "Test reports",
+    title: t("home.help.featureTitle2"),
+    description: t("home.help.featureDescription2"),
     iconSrc: fastLoading,
   },
   {
-    title: "24/7",
-    description: "Customer support",
+    title: t("home.help.featureTitle3"),
+    description: t("home.help.featureDescription3"),
     iconSrc: customerSupport,
   },
 ];
@@ -61,21 +62,11 @@ export default function Help() {
         <div className="max-md:ml-0 max-md:w-full flex flex-col md:w-[67%]">
           <div className="max-md:mt-10 max-md:max-w-full mt-2 flex w-full flex-col items-start">
             <h1 className="f-f-r text-center text-[40px] font-semibold leading-[64px] tracking-[-0.4px] text-black md:text-start">
-              About Rapido Relief App
+              {t("home.help.aboutHeading")}
             </h1>
 
             <p className="f-f-r text-[18px] font-medium leading-[28.8px] tracking-[-0.18px] text-[#647067]">
-              Rapido Relief App is revolutionizing emergency healthcare by
-              offering immediate access to qualified professionals through our
-              innovative telehealthcare platform. We prioritize rapid response
-              and efficient care to ensure your peace of mind during
-              emergencies.
-              <br />
-              <br />
-              Experience peace of mind knowing that Rapido Relief App offers
-              immediate access to quality healthcare professionals. From medical
-              advice to urgent care, we ensure swift and efficient connections
-              when you need it the most.
+              {t("home.help.aboutBody")}
             </p>
             <div className="mt-6 flex w-full flex-wrap justify-center gap-6">
               {features.map((feature, index) => (

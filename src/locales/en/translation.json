@@ -1,0 +1,228 @@
+{
+  "navigation": {
+    "labels": {
+      "OurStory": "Our Story",
+      "Careers": "Careers",
+      "ContactUs": "Contact Us",
+      "Explore": "Explore",
+      "OurProviders": "Our Providers",
+      "Blog": "Blog",
+      "OurSolutions": "Our Solutions",
+      "WorkWithUs": "Work with Us!",
+      "WhatItCost": "What it Cost",
+      "MentalHealth": "Mental Health"
+    },
+    "account": {
+      "title": "Account",
+      "login": "Login",
+      "signup": "Signup"
+    },
+    "open": "Open main menu",
+    "AboutUs": "What is Rapido Relief?",
+    "Support": "SUPPORT US!",
+    "BrowseTopSpecialties": "Browse Top Specialties",
+    "CarePhysicians": "Care Physicians",
+    "TherapistCounselors": "Therapist-Counselors",
+    "Psychologists": "Psychologists",
+    "OrthopedicSurgeons": "Orthopedic Surgeons",
+    "UrgentCare": "Urgent Care",
+    "Pediatricians": "Pediatricians",
+    "Ophthalmologists": "Ophthalmologists",
+    "Optometrists": "Optometrists",
+    "OBGYNs": "OBGYNs",
+    "Chiropractors": "Chiropractors",
+    "Dermatologists": "Dermatologists",
+    "Podiatrists": "Podiatrists",
+    "Psychiatrists": "Psychiatrists",
+    "Dentists": "Dentists",
+    "Cardiologists": "Cardiologists",
+    "OnlineDoctors": "Online Doctors"
+  },
+  "getItOn": "GET IT ON",
+  "googlePlay": "Google Play",
+  "downloadOn": "Download on the",
+  "appStore": "App Store",
+  "watchVideo": "Watch videos",
+  "aboutPage": {
+    "founder": "Founder",
+    "Greetings": "Hey there!",
+    "founderStory": "I'm thrilled to share the story behind Rapido Relief with you. Picture this: it all started with a simple idea – to make healthcare more accessible, efficient, and downright human.\n\nAt Rapido Relief, we're not your typical healthcare company. Nope, we're all about breaking down barriers and putting people first. You see, I've always believed that everyone deserves quality healthcare, no matter who they are or where they live.\n\nSo, armed with a passion for innovation and a team of incredible minds, we set out on a mission. Our goal? To revolutionize the way healthcare is delivered, one brilliant idea at a time.\n\nBut here's the kicker: we're not just in it for the fancy tech or the big bucks (although those are nice too, don't get me wrong). No, what really drives us is the chance to make a real difference in people's lives. Whether it's helping a patient find the right doctor or making sure they get their meds on time, every little victory is a win in our book.\n\nAnd hey, we're not ones to toot our own horn, but we've come a long way since those early days. Today, Rapido Relief is a trusted name in healthcare, known for our innovative solutions and unwavering commitment to our community.\n\nBut enough about us – we want to hear from you! Whether you're a patient looking for help or a provider ready to join the revolution, we're here to make your healthcare journey a breeze.\n\nSo go ahead, take a leap of faith with us. Who knows? Together, we just might change the world.\n\nCatch you on the flip side,",
+    "our": "Our",
+    "teamMembers": "Team Members",
+    "teamIntro": "Welcome to the heart and soul of Rapido Relief! Our team is a dedicated group of individuals driven by a shared passion for  revolutionizing healthcare and making a meaningful impact on people's lives. Get to know the faces behind the mission as we introduce you to the talented individuals who make it all happen:",
+    "aboutUs": "About Us"
+  },
+  "fundraise": {
+    "heading": "Help build The Future of Instant Medical Care",
+    "body": "Your support helps connect individuals to life-saving medical care when they need it most. Join us in making healthcare accessible to everyone, everywhere.",
+    "donate": "Donate Now",
+    "supportByShopping": "Support by Shopping",
+    "invitation": "Become member of our community?",
+    "signUp": "Sign up",
+    "howYouCanHelp": "How You Can Help Build Rapido Relief App",
+    "ctaBody": "Building an app that transforms lives requires resources. With your help, we can bring Rapido Relief App to those who need it the most.\n\nThere are two ways you can support us: by donating or purchasing one of our carefully selected healthy products. Every contribution brings us one step closer to our goal.",
+    "shopNow": "Shop Now",
+    "productSectionHeader": "Featured Healthy Affiliate Products",
+    "productSectionSecondHeader": "Shop Our Health & Wellness Products to Support Rapido Relief",
+    "productSectionBody": "By purchasing any of these products, a percentage of the proceeds will go directly to the development of the Rapido Relief App. Not only will you be supporting our project, but you’ll also be investing in your health and well-being",
+    "description1": "Support your immune system with our trusted organic multivitamin. 10% of proceeds go towards Rapido Relief.",
+    "description2": "Track your health and fitness with this sleek wearable. Support our app development while improving your well-being.",
+    "description3": "Relax and relieve stress with this calming aromatherapy diffuser. Every purchase helps build the Rapido Relief App",
+    "buyNow": "Buy Now"
+  },
+  "travalTime": {
+    "cutDownOnTime": "Cut Down On Travel Time",
+    "zeroWaitingPeriod": "Zero Waiting Period",
+    "certifiedExperts": "Certified Experts"
+  },
+  "productAds": {
+    "productEssentials": "Products Essentials",
+    "bottleWithCork": "Bottle With Wooden Cork",
+    "productFurniture": "Products Furniture",
+    "plywoodChair": "Hauteville Plywood Chair"
+  },
+  "trendingProducts": {
+    "heading": "Trending Products Reviews",
+    "subHeadings": {
+      "one": "Ayurvedic Products",
+      "two": "Vitamins & Protein suplement",
+      "three": "Mother & Baby care",
+      "four": "Healthy foods & Drinks"
+    },
+    "branded": "Branded"
+  },
+  "providerMarket": {
+    "heading": "Are you a provider & interested in reaching new patients?",
+    "body": "List your practice on Rapido Relief Marketplace & be discovered",
+    "buttonText": "Enlist your Practice or Store on Rapido Relief App"
+  },
+  "home": {
+    "heroHeading": "Revolutionary Healthcare for the 21st Century",
+    "heroSubHeading": "We're pioneering the future of healthcare with cutting-edge telehealth and telemedicine solution",
+    "subscribeNow": "Subscribe Now",
+    "invitationText": "To become community member",
+    "howRapidoReliefWorks": "How Rapido Relief Works",
+    "itIsSimple": "it's very simple",
+    "firstSection": {
+      "item1": {
+        "topic": "Sign Up and Confirm Your Registration",
+        "text1": "Create an account quickly with your email or social login.",
+        "text2": "Confirm your registration to get started!"
+      },
+      "item2": {
+        "topic": "Choose a Plan & Access Exclusive Services",
+        "text1": "Select a subscription that fits your needs and make a secure payment.",
+        "text2": "Unlock exclusive access to healthcare services, support, and resources."
+      },
+      "item3": {
+        "topic": "Connect & Start Your Health Journey",
+        "text1": "Enjoy seamless access to healthcare professionals and a range of support options.",
+        "text2": "Get the care you need anytime, anywhere!"
+      }
+    },
+    "seeADoctor": "See a doctor with or without insurance!",
+    "options": {
+      "label1": "Search",
+      "placeholder1": "Condition, Physician or Pharmacy",
+      "label2": "Location",
+      "placeholder2": "City, State or Zip/Post Code",
+      "label3": "Have Insurance",
+      "placeholder3": "Choose Insurance",
+      "card1Name": "Consult Online",
+      "card2Name": "Find Pharmacy",
+      "card3Name": "Find a Doctor",
+      "card4Name": "Find a Hospital",
+      "card5Name": "Emergency Ambulance",
+      "card6Name": "Mental Health"
+    },
+    "vision": {
+      "cardName1": "Telemedicine Consultations",
+      "cardDescription1": "On-demand teleconsultations with general physicians for preliminary medical advice and non-emergency healthcare concerns.",
+      "cardName2": "Virtual Therapy Sessions",
+      "cardDescription2": "Access to virtual mental health sessions with licensed therapists to provide support and guidance in times of need.",
+      "cardName3": "Prescription Consultations",
+      "cardDescription3": "Immediate access to prescription consultations with experienced pharmacists for quick and convenient medication assistance."
+    },
+    "help": {
+      "aboutHeading": "About Rapido Relief App",
+      "aboutBody": "Rapido Relief App is revolutionizing emergency healthcare by offering immediate access to qualified professionals through our innovative telehealthcare platform. We prioritize rapid response and efficient care to ensure your peace of mind during emergencies.\n\n Experience peace of mind knowing that Rapido Relief App offers immediate access to quality healthcare professionals. From medical advice to urgent care, we ensure swift and efficient connections when you need it the most.",
+      "featureTitle1": "All-in-one",
+      "featureDescription1": "Complete healthcare",
+      "featureTitle2": "Fast & Accurate",
+      "featureDescription2": "Test reports",
+      "featureTitle3": "24/7",
+      "featureDescription3": "Customer support"
+    },
+    "telehealth": {
+      "heading": "Let’s get you a doctor who gets you",
+      "subHeading1": "Telehealth AI Chatbot",
+      "subHeading2": "See specialists who accept your health insurance on our platform",
+      "subHeading3": "Mental Health Support",
+      "subHeading4": "SmartAlert System",
+      "body1": "With Rapido, patients can schedule have virtual consultations with our telehealth Chatbot, whether you're seeking routine check-ups, specialist opinions, or mental health support.",
+      "body2": "Join us on this inspiring journey as we harness the potential of AI to redefine healthcare, one innovative solution at a time.",
+      "text": "rapido chatbot booking Appointments",
+      "body3": "Our platform also provides mental health support with licensed therapists available for counseling sessions and emotional support.",
+      "body4": " Users can send emergency alerts with a simple press of a button."
+    },
+    "faq": {
+      "heading": "FAQ's",
+      "subHeading1": "Swift access",
+      "subHeading2": "Quick assistance",
+      "subHeading3": "Rapid connections",
+      "subHeading4": "Immediate help",
+      "body1": "Our telehealthcare platform offers immediate assistance from qualified healthcare professionals, ensuring rapid response in emergency situations.",
+      "body2": " Our platform facilitates quick connections with healthcare experts, providing swift solutions to medical emergencies.",
+      "body3": "Need urgent help? Our app connects you with healthcare professionals swiftly, ensuring timely assistance in emergencies.",
+      "body4": "Rapidly access qualified healthcare professionals through our app, receiving immediate help when you need it most."
+    },
+    "jobsHeading": "Featured Customers & Partners",
+    "joinUs": {
+      "heading": "rapido relief jobs",
+      "body": "Join us, and help transform healthcare for everyone",
+      "buttonText": "View job openings"
+    }
+  },
+  "Esg": {
+    "areYouACustomer": "Are you already a customer and need support?",
+    "talkOnWhatsapp": "Talk on WhatsApp",
+    "insights": "insights",
+    "seeAllNews": "See All News",
+    "date1": "Jun 25, 2024",
+    "topic1": "Breaking Barriers: How Rapido AI Transforms Mental Health",
+    "topic2": "Empowering Patients: Rapido’s Telehealth Success Stories",
+    "topic3": "Rapido’s AI-Driven Telehealth: Bridging the Gap Healthcare",
+    "topic4": "The Future of Telemedicine: Insights from Experts"
+  },
+  "form": {
+    "enterYourName": "Enter your name",
+    "enterYourEmail": "Enter your email",
+    "subscribe": "SUBSCRIBE",
+    "termsAgreement": "By checking this box, you confirm that you have read and are agreeing to our terms of use regarding the storage of the data submitted through this form."
+  },
+  "footer": {
+    "inquiryText": "For support or any-related inquiries, please write to us at",
+    "followOnSocialMedia": "Follow Us On Social Media",
+    "solution": "Solution",
+    "doctors": "Find Doctors",
+    "pharmacy": "Find Pharmacy",
+    "healthExpertise": "Healthcare Expertise",
+    "patientCommunication": "Patient Communication",
+    "providerCollaboration": "Provider Collaboration",
+    "workflowAutomation": "Workflow Automation",
+    "resources": "Resources",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "successStories": "Success stories",
+    "whitePapers": "White papers",
+    "career": "Career / CSR",
+    "podcastAndVideos": "Podcasts / Videos",
+    "comingSoon": "Coming Soon on",
+
+    "copyright": "© 2024 © RapidoRelief. All Rights Reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "legal": "legal",
+    "cookies": "cookies",
+    "termsAndConditions": "terms & conditions"
+  }
+}

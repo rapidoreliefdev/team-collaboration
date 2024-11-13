@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import { useModal } from "../../Contexts/ModalContext";
+import { useTranslation } from "react-i18next";
 
 const AccountCreate = () => {
   const [drop, setDrop] = useState(false);
 
+  const { t } = useTranslation();
+
   const { openModal } = useModal();
 
   return (
-    <li className="text-left w-full lg:w-auto relative">
+    <li className="relative w-full text-left lg:w-auto">
       <div
         onClick={() => setDrop(!drop)}
-        className=" flex justify-start items-center gap-1 cursor-pointer"
+        className="flex cursor-pointer items-center justify-start gap-1"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,32 +27,32 @@ const AccountCreate = () => {
             fill="white"
           />
         </svg>
-        <p className="block py-2 text-green-light f-f-b text-base rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 lg:p-0 f-f-b">
-          Account
+        <p className="f-f-b f-f-b block rounded py-2 text-base text-green-light hover:bg-gray-100 md:border-0 md:hover:bg-transparent lg:p-0">
+          {t("navigation.account.title")}
         </p>
       </div>
 
       {drop && (
         <div
           id="dropdownNavbar"
-          className="z-10 lg:absolute lg:right-0 lg:top-[35px] rounded-lg shadow w-full lg:w-[250px] bg-green-light py-[49px] px-[28px]"
+          className="z-10 w-full rounded-lg bg-green-light px-[28px] py-[49px] shadow lg:absolute lg:right-0 lg:top-[35px] lg:w-[250px]"
         >
           {/* <a href="/login" target="_blank" rel="noopener noreferrer"> */}
           {/*onClick should be leading to the opening of the login modal, (openModal function)*/}
           <button
-            className="bg-green-dark w-full rounded-[25px] h-[40px] text-white-light f-f-b text-sm"
+            className="f-f-b h-[40px] w-full rounded-[25px] bg-green-dark text-sm text-white-light"
             onClick={() => openModal("login")}
           >
-            Login
+            {t("navigation.account.login")}
           </button>
           {/* </a> */}
           {/* <a href="/signup" target="_blank" rel="noopener noreferrer"> */}
           {/*onClick should be leading to the opening of the signup modal, (openModal function)*/}
           <button
-            className="text-green-dark f-f-b text-sm w-full pt-[10px] border-0 text-center"
+            className="f-f-b w-full border-0 pt-[10px] text-center text-sm text-green-dark"
             onClick={() => openModal("signup")}
           >
-            Signup
+            {t("navigation.account.signup")}
           </button>
           {/* </a> */}
         </div>

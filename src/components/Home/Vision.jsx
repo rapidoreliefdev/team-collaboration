@@ -1,27 +1,21 @@
+import { t } from "i18next";
 import React from "react";
 
 export default function Vision() {
   return (
-    <div className="w-11/12 mx-auto 2xl:max-w-[1161px] pt-[40px] #pb-[86px]">
-      <div className="grid lg:grid-cols-3 gap-[24px]">
+    <div className="#pb-[86px] mx-auto w-11/12 pt-[40px] 2xl:max-w-[1161px]">
+      <div className="grid gap-[24px] lg:grid-cols-3">
         <Card
-          name=" Telemedicine Consultations"
-          description="On-demand teleconsultations with general physicians for
-              preliminary medical advice and non-emergency healthcare concerns."
+          name={t("home.vision.cardName1")}
+          description={t("home.vision.cardDescription1")}
         />
         <Card
-          name="Virtual Therapy Sessions"
-          description="Access to virtual mental health
-sessions with licensed therapists
-to provide support and guidance
-in times of need."
+          name={t("home.vision.cardName2")}
+          description={t("home.vision.cardDescription2")}
         />
         <Card
-          name="Prescription Consultations"
-          description="Immediate access to prescription
-consultations with experienced
-pharmacists for quick and
-convenient medication assistance."
+          name={t("home.vision.cardName3")}
+          description={t("home.vision.cardDescription3")}
         />
       </div>
     </div>
@@ -30,12 +24,12 @@ convenient medication assistance."
 
 const Card = ({ name, description }) => {
   return (
-    <div className=" w-full flex justify-center">
-      <div className=" p-[24px] pb-10 bg-[#EAF9D6]">
-        <div className=" text-[#000] text-[25px] font-semibold  f-f-r leading-[30px]">
+    <div className="flex w-full justify-center">
+      <div className="bg-[#EAF9D6] p-[24px] pb-10">
+        <div className="f-f-r text-[25px] font-semibold leading-[30px] text-[#4d3e3e]">
           {name}
         </div>
-        <p className=" text-[#647067] font-normal leading-[30px] f-f-r text-[20px] mt-3">
+        <p className="f-f-r mt-3 text-[20px] font-normal leading-[30px] text-[#647067]">
           {description}
         </p>
       </div>

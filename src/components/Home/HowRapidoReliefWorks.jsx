@@ -1,42 +1,43 @@
 import contact from "../../assets/images/contacts-fill.svg";
 import survey from "../../assets/images/survey-fill.svg";
 import heart from "../../assets/images/heart-pulse-fill.svg";
+import { t } from "i18next";
 
 export default function HowRapidoReliefWorks() {
   return (
     <div className="mx-auto w-11/12 py-[81px] xl:w-[1161px]">
       <div className="mb-8 flex flex-wrap items-center justify-center gap-4 md:gap-[27px]">
         <h1 className="text-5xl font-medium text-green-dark md:text-7xl">
-          How Rapido Relief Works
+          {t("home.howRapidoReliefWorks")}
         </h1>
         <h2 className="f-f-li w-full rounded-[10px] bg-green-dark px-3 text-center text-6xl italic text-[#58fd0a] sm:w-fit md:px-[22px] md:text-7xl lg:text-[40px]">
-          it's very simple
+          {t("home.itIsSimple")}
         </h2>
       </div>
       <div className="flex flex-wrap justify-center gap-[25px]">
         {[
           {
             image: contact,
-            topic: "Sign Up and Confirm Your Registration",
+            topic: t("home.firstSection.item1.topic"),
             listItems: [
-              "Create an account quickly with your email or social login.",
-              "Confirm your registration to get started!",
+              t("home.firstSection.item1.text1"),
+              t("home.firstSection.item1.text2"),
             ],
           },
           {
             image: survey,
-            topic: "Choose a Plan & Access Exclusive Services",
+            topic: t("home.firstSection.item2.topic"),
             listItems: [
-              "Select a subscription that fits your needs and make a secure payment.",
-              "Unlock exclusive access to healthcare services, support, and resources.",
+              t("home.firstSection.item2.text1"),
+              t("home.firstSection.item2.text2"),
             ],
           },
           {
             image: heart,
-            topic: "Connect & Start Your Health Journey",
+            topic: t("home.firstSection.item3.topic"),
             listItems: [
-              "Enjoy seamless access to healthcare professionals and a range of support options.",
-              "Get the care you need anytime, anywhere!",
+              t("home.firstSection.item3.text1"),
+              t("home.firstSection.item3.text2"),
             ],
           },
         ].map((item) => (

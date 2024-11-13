@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import ImageOne from "../../assets/images/market-1.png";
 import ImageTwo from "../../assets/images/market-2.png";
 import ImageThree from "../../assets/images/market-3.svg";
@@ -11,20 +12,20 @@ export default function ProviderMarketplace() {
             style={{ fontFamily: "DM Sans" }}
             className="text-[25px] font-medium leading-[45px] text-[#EAF9D6]"
           >
-            Are you a provider & interested in reaching new patients?
+            {t("providerMarket.heading")}
           </h1>
           <p
             style={{ fontFamily: "DM Sans" }}
             className="text-[20px] font-normal leading-[32px] tracking-[-0.2px] text-[#B2FF87]"
           >
-            List your practice on Rapido Relief Marketplace & be discovered
+            {t("providerMarket.body")}
           </p>
 
           <button
             style={{ fontWeight: 500 }}
             className="f-f-m mt-2 flex items-center justify-start gap-3 rounded-[10px] bg-[#EAF9D6] px-[16px] py-[12px] text-[18px] font-medium leading-normal tracking-[-0.36px] text-[#1A4402]"
           >
-            Enlist your Practice or Store on Rapido Relief App
+            {t("providerMarket.buttonText")}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

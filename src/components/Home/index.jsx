@@ -22,6 +22,7 @@ import Modal from "../Modal/index";
 import { useModal } from "../../Contexts/ModalContext";
 import Signup from "../Register/Register";
 import Login from "../Login";
+import { t } from "i18next";
 
 export default function Index() {
   const { isModalVisible, modalContent } = useModal();
@@ -38,8 +39,8 @@ export default function Index() {
       </Modal>
       <HowRapidoReliefWorks />
       <div className="bg-[#f6fbf4] py-[88px]">
-        <h1 className="mx-auto mb-[34px] w-fit text-10xl font-extrabold text-green-dark">
-          See a doctor with or without insurance!
+        <h1 className="mx-auto mb-[34px] w-11/12 text-center text-6xl font-extrabold text-green-dark sm:w-fit sm:text-7xl md:text-10xl">
+          {t("home.seeADoctor")}
         </h1>
         <Option />
         <Vision />

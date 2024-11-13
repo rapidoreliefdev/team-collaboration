@@ -1,3 +1,4 @@
+// prettier-ignore
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/images/logo.svg";
 import flags from "../../assets/images/flags-pt-BR.svg";
@@ -10,6 +11,7 @@ import BlankImage from "../../assets/pageImages/blank-circle.svg";
 import "./navbar.css";
 import MenuItem from "./menu-item";
 import AccountCreate from "./account-create";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -17,6 +19,8 @@ export default function Navbar() {
   const [navbar, setnavbar] = useState(false);
   const [open, setOpen] = React.useState(false);
   const [modal2Open, setModal2Open] = useState(false);
+
+  const { t } = useTranslation();
 
   const [selectedLanguage, setSelectedLanguage] = useState(
     localStorage.getItem("selectedLanguage") || "English",
@@ -191,7 +195,7 @@ export default function Navbar() {
             aria-controls="navbar-dropdown"
             aria-expanded="false"
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">{t("navigation.open")}</span>
             <svg
               className="h-5 w-5"
               aria-hidden="true"
@@ -219,33 +223,33 @@ export default function Navbar() {
               {selectedLanguage === "English" ? (
                 <MenuItem
                   link="/aboutus"
-                  label=" What is Rapido Relief?"
+                  label={t("navigation.AboutUs")}
                   subItems={[
-                    { label: "Our Story", link: "" },
-                    { label: "Careers", link: "/career" },
-                    { label: "Contact Us", link: "" },
+                    { label: t("navigation.labels.OurStory"), link: "" },
+                    { label: t("navigation.labels.Careers"), link: "/career" },
+                    { label: t("navigation.labels.ContactUs"), link: "" },
                   ]}
                 />
               ) : (
                 <MenuItem
                   link="/aboutusportuguese"
-                  label=" What is Rapido Relief?"
+                  label={t("navigation.labels.AboutUs")}
                 />
               )}
 
               <MenuItem
-                label="Explore"
+                label={t("navigation.labels.Explore")}
                 subItems={[
-                  { label: "Our Providers", link: "" },
-                  { label: "Blog", link: "" },
-                  { label: "Our Solutions", link: "" },
-                  { label: "Work with Us!", link: "" },
-                  { label: "What it Cost", link: "" },
+                  { label: t("navigation.labels.OurProviders"), link: "" },
+                  { label: t("navigation.labels.Blog"), link: "" },
+                  { label: t("navigation.labels.OurSolutions"), link: "" },
+                  { label: t("navigation.labels.WorkWithUs!"), link: "" },
+                  { label: t("navigation.labels.WhatItCost"), link: "" },
                   // { label: "Contact" },
                   // { label: "FAQ" },
                 ]}
               />
-              <MenuItem label="Mental Health" />
+              <MenuItem label={t("navigation.labels.MentalHealth")} />
               {/* <MenuItem label="Partners" /> */}
 
               {/* <li>
@@ -291,7 +295,7 @@ export default function Navbar() {
                   className="block rounded-[50px] bg-[#58fd09] p-[2px] pr-[5px]"
                 >
                   <button className="f-f-r w-full rounded-[50px] bg-[#1A4402] p-4 text-[15px] font-normal uppercase leading-[1.5px] text-white">
-                    SUPPORTS US!
+                    {t("navigation.Support")}
                   </button>
                 </Link>
               </li>
@@ -304,7 +308,11 @@ export default function Navbar() {
 
       {/* Explore modal */}
       <Modal
-        title={<h3 className="modal-title">Browse Top Specialties</h3>}
+        title={
+          <h3 className="modal-title">
+            {t("navigation.BrowseTopSpecialties")}
+          </h3>
+        }
         centered
         open={modal2Open}
         onCancel={() => setModal2Open(false)}
@@ -314,35 +322,41 @@ export default function Navbar() {
         <div className="category-container">
           {/* 1st row */}
           <div className="category-row">
-            <div className="category-item">Care Physicians</div>
+            <div className="category-item">
+              {t("navigation.CarePhysicians")}
+            </div>
             <div className="category-gap"></div>
-            <div className="category-item">Therapist-Counselors</div>
+            <div className="category-item">
+              {t("navigation.TherapistCounselors")}
+            </div>
             <div className="category-gap"></div>
-            <div className="category-item">Psychologists</div>
+            <div className="category-item">{t("navigation.Psychologists")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Orthopedic Surgeons</div>
+            <div className="category-item">
+              {t("navigation.OrthopedicSurgeons")}
+            </div>
             <div className="category-gap"></div>
           </div>
           {/* 2nd row */}
           <div className="category-row">
-            <div className="category-item">Urgent Care</div>
+            <div className="category-item">{t("navigation.UrgentCare")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Pediatricians</div>
+            <div className="category-item">{t("Pediatricians")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Ophthalmologists</div>
+            <div className="category-item">{t("Ophthalmologists")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Optometrists</div>
+            <div className="category-item">{t("Optometrists")}</div>
             <div className="category-gap"></div>
           </div>
           {/* 3rd row */}
           <div className="category-row">
-            <div className="category-item">OBGYNs</div>
+            <div className="category-item">{t("OBGYNs")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Chiropractors</div>
+            <div className="category-item">{t("Chiropractors")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Dermatologists</div>
+            <div className="category-item">{t("Dermatologists")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Podiatrists</div>
+            <div className="category-item">{t("Podiatrists")}</div>
             <div className="category-gap"></div>
           </div>
           {/* 4th row */}

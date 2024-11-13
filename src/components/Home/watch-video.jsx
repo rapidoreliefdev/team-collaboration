@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import { useState } from "react";
 
 const WatchVideo = () => {
@@ -6,11 +7,11 @@ const WatchVideo = () => {
     <>
       <div
         onClick={() => setOpen((prev) => !prev)}
-        className=" flex justify-start items-center gap-2 cursor-pointer"
+        className="flex cursor-pointer items-center justify-start gap-2"
       >
         {/* Video Icon */}
-        <div className="rounded-full cursor-pointer flex justify-center items-center w-[60px] h-[60px] border-2 border-[#C7C7C7]">
-          <div className="  rounded-full flex justify-center items-center w-[43.33px] h-[43.33px] bg-[#58FD0A]">
+        <div className="flex h-[60px] w-[60px] cursor-pointer items-center justify-center rounded-full border-2 border-[#C7C7C7]">
+          <div className="flex h-[43.33px] w-[43.33px] items-center justify-center rounded-full bg-[#58FD0A]">
             {/*Video Image */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -29,19 +30,19 @@ const WatchVideo = () => {
             </svg>
           </div>
         </div>
-        <h1 className="text-[20px] font-normal text-white f-f-m">
-          Watch videos
+        <h1 className="f-f-m text-[20px] font-normal text-white">
+          {t("watchVideo")}
         </h1>
       </div>
       <div
-        className={`absolute w-full left-0 h-screen top-0  z-[99999999] transition-all duration-300 ease-in-out transform ${
+        className={`absolute left-0 top-0 z-[99999999] h-screen w-full transform transition-all duration-300 ease-in-out ${
           open
-            ? "opacity-100 translate-y-0"
-            : "opacity-0 -translate-y-2 pointer-events-none"
+            ? "translate-y-0 opacity-100"
+            : "pointer-events-none -translate-y-2 opacity-0"
         }`}
       >
-        <div className="  w-full h-full flex justify-center items-center">
-          <div className="  bg-[#B2FF87] p-10 flex justify-center items-center relative">
+        <div className="flex h-full w-full items-center justify-center">
+          <div className="relative flex items-center justify-center bg-[#B2FF87] p-10">
             {/* Youtube video player */}
             <iframe
               width="560"
@@ -56,10 +57,10 @@ const WatchVideo = () => {
             {/* Close Button */}
             <button
               onClick={() => setOpen((prev) => !prev)}
-              className="  absolute top-[10px] right-[10px] "
+              className="absolute right-[10px] top-[10px]"
             >
               <svg
-                className=" w-[25px] md:w-[30px] h-[25px] md:h-[30px] "
+                className="h-[25px] w-[25px] md:h-[30px] md:w-[30px]"
                 viewBox="0 0 30 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

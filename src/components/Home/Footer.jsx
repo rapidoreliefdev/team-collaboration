@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Rapidologo from "../../assets/images/Group 17155.svg";
 import Email from "../../assets/images/Email.svg";
 import Google from "../../assets/images/Google play2.svg";
@@ -10,6 +9,8 @@ import Glinkedin from "../../assets/images/Glinkedin.svg";
 // import Gyoutube from "../../assets/images/Gyoutube.svg";
 import { Link } from "react-router-dom";
 import LanguageSelector from "./language-select";
+import { useState } from "react";
+import { t } from "i18next";
 
 export default function Footer() {
   return (
@@ -43,8 +44,7 @@ export default function Footer() {
                 <div className="xl:w-[160px]">
                   <li>
                     <h1 className="f-f-r mt-3 text-sm text-white xl:mt-0">
-                      For support or any-related inquiries, please write to us
-                      at{" "}
+                      {t("footer.inquiryText")}{" "}
                       <span className="f-f-li text-green">
                         contact@rapidorelief.com
                       </span>{" "}
@@ -53,7 +53,7 @@ export default function Footer() {
                 </div>
               </ul>
               <h3 className="f-f-r mt-4 text-xl text-white">
-                Follow Us On Social Media
+                {t("footer.followOnSocialMedia")}
               </h3>
               <div className="mt-[17px] px-6">
                 <ul className="inline-flex items-center space-x-[10px]">
@@ -89,21 +89,25 @@ export default function Footer() {
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
             <div className="mt-3 text-center xl:mt-0 xl:pl-20">
               <h1 className="f-f-r text-xl font-semibold text-white">
-                Solution
+                {t("footer.solution")}
               </h1>
-              <h1 className="f-f-r mt-4 text-xl text-white">Find Doctors</h1>
-              <h1 className="f-f-r mt-3 text-xl text-white">Find Pharmacy </h1>
-              <h1 className="f-f-r mt-3 text-xl text-white">
-                Healthcare Expertise
+              <h1 className="f-f-r mt-4 text-xl text-white">
+                {t("footer.doctors")}
               </h1>
               <h1 className="f-f-r mt-3 text-xl text-white">
-                Patient Communication
+                {t("footer.pharmacy")}
               </h1>
               <h1 className="f-f-r mt-3 text-xl text-white">
-                rovider Collaboration
+                {t("footer.healthExpertise")}
               </h1>
               <h1 className="f-f-r mt-3 text-xl text-white">
-                Workflow Automation
+                {t("footer.patientCommunication")}
+              </h1>
+              <h1 className="f-f-r mt-3 text-xl text-white">
+                {t("footer.providerCollaboration")}
+              </h1>
+              <h1 className="f-f-r mt-3 text-xl text-white">
+                {t("footer.workflowAutomation")}
               </h1>
             </div>
           </div>
@@ -111,21 +115,33 @@ export default function Footer() {
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
             <div className="mt-3 text-center xl:mt-0 xl:pl-20">
               <h1 className="f-f-r text-xl font-semibold text-white">
-                Resources
+                {t("footer.resources")}
               </h1>
-              <h1 className="f-f-r mt-4 text-xl text-white">About Us</h1>
-              <h1 className="f-f-r mt-2 text-xl text-white">Blog </h1>
-              <h1 className="f-f-r mt-2 text-xl text-white">Success stories</h1>
-              <h1 className="f-f-r mt-2 text-xl text-white">White papers</h1>
-              <h1 className="f-f-r mt-2 text-xl text-white"> Career / CSR</h1>
+              <h1 className="f-f-r mt-4 text-xl text-white">
+                {t("footer.aboutUs")}
+              </h1>
               <h1 className="f-f-r mt-2 text-xl text-white">
-                Podcasts / Videos
+                {t("footer.blog")}{" "}
+              </h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">
+                {t("footer.successStories")}
+              </h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">
+                {t("footer.whitePapers")}
+              </h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">
+                {t("footer.career")}{" "}
+              </h1>
+              <h1 className="f-f-r mt-2 text-xl text-white">
+                {t("footer.podcastAndVideos")}
               </h1>
             </div>
           </div>
           <div className="col-span-12 xl:col-span-3">
             <div className="mt-3 text-center xl:mt-0 xl:text-end">
-              <h1 className="f-f-m f text-2xl text-white">Coming Soon on </h1>
+              <h1 className="f-f-m f text-2xl text-white">
+                {t("footer.comingSoon")}
+              </h1>
               <div className="sm:space-x-4 xl:space-x-0">
                 <button className="mt-3 h-[39px] w-full cursor-pointer rounded-[10px] border border-green sm:w-[170px]">
                   <ul className="inline-flex items-center space-x-2">
@@ -134,10 +150,10 @@ export default function Footer() {
                     </li>
                     <li>
                       <h5 className="f-f-r text-start text-xs text-white">
-                        GET IT ON
+                        {t("footer.getItOn")}
                       </h5>
                       <h3 className="f-f-m text-lg leading-4 text-white sm:text-2xl">
-                        Google Play
+                        {t("footer.googlePlay")}
                       </h3>
                     </li>
                   </ul>
@@ -149,10 +165,10 @@ export default function Footer() {
                     </li>
                     <li>
                       <h5 className="f-f-r text-start text-xs text-white">
-                        Download on the
+                        {t("footer.downloadOn")}
                       </h5>
                       <h3 className="f-f-m text-lg leading-4 text-white sm:text-2xl">
-                        App Store
+                        {t("footer.appStore")}
                       </h3>
                     </li>
                   </ul>
@@ -170,27 +186,35 @@ export default function Footer() {
         <div className="mt-6 grid grid-cols-12 items-center">
           <div className="col-span-12 md:col-span-4">
             <h1 className="f-f-m md:text-star text-center text-base text-white lg:text-base">
-              © 2024 © RapidoRelief. All Rights Reserved.
+              {t("footer.copyright")}
             </h1>
           </div>
           <div className="col-span-12 md:col-span-8">
             <div className="mt-3 text-center md:mt-0 md:text-end">
               <ul className="inline-flex items-center space-x-3 uppercase sm:space-x-5">
                 <Link to="/privacy-policy">
-                  <li className="f-f-m text-sm text-white">Privacy Policy </li>
+                  <li className="f-f-m text-sm text-white">
+                    {t("footer.privacyPolicy")}
+                  </li>
                 </Link>
                 <li>
                   <div className="h-3 w-[2px] bg-white"></div>
                 </li>
-                <li className="f-f-m text-sm text-white">legal</li>
+                <li className="f-f-m text-sm text-white">
+                  {t("footer.legal")}
+                </li>
                 <li>
                   <div className="h-3 w-[2px] bg-white"></div>
                 </li>
-                <li className="f-f-m text-sm text-white">cookies </li>
+                <li className="f-f-m text-sm text-white">
+                  {t("footer.cookies")}
+                </li>
                 <li>
                   <div className="h-3 w-[2px] bg-white"></div>
                 </li>
-                <li className="f-f-m text-sm text-white">terms & conditions</li>
+                <li className="f-f-m text-sm text-white">
+                  {t("footer.termsAndConditions")}
+                </li>
               </ul>
             </div>
           </div>

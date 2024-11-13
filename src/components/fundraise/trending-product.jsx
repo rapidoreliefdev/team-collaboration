@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import React from "react";
 
 const products = [
@@ -42,20 +43,32 @@ const TrendingProduct = () => {
           style={{ fontFamily: "inter" }}
           className="mx-2 w-full text-center text-7xl font-medium leading-normal text-[#000] md:text-[48px] xl:pl-0 2xl:w-[80%]"
         >
-          Trending Products Reviews
+          {t("trendingProducts.heading")}
         </span>
         <span className="hidden h-[1px] w-[10%] bg-black md:block lg:w-[20%] 2xl:w-[50%]"></span>
       </div>
 
       <div className="mx-auto w-11/12 py-[104px] 2xl:max-w-[1325px]">
         <div className="flex w-fit flex-wrap justify-center gap-8 py-[30] md:px-20 xl:flex-nowrap xl:justify-between 2xl:w-[1280px]">
-          <Product imageNumber="1" text="Ayurvedic Products" />
+          <Product
+            imageNumber="1"
+            text={t("trendingProducts.subHeadings.one")}
+          />
 
-          <Product imageNumber="2" text="Vitamins & Protein suplement" />
+          <Product
+            imageNumber="2"
+            text={t("trendingProducts.subHeadings.two")}
+          />
 
-          <Product imageNumber="3" text="Mother & Baby care" />
+          <Product
+            imageNumber="3"
+            text={t("trendingProducts.subHeadings.three")}
+          />
 
-          <Product imageNumber="4" text="Healthy foods & Drinks" />
+          <Product
+            imageNumber="4"
+            text={t("trendingProducts.subHeadings.four")}
+          />
         </div>
       </div>
     </>
@@ -69,7 +82,9 @@ const Product = ({ imageNumber, text }) => {
         className={`h-[236px] w-full ${imageNumber === "1" ? "bg-[url('assets/images/trending-product-image1.jpeg')]" : imageNumber === "2" ? "bg-[url('assets/images/trending-product-image2.jpeg')]" : imageNumber === "3" ? "bg-[url('assets/images/trending-product-image3.jpeg')]" : imageNumber === "4" ? "bg-[url('assets/images/trending-product-image4.jpeg')]" : ""} bg-cover bg-[50%]`}
       ></div>
       <div className="ml-[15px] mt-[10px]">
-        <p className="text-sm font-medium text-[#6F6F70]">Branded</p>
+        <p className="text-sm font-medium text-[#6F6F70]">
+          {t("trendingProducts.branded")}
+        </p>
         <h5 className="text-2xl font-semibold text-[#323234]">{text}</h5>
       </div>
     </div>

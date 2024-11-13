@@ -7,19 +7,20 @@ import Ambulance from "../../assets/images/Ambulancenew.svg";
 import Mental from "../../assets/images/Mentalnew.svg";
 
 import "./option.css";
+import { t } from "i18next";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function SearchTags() {
   return (
-    <div className="w-11/12 #pt-[72px] mx-auto 2xl:max-w-[1161px]">
-      <div className="border-[1px] border-[#1A4402] rounded-b-[25px] overflow-hidden">
-        <div className=" flex flex-col md:flex-row justify-between w-full bg-[#EAF9D6] border-b-[1px] border-[#1A4402] ">
-          <div className="w-full p-5 border-r-[1px] border-[#1A4402] space-y-2">
-            <h1 className="text-[#738c5b] text-[18.474px] font-medium f-f-m-p ">
-              Search
+    <div className="#pt-[72px] mx-auto w-11/12 2xl:max-w-[1161px]">
+      <div className="overflow-hidden rounded-b-[25px] border-[1px] border-[#1A4402]">
+        <div className="flex w-full flex-col justify-between border-b-[1px] border-[#1A4402] bg-[#EAF9D6] md:flex-row">
+          <div className="w-full space-y-2 border-r-[1px] border-[#1A4402] p-5">
+            <h1 className="f-f-m-p text-[18.474px] font-medium text-[#738c5b]">
+              {t("home.options.label1")}
             </h1>
 
-            <div className=" flex justify-start items-center gap-4 w-full">
+            <div className="flex w-full items-center justify-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -40,17 +41,17 @@ export default function SearchTags() {
                 </defs>
               </svg>
               <input
-                placeholder="Condition, Physician or Pharmacy"
-                className=" placeholder:text-[#b0ca7b] text-[18.474px] font-medium outline-none f-f-m-p bg-transparent w-full"
+                placeholder={t("home.options.placeholder1")}
+                className="f-f-m-p w-full bg-transparent text-[18.474px] font-medium outline-none placeholder:text-[#b0ca7b]"
               />
             </div>
           </div>
 
-          <div className="w-full p-5 border-r-[1px] border-[#1A4402] space-y-2">
-            <h1 className="text-[#738c5b] text-[18.474px] font-medium f-f-m-p ">
-              Location
+          <div className="w-full space-y-2 border-r-[1px] border-[#1A4402] p-5">
+            <h1 className="f-f-m-p text-[18.474px] font-medium text-[#738c5b]">
+              {t("home.options.label2")}
             </h1>
-            <div className=" flex justify-start items-center gap-4 w-full">
+            <div className="flex w-full items-center justify-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -64,17 +65,17 @@ export default function SearchTags() {
                 />
               </svg>
               <input
-                placeholder="City, State or Zip/Post Code"
-                className=" placeholder:text-[#b0ca7b] text-[18.474px] font-medium outline-none f-f-m-p bg-transparent w-full"
+                placeholder={t("home.options.placeholder2")}
+                className="f-f-m-p w-full bg-transparent text-[18.474px] font-medium outline-none placeholder:text-[#b0ca7b]"
               />
             </div>
           </div>
 
-          <div className="w-full p-5 border-r-[1px] border-[#1A4402] space-y-2">
-            <h1 className="text-[#738c5b] text-[18.474px] font-medium f-f-m-p ">
-              Have Insurance
+          <div className="w-full space-y-2 border-r-[1px] border-[#1A4402] p-5">
+            <h1 className="f-f-m-p text-[18.474px] font-medium text-[#738c5b]">
+              {t("home.options.label3")}
             </h1>
-            <div className=" flex justify-start items-center gap-4 w-full">
+            <div className="flex w-full items-center justify-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -88,13 +89,13 @@ export default function SearchTags() {
                 />
               </svg>
               <input
-                placeholder="Choose Insurance"
-                className=" placeholder:text-[#b0ca7b] text-[18.474px] font-medium outline-none f-f-m-p bg-transparent w-full"
+                placeholder={t("home.options.placeholder3")}
+                className="f-f-m-p w-full bg-transparent text-[18.474px] font-medium outline-none placeholder:text-[#b0ca7b]"
               />
             </div>
           </div>
 
-          <div className=" min-w-[81px] h-[104px] flex justify-center items-center bg-[#1A4402]">
+          <div className="flex h-[104px] min-w-[81px] items-center justify-center bg-[#1A4402]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -110,13 +111,13 @@ export default function SearchTags() {
           </div>
         </div>
 
-        <div className="bg-[#C8EE98] px-10 pb-10 pt-5 grid gap-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-6 ">
-          <Card imgSrc={Consult} name="Consult Online" />
-          <Card imgSrc={Find} name="Find Pharmacy" />
-          <Card imgSrc={Doctor} name="Find a Doctor" />
-          <Card imgSrc={Hospital} name="Find a Hospital" />
-          <Card imgSrc={Ambulance} name="Emergency Ambulance" />
-          <Card imgSrc={Mental} name="Mental Health" />
+        <div className="grid grid-cols-1 gap-2 bg-[#C8EE98] px-10 pb-10 pt-5 md:grid-cols-3 lg:grid-cols-6">
+          <Card imgSrc={Consult} name={t("home.options.card1Name")} />
+          <Card imgSrc={Find} name={t("home.options.card2Name")} />
+          <Card imgSrc={Doctor} name={t("home.options.card3Name")} />
+          <Card imgSrc={Hospital} name={t("home.options.card4Name")} />
+          <Card imgSrc={Ambulance} name={t("home.options.card5Name")} />
+          <Card imgSrc={Mental} name={t("home.options.card6Name")} />
         </div>
       </div>
     </div>
@@ -125,19 +126,16 @@ export default function SearchTags() {
 
 const Card = ({ imgSrc, name }) => {
   return (
-    <div className=" h-52 flex w-full  justify-center items-end group cursor-pointer">
-      <div className="bg-white h-[160px] w-[160px] py-3 pt-0 px-5 group-hover:translate-y-[-30%] relative transition-all duration-300 group overflow-hidden">
-        <div
-          className="bg-white h-20 w-24 rounded-br-[120px] rounded-bl-[110px] rounded-tr-[80px] 
-            z-[99999]  relative -right-10 xl:-right-14 transition-all duration-300 group-hover:translate-x-[-75%] xl:group-hover:translate-x-[-85%]  p-3 "
-        >
-          <img src={imgSrc} className="w-[61px] h-[50px] " />
+    <div className="group flex h-52 w-full cursor-pointer items-end justify-center">
+      <div className="group relative h-[160px] w-[160px] overflow-hidden bg-white px-5 py-3 pt-0 transition-all duration-300 group-hover:translate-y-[-30%]">
+        <div className="relative -right-10 z-[99999] h-20 w-24 rounded-bl-[110px] rounded-br-[120px] rounded-tr-[80px] bg-white p-3 transition-all duration-300 group-hover:translate-x-[-75%] xl:-right-14 xl:group-hover:translate-x-[-85%]">
+          <img src={imgSrc} className="h-[50px] w-[61px]" />
         </div>
-        <h5 className="f-f-r text-[20px] text-[#1A4402#1A4402] mt-[15px] leading-normal group-hover:hidden">
+        <h5 className="f-f-r mt-[15px] text-[20px] leading-normal text-[#1A4402#1A4402] group-hover:hidden">
           {name}
         </h5>
-        <div className=" absolute w-full h-full transition-all duration-300 bg-[#77994C] group-hover:left-0 group-hover:top-0 left-96 top-96  -z-0">
-          <h5 className="f-f-r text-[20px] text-white mt-[80px] p-4 leading-normal z-[9999999] opacity-0 translate-y-5 transition-all duration-700  group-hover:opacity-100 group-hover:translate-y-0">
+        <div className="absolute left-96 top-96 -z-0 h-full w-full bg-[#77994C] transition-all duration-300 group-hover:left-0 group-hover:top-0">
+          <h5 className="f-f-r z-[9999999] mt-[80px] translate-y-5 p-4 text-[20px] leading-normal text-white opacity-0 transition-all duration-700 group-hover:translate-y-0 group-hover:opacity-100">
             {name}
           </h5>
         </div>

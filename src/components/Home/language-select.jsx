@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,10 +8,13 @@ export default function LanguageSelector() {
     code: "En",
   });
 
+  const { i18n } = useTranslation();
+
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   const handleLanguageSelect = (language) => {
     setSelectedLanguage(language);
+    i18n.changeLanguage(language.code.toLowerCase());
     setIsOpen(false); // Close the dropdown after selection
   };
 
@@ -18,19 +22,22 @@ export default function LanguageSelector() {
     { name: "English", code: "En" },
     { name: "Portuguese", code: "Br" },
     { name: "Espanol", code: "Es" },
+    { name: "Dutch", code: "Nl" },
   ];
 
   return (
     <div className="relative inline-block text-left">
       <button
         onClick={toggleDropdown}
-        className="flex items-center space-x-3 rounded-[10px] border-[1px] border-[#58FD0A] bg-[#749D1C80] text-white px-[18px] ">
+        className="flex items-center space-x-3 rounded-[10px] border-[1px] border-[#58FD0A] bg-[#749D1C80] px-[18px] text-white"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
           height="20"
           viewBox="0 0 20 20"
-          fill="none">
+          fill="none"
+        >
           <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -38,7 +45,7 @@ export default function LanguageSelector() {
             fill="#58FD0A"
           />
         </svg>
-        <span className="text-white f-f-m text-[24px] font-medium leading-normal">
+        <span className="f-f-m text-[24px] font-medium leading-normal text-white">
           {`${selectedLanguage.name} - ${selectedLanguage.code}`}
         </span>
         {isOpen ? (
@@ -47,7 +54,8 @@ export default function LanguageSelector() {
             width="15"
             height="9"
             viewBox="0 0 15 9"
-            fill="none">
+            fill="none"
+          >
             <path
               fillRule="evenodd"
               clipRule="evenodd"
@@ -61,7 +69,8 @@ export default function LanguageSelector() {
             width="15"
             height="9"
             viewBox="0 0 15 9"
-            fill="none">
+            fill="none"
+          >
             <path
               fillRule="evenodd"
               clipRule="evenodd"
@@ -80,7 +89,8 @@ export default function LanguageSelector() {
               <li key={language.code}>
                 <button
                   onClick={() => handleLanguageSelect(language)}
-                  className="block w-full px-4 py-2 text-left text-white hover:bg-[#749d1c53]">
+                  className="block w-full px-4 py-2 text-left text-white hover:bg-[#749d1c53]"
+                >
                   {language.name}
                 </button>
               </li>

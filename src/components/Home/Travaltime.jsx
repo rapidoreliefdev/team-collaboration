@@ -2,50 +2,51 @@ import React from "react";
 import Carimg from "../../assets/images/Carimg.svg";
 import Zeowaiting from "../../assets/images/Zeowaiting.svg";
 import Certifieddoctor from "../../assets/images/Certifieddoctor.svg";
+import { t } from "i18next";
 
 export default function Travaltime() {
   return (
-    <div className="bg-parrot-dark ">
-      <div className="w-11/12 mx-auto 2xl:max-w-[1154px] py-14">
+    <div className="bg-parrot-dark">
+      <div className="mx-auto w-11/12 py-14 2xl:max-w-[1154px]">
         <div className="grid grid-cols-12 gap-2 sm:gap-10 2xl:gap-20">
           <div className="col-span-12 sm:col-span-6 xl:col-span-4">
             <div className="text-center">
-              <ul className="sm:inline-flex items-center space-x-5 ">
+              <ul className="items-center space-x-5 sm:inline-flex">
                 <img
                   src={Carimg}
-                  className="w-[91px] h-[76px] mx-auto sm:mx-0"
+                  className="mx-auto h-[76px] w-[91px] sm:mx-0"
                   alt=""
                 />
-                <h1 className="f-f-r text-2xl lg:text-5xl text-white  text-center mt-2 sm:mt-0  sm:text-start">
-                  Cut Down On Travel Time
+                <h1 className="f-f-r mt-2 text-center text-2xl text-white sm:mt-0 sm:text-start lg:text-5xl">
+                  {t("travalTime.cutDownOnTime")}
                 </h1>
               </ul>
             </div>
           </div>
           <div className="col-span-12 sm:col-span-6 xl:col-span-4">
             <div className="text-center">
-              <ul className="sm:inline-flex items-center space-x-5 ">
+              <ul className="items-center space-x-5 sm:inline-flex">
                 <img
                   src={Zeowaiting}
-                  className="w-[91px]  h-[76px] mx-auto sm:mx-06px]"
+                  className="sm:mx-06px] mx-auto h-[76px] w-[91px]"
                   alt=""
                 />
-                <h1 className="f-f-r text-2xl lg:text-5xl text-white  text-center mt-2 sm:mt-0  sm:text-start">
-                  Zero Waiting Period{" "}
+                <h1 className="f-f-r mt-2 text-center text-2xl text-white sm:mt-0 sm:text-start lg:text-5xl">
+                  {t("travalTime.zeroWaitingPeriod")}{" "}
                 </h1>
               </ul>
             </div>
           </div>
           <div className="col-span-12 xl:col-span-4">
             <div className="text-center">
-              <ul className="sm:inline-flex items-center space-x-5 ">
+              <ul className="items-center space-x-5 sm:inline-flex">
                 <img
                   src={Certifieddoctor}
-                  className="w-[91px]  mx-auto sm:mx-0 h-[76px]"
+                  className="mx-auto h-[76px] w-[91px] sm:mx-0"
                   alt=""
                 />
-                <h1 className="f-f-r text-2xl lg:text-5xl text-white  text-center mt-2 sm:mt-0 sm:text-start">
-                  Certified Experts
+                <h1 className="f-f-r mt-2 text-center text-2xl text-white sm:mt-0 sm:text-start lg:text-5xl">
+                  {t("travalTime.certifiedExperts")}
                 </h1>
               </ul>
             </div>

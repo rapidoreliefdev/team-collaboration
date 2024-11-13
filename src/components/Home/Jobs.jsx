@@ -7,6 +7,7 @@ import Hearmedical from "../../assets/images/Hearmedical.svg";
 import Storagemedical from "../../assets/images/Storagemedical.svg";
 import Plusmedical from "../../assets/images/Plusmedical.svg";
 import Slider from "react-slick";
+import { t } from "i18next";
 
 export default function Jobs() {
   var settings = {
@@ -40,73 +41,73 @@ export default function Jobs() {
     ],
   };
   return (
-    <div className="bg-white my-[66px]">
-      <div className="w-11/12 mx-auto 2xl:max-w-[1161px]">
-        <h1 className="text-[#1A4402] text-center f-f-r mb-5 text-[40px] font-medium leading-normal">
-          Featured Customers & Partners
+    <div className="my-[66px] bg-white">
+      <div className="mx-auto w-11/12 2xl:max-w-[1161px]">
+        <h1 className="f-f-r mb-5 text-center text-[40px] font-medium leading-normal text-[#1A4402]">
+          {t("home.jobsHeading")}
         </h1>
 
         <Slider {...settings}>
           <div>
             <img
               src={Helathmedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Hearmedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Plusmedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Healthcaremedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Handmedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Storagemedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Helathmedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Helathmedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
           <div>
             <img
               src={Helathmedical}
-              className=" w-full sm:w-[90%] h-[121px] mx-auto  "
+              className="mx-auto h-[121px] w-full sm:w-[90%]"
               alt=""
             />
           </div>
