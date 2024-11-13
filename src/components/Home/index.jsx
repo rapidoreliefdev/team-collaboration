@@ -22,9 +22,10 @@ import Modal from "../Modal/index";
 import { useModal } from "../../Contexts/ModalContext";
 import Signup from "../Register/Register";
 import Login from "../Login";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Index() {
+  const { t } = useTranslation();
   const { isModalVisible, modalContent } = useModal();
   return (
     <div className="f-f-r m-0 w-screen p-0">

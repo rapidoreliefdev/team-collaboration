@@ -2,9 +2,10 @@ import React from "react";
 import Button1 from "../../assets/images/Button1.svg";
 import News from "../../assets/images/News.svg";
 import OslerPillow from "../../assets/images/OslerPillow.svg";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Esg() {
+  const { t } = useTranslation();
   return (
     <div className="py-20 pt-0">
       <div className="mx-auto max-w-[1440px]">
@@ -63,7 +64,7 @@ export default function Esg() {
 
         <div className="mt-[41px] grid grid-cols-12 gap-[18px]">
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <div className="h-auto rounded-b-[24px] bg-grey-light p-[9px] md:h-[440px] xl:h-[430px]">
+            <div className="h-auto max-h-fit rounded-b-[24px] bg-grey-light p-[9px] md:min-h-[440px] xl:min-h-[430px]">
               <div className="h-[256px] w-full rounded-b-[25px] bg-white py-[91px]">
                 <img src={News} className="mx-auto h-[72px] w-[72px]" alt="" />{" "}
               </div>
@@ -100,7 +101,7 @@ export default function Esg() {
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <div className="h-auto rounded-b-[24px] bg-grey-light p-[9px] md:h-[440px] xl:h-[430px]">
+            <div className="h-auto max-h-fit rounded-b-[24px] bg-grey-light p-[9px] md:min-h-[440px] xl:min-h-[430px]">
               <div className="h-[256px] w-full rounded-b-[25px] bg-white py-[91px]">
                 <img src={News} className="mx-auto h-[72px] w-[72px]" alt="" />{" "}
               </div>
@@ -137,7 +138,7 @@ export default function Esg() {
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <div className="h-auto rounded-b-[24px] bg-grey-light p-[9px] md:h-[440px] xl:h-[430px]">
+            <div className="h-auto max-h-fit rounded-b-[24px] bg-grey-light p-[9px] md:min-h-[440px] xl:min-h-[430px]">
               <div className="h-[256px] w-full rounded-b-[25px] bg-white py-[91px]">
                 <img src={News} className="mx-auto h-[72px] w-[72px]" alt="" />{" "}
               </div>
@@ -174,7 +175,7 @@ export default function Esg() {
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
-            <div className="h-auto rounded-b-[24px] bg-grey-light p-[9px] md:h-[440px] xl:h-[430px]">
+            <div className="h-auto max-h-fit rounded-b-[24px] bg-grey-light p-[9px] md:min-h-[440px] xl:min-h-[430px]">
               <div className="h-[256px] w-full rounded-b-[25px] bg-white py-[91px]">
                 <img src={News} className="mx-auto h-[72px] w-[72px]" alt="" />
               </div>

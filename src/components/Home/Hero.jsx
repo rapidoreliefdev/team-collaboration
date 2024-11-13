@@ -8,12 +8,14 @@ import { Link } from "react-router-dom";
 import DownloadButton from "./download-btn";
 import { Dialog } from "@material-tailwind/react";
 import WatchVideo from "./watch-video";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => setOpen(!open);
+
+  const { t } = useTranslation();
   return (
     <div className="mx-auto w-11/12 2xl:max-w-[1161px]">
       <div className="grid grid-cols-1 gap-10 py-20 pt-10 lg:grid-cols-12 lg:gap-5 xl:gap-0">

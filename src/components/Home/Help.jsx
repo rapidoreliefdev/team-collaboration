@@ -5,7 +5,7 @@ import Helpmobile from "../../assets/images/help.png";
 import doctors from "../../assets/images/undraw_doctors_p6aq 1.svg";
 import fastLoading from "../../assets/images/undraw_fast_loading_re_8oi3 1.svg";
 import customerSupport from "../../assets/images/customer-support-24_7.svg";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 // const features = [
 //   {
@@ -27,25 +27,26 @@ import { t } from "i18next";
 //     iconSrc: add,
 //   },
 // ];
-const features = [
-  {
-    title: t("home.help.featureTitle1"),
-    description: t("home.help.featureDescription1"),
-    iconSrc: doctors,
-  },
-  {
-    title: t("home.help.featureTitle2"),
-    description: t("home.help.featureDescription2"),
-    iconSrc: fastLoading,
-  },
-  {
-    title: t("home.help.featureTitle3"),
-    description: t("home.help.featureDescription3"),
-    iconSrc: customerSupport,
-  },
-];
 
 export default function Help() {
+  const { t } = useTranslation();
+  const features = [
+    {
+      title: t("home.help.featureTitle1"),
+      description: t("home.help.featureDescription1"),
+      iconSrc: doctors,
+    },
+    {
+      title: t("home.help.featureTitle2"),
+      description: t("home.help.featureDescription2"),
+      iconSrc: fastLoading,
+    },
+    {
+      title: t("home.help.featureTitle3"),
+      description: t("home.help.featureDescription3"),
+      iconSrc: customerSupport,
+    },
+  ];
   return (
     <section className="mx-auto w-11/12 py-[50px] 2xl:max-w-[1161px]">
       <div className="max-md:flex-col flex flex-col items-center justify-start gap-5 lg:flex-row">

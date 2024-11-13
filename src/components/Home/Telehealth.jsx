@@ -1,8 +1,9 @@
 import React from "react";
 import Talkrapido from "../../assets/images/telehealth1.png";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Telehealth() {
+  const { t } = useTranslation();
   return (
     <div className="mx-auto w-11/12 py-[75px] 2xl:max-w-[1161px]">
       <h1 className="f-f-b mx-0 mb-[75px] w-[300px] text-center text-[40px] font-extrabold leading-[45px] tracking-[-1.05px] text-[#2F3C33] sm:min-w-[380px] sm:text-right">

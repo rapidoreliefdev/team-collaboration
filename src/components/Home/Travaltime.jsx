@@ -2,9 +2,10 @@ import React from "react";
 import Carimg from "../../assets/images/Carimg.svg";
 import Zeowaiting from "../../assets/images/Zeowaiting.svg";
 import Certifieddoctor from "../../assets/images/Certifieddoctor.svg";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Travaltime() {
+  const { t } = useTranslation();
   return (
     <div className="bg-parrot-dark">
       <div className="mx-auto w-11/12 py-14 2xl:max-w-[1154px]">

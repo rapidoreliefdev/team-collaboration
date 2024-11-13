@@ -1,9 +1,10 @@
-import { t } from "i18next";
 import ImageOne from "../../assets/images/market-1.png";
 import ImageTwo from "../../assets/images/market-2.png";
 import ImageThree from "../../assets/images/market-3.svg";
+import { useTranslation } from "react-i18next";
 
 export default function ProviderMarketplace() {
+  const { t } = useTranslation();
   return (
     <div className="my-5 w-full bg-[#1A4402] 2xl:mx-auto 2xl:max-w-[1161px]">
       <div className="relative mx-auto flex w-11/12 flex-col items-center justify-center gap-5 p-4 lg:flex-row lg:justify-between lg:pr-16">

@@ -48,146 +48,146 @@
     "aboutUs": "Sobre nosotros"
   },
   "fundraise": {
-    "heading": "Help build The Future of Instant Medical Care",
-    "body": "Your support helps connect individuals to life-saving medical care when they need it most. Join us in making healthcare accessible to everyone, everywhere.",
-    "donate": "Donate Now",
-    "supportByShopping": "Support by Shopping",
-    "invitation": "Become member of our community?",
-    "signUp": "Sign up",
-    "howYouCanHelp": "How You Can Help Build Rapido Relief App",
-    "ctaBody": "Building an app that transforms lives requires resources. With your help, we can bring Rapido Relief App to those who need it the most.\n\nThere are two ways you can support us: by donating or purchasing one of our carefully selected healthy products. Every contribution brings us one step closer to our goal.",
-    "shopNow": "Shop Now",
-    "productSectionHeader": "Featured Healthy Affiliate Products",
-    "productSectionSecondHeader": "Shop Our Health & Wellness Products to Support Rapido Relief",
-    "productSectionBody": "By purchasing any of these products, a percentage of the proceeds will go directly to the development of the Rapido Relief App. Not only will you be supporting our project, but you’ll also be investing in your health and well-being",
-    "description1": "Support your immune system with our trusted organic multivitamin. 10% of proceeds go towards Rapido Relief.",
-    "description2": "Track your health and fitness with this sleek wearable. Support our app development while improving your well-being.",
-    "description3": "Relax and relieve stress with this calming aromatherapy diffuser. Every purchase helps build the Rapido Relief App",
-    "buyNow": "Buy Now"
+    "heading": "Ayude a construir el futuro de la atención médica instantánea",
+    "body": "Su apoyo ayuda a conectar a las personas con atención médica que les salvará la vida cuando más la necesitan. Únase a nosotros para hacer que la atención médica sea accesible para todos, en todas partes.",
+    "donate": "Donar ahora",
+    "supportByShopping": "Apoyo mediante compras",
+    "invitation": "¿Hacerse miembro de nuestra comunidad?",
+    "signUp": "Inscribirse",
+    "howYouCanHelp": "Cómo puede ayudar a crear la aplicación Rapido Relief",
+    "ctaBody": "Crear una aplicación que transforme vidas requiere recursos. Con tu ayuda, podemos llevar la aplicación Rapido Relief a quienes más la necesitan.\n\nHay dos maneras en que puedes apoyarnos: donando o comprando uno de nuestros productos saludables cuidadosamente seleccionados. Cada contribución nos acerca un paso más a nuestro objetivo.",
+    "shopNow": "Comprar ahora",
+    "productSectionHeader": "Productos destacados de afiliados saludables",
+    "productSectionSecondHeader": "Compre nuestros productos de salud y bienestar para respaldar el alivio de Rapido",
+    "productSectionBody": "Al comprar cualquiera de estos productos, un porcentaje de las ganancias se destinará directamente al desarrollo de la aplicación Rapido Relief. No sólo apoyarás nuestro proyecto, sino que también invertirás en tu salud y bienestar.",
+    "description1": "Apoye su sistema inmunológico con nuestro multivitamínico orgánico confiable. El 10% de los ingresos se destina a Rapido Relief.",
+    "description2": "Realice un seguimiento de su salud y estado físico con este elegante dispositivo portátil. Apoye el desarrollo de nuestra aplicación mientras mejora su bienestar.",
+    "description3": "Relájese y alivie el estrés con este calmante difusor de aromaterapia. Cada compra ayuda a crear la aplicación Rapido Relief",
+    "buyNow": "Comprar ahora"
   },
   "travalTime": {
-    "cutDownOnTime": "Cut Down On Travel Time",
-    "zeroWaitingPeriod": "Zero Waiting Period",
-    "certifiedExperts": "Certified Experts"
+    "cutDownOnTime": "Reduzca el tiempo de viaje",
+    "zeroWaitingPeriod": "Período de espera cero",
+    "certifiedExperts": "Expertos certificados"
   },
   "productAds": {
-    "productEssentials": "Products Essentials",
-    "bottleWithCork": "Bottle With Wooden Cork",
-    "productFurniture": "Products Furniture",
-    "plywoodChair": "Hauteville Plywood Chair"
+    "productEssentials": "Productos esenciales",
+    "bottleWithCork": "Botella Con Corcho De Madera",
+    "productFurniture": "Productos Muebles",
+    "plywoodChair": "Silla de madera contrachapada Hauteville"
   },
   "trendingProducts": {
-    "heading": "Trending Products Reviews",
+    "heading": "Reseñas de productos de tendencia",
     "subHeadings": {
-      "one": "Ayurvedic Products",
-      "two": "Vitamins & Protein suplement",
-      "three": "Mother & Baby care",
-      "four": "Healthy foods & Drinks"
+      "one": "Productos ayurvédicos",
+      "two": "Suplemento de vitaminas y proteínas.",
+      "three": "Cuidado de la madre y del bebé",
+      "four": "Alimentos y bebidas saludables"
     },
-    "branded": "Branded"
+    "branded": "De marca"
   },
   "providerMarket": {
     "heading": "Are you a provider & interested in reaching new patients?",
-    "body": "List your practice on Rapido Relief Marketplace & be discovered",
-    "buttonText": "Enlist your Practice or Store on Rapido Relief App"
+    "body": "Incluya su práctica en Rapido Relief Marketplace y sea descubierto",
+    "buttonText": "Registre su práctica o tienda en la aplicación Rapido Relief"
   },
   "home": {
-    "heroHeading": "Revolutionary Healthcare for the 21st Century",
-    "heroSubHeading": "We're pioneering the future of healthcare with cutting-edge telehealth and telemedicine solution",
-    "subscribeNow": "Subscribe Now",
-    "invitationText": "To become community member",
-    "howRapidoReliefWorks": "How Rapido Relief Works",
-    "itIsSimple": "it's very simple",
+    "heroHeading": "Atención sanitaria revolucionaria para el siglo XXI",
+    "heroSubHeading": "Somos pioneros en el futuro de la atención médica con una solución de telesalud y telemedicina de vanguardia",
+    "subscribeNow": "Suscríbete ahora",
+    "invitationText": "Para convertirse en miembro de la comunidad",
+    "howRapidoReliefWorks": "Cómo funciona Rapido Relief",
+    "itIsSimple": "es muy simple",
     "firstSection": {
       "item1": {
-        "topic": "Sign Up and Confirm Your Registration",
-        "text1": "Create an account quickly with your email or social login.",
-        "text2": "Confirm your registration to get started!"
+        "topic": "Regístrese y confirme su registro",
+        "text1": "Cree una cuenta rápidamente con su correo electrónico o inicio de sesión social.",
+        "text2": "¡Confirma tu registro para comenzar!"
       },
       "item2": {
-        "topic": "Choose a Plan & Access Exclusive Services",
-        "text1": "Select a subscription that fits your needs and make a secure payment.",
-        "text2": "Unlock exclusive access to healthcare services, support, and resources."
+        "topic": "Elija un plan y acceda a servicios exclusivos",
+        "text1": "Selecciona una suscripción que se ajuste a tus necesidades y realiza un pago seguro.",
+        "text2": "Desbloquee acceso exclusivo a servicios, soporte y recursos de atención médica."
       },
       "item3": {
-        "topic": "Connect & Start Your Health Journey",
-        "text1": "Enjoy seamless access to healthcare professionals and a range of support options.",
-        "text2": "Get the care you need anytime, anywhere!"
+        "topic": "Conéctese y comience su viaje hacia la salud",
+        "text1": "Disfrute de un acceso perfecto a profesionales de la salud y una variedad de opciones de soporte.",
+        "text2": "¡Obtenga la atención que necesita en cualquier momento y en cualquier lugar!"
       }
     },
-    "seeADoctor": "See a doctor with or without insurance!",
+    "seeADoctor": "¡Consulte a un médico con o sin seguro!",
     "options": {
-      "label1": "Search",
-      "placeholder1": "Condition, Physician or Pharmacy",
-      "label2": "Location",
-      "placeholder2": "City, State or Zip/Post Code",
-      "label3": "Have Insurance",
-      "placeholder3": "Choose Insurance",
-      "card1Name": "Consult Online",
-      "card2Name": "Find Pharmacy",
-      "card3Name": "Find a Doctor",
-      "card4Name": "Find a Hospital",
-      "card5Name": "Emergency Ambulance",
-      "card6Name": "Mental Health"
+      "label1": "Buscar",
+      "placeholder1": "Condición, médico o farmacia",
+      "label2": "Ubicación",
+      "placeholder2": "Ciudad, estado o código postal",
+      "label3": "Tener seguro",
+      "placeholder3": "Elija seguro",
+      "card1Name": "Consultar en línea",
+      "card2Name": "encontrar farmacia",
+      "card3Name": "Encontrar un doctor",
+      "card4Name": "encontrar un hospital",
+      "card5Name": "Ambulancia de emergencia",
+      "card6Name": "Salud mental"
     },
     "vision": {
-      "cardName1": "Telemedicine Consultations",
-      "cardDescription1": "On-demand teleconsultations with general physicians for preliminary medical advice and non-emergency healthcare concerns.",
-      "cardName2": "Virtual Therapy Sessions",
-      "cardDescription2": "Access to virtual mental health sessions with licensed therapists to provide support and guidance in times of need.",
-      "cardName3": "Prescription Consultations",
-      "cardDescription3": "Immediate access to prescription consultations with experienced pharmacists for quick and convenient medication assistance."
+      "cardName1": "Consultas de Telemedicina",
+      "cardDescription1": "Teleconsultas a pedido con médicos generales para asesoramiento médico preliminar y preocupaciones de atención médica que no sean de emergencia.",
+      "cardName2": "Sesiones de terapia virtual",
+      "cardDescription2": "Acceso a sesiones virtuales de salud mental con terapeutas autorizados para brindar apoyo y orientación en momentos de necesidad.",
+      "cardName3": "Consultas de prescripción",
+      "cardDescription3": "Acceso inmediato a consultas sobre recetas con farmacéuticos experimentados para obtener asistencia con medicamentos rápida y conveniente."
     },
     "help": {
-      "aboutHeading": "About Rapido Relief App",
-      "aboutBody": "Rapido Relief App is revolutionizing emergency healthcare by offering immediate access to qualified professionals through our innovative telehealthcare platform. We prioritize rapid response and efficient care to ensure your peace of mind during emergencies.\n\n Experience peace of mind knowing that Rapido Relief App offers immediate access to quality healthcare professionals. From medical advice to urgent care, we ensure swift and efficient connections when you need it the most.",
-      "featureTitle1": "All-in-one",
-      "featureDescription1": "Complete healthcare",
-      "featureTitle2": "Fast & Accurate",
-      "featureDescription2": "Test reports",
+      "aboutHeading": "Acerca de la aplicación Rapido Relief",
+      "aboutBody": "La aplicación Rapido Relief está revolucionando la atención médica de emergencia al ofrecer acceso inmediato a profesionales calificados a través de nuestra innovadora plataforma de telesalud. Priorizamos la respuesta rápida y la atención eficiente para garantizar su tranquilidad durante las emergencias.\n\n Experimente la tranquilidad sabiendo que la aplicación Rapido Relief ofrece acceso inmediato a profesionales de la salud de calidad. Desde asesoramiento médico hasta atención de urgencia, garantizamos conexiones rápidas y eficientes cuando más lo necesita.",
+      "featureTitle1": "Todo en uno",
+      "featureDescription1": "Atención sanitaria completa",
+      "featureTitle2": "Rápido y preciso",
+      "featureDescription2": "Informes de prueba",
       "featureTitle3": "24/7",
-      "featureDescription3": "Customer support"
+      "featureDescription3": "Atención al cliente"
     },
     "telehealth": {
-      "heading": "Let’s get you a doctor who gets you",
-      "subHeading1": "Telehealth AI Chatbot",
-      "subHeading2": "See specialists who accept your health insurance on our platform",
-      "subHeading3": "Mental Health Support",
-      "subHeading4": "SmartAlert System",
-      "body1": "With Rapido, patients can schedule have virtual consultations with our telehealth Chatbot, whether you're seeking routine check-ups, specialist opinions, or mental health support.",
-      "body2": "Join us on this inspiring journey as we harness the potential of AI to redefine healthcare, one innovative solution at a time.",
-      "text": "rapido chatbot booking Appointments",
-      "body3": "Our platform also provides mental health support with licensed therapists available for counseling sessions and emotional support.",
-      "body4": " Users can send emergency alerts with a simple press of a button."
+      "heading": "Vamos a conseguirte un doctor que te atrape",
+      "subHeading1": "Chatbot de IA de telesalud",
+      "subHeading2": "Vea especialistas que aceptan su seguro médico en nuestra plataforma",
+      "subHeading3": "Apoyo a la salud mental",
+      "subHeading4": "Sistema de alerta inteligente",
+      "body1": "Con Rapido, los pacientes pueden programar consultas virtuales con nuestro Chatbot de telesalud, ya sea que busquen chequeos de rutina, opiniones de especialistas o apoyo de salud mental.",
+      "body2": "Únase a nosotros en este viaje inspirador mientras aprovechamos el potencial de la IA para redefinir la atención médica, una solución innovadora a la vez.",
+      "text": "Rapido Chatbot reserva de citas",
+      "body3": "Nuestra plataforma también brinda apoyo de salud mental con terapeutas autorizados disponibles para sesiones de asesoramiento y apoyo emocional.",
+      "body4": "Los usuarios pueden enviar alertas de emergencia con solo presionar un botón."
     },
     "faq": {
-      "heading": "FAQ's",
-      "subHeading1": "Swift access",
-      "subHeading2": "Quick assistance",
-      "subHeading3": "Rapid connections",
-      "subHeading4": "Immediate help",
-      "body1": "Our telehealthcare platform offers immediate assistance from qualified healthcare professionals, ensuring rapid response in emergency situations.",
-      "body2": " Our platform facilitates quick connections with healthcare experts, providing swift solutions to medical emergencies.",
-      "body3": "Need urgent help? Our app connects you with healthcare professionals swiftly, ensuring timely assistance in emergencies.",
-      "body4": "Rapidly access qualified healthcare professionals through our app, receiving immediate help when you need it most."
+      "heading": "Preguntas frecuentes",
+      "subHeading1": "Acceso rápido",
+      "subHeading2": "Asistencia rápida",
+      "subHeading3": "Conexiones rápidas",
+      "subHeading4": "ayuda inmediata",
+      "body1": "Nuestra plataforma de telesalud ofrece asistencia inmediata por parte de profesionales sanitarios cualificados, garantizando una respuesta rápida en situaciones de emergencia.",
+      "body2": "Nuestra plataforma facilita conexiones rápidas con expertos en atención médica, brindando soluciones rápidas a emergencias médicas.",
+      "body3": "¿Necesita ayuda urgente? Nuestra aplicación lo conecta rápidamente con profesionales de la salud, garantizando asistencia oportuna en caso de emergencia.",
+      "body4": "Acceda rápidamente a profesionales de la salud calificados a través de nuestra aplicación y reciba ayuda inmediata cuando más la necesita."
     },
-    "jobsHeading": "Featured Customers & Partners",
+    "jobsHeading": "Clientes y socios destacados",
     "joinUs": {
-      "heading": "rapido relief jobs",
-      "body": "Join us, and help transform healthcare for everyone",
-      "buttonText": "View job openings"
+      "heading": "trabajos de socorro rapido",
+      "body": "Únase a nosotros y ayude a transformar la atención médica para todos",
+      "buttonText": "Ver ofertas de trabajo"
     }
   },
   "Esg": {
-    "areYouACustomer": "Are you already a customer and need support?",
-    "talkOnWhatsapp": "Talk on WhatsApp",
-    "insights": "insights",
-    "seeAllNews": "See All News",
-    "date1": "Jun 25, 2024",
-    "topic1": "Breaking Barriers: How Rapido AI Transforms Mental Health",
-    "topic2": "Empowering Patients: Rapido’s Telehealth Success Stories",
-    "topic3": "Rapido’s AI-Driven Telehealth: Bridging the Gap Healthcare",
-    "topic4": "The Future of Telemedicine: Insights from Experts"
+    "areYouACustomer": "¿Ya eres cliente y necesitas soporte?",
+    "talkOnWhatsapp": "Hablar por WhatsApp",
+    "insights": "perspectivas",
+    "seeAllNews": "Ver todas las noticias",
+    "date1": "25 de junio de 2024",
+    "topic1": "Rompiendo barreras: cómo Rapido AI transforma la salud mental",
+    "topic2": "Empoderando a los pacientes: Historias exitosas de telesalud de Rapido",
+    "topic3": "Telesalud impulsada por IA de Rapido: uniendo la brecha en la atención médica",
+    "topic4": "El futuro de la telemedicina: opiniones de expertos"
   },
   "form": {
     "enterYourName": "Introduce tu nombre",
@@ -196,28 +196,28 @@
     "termsAgreement": "Al marcar esta casilla, confirma que ha leído y acepta nuestros términos de uso con respecto al almacenamiento de los datos enviados a través de este formulario."
   },
   "footer": {
-    "inquiryText": "For support or any-related inquiries, please write to us at",
-    "followOnSocialMedia": "Follow Us On Social Media",
-    "solution": "Solution",
-    "doctors": "Find Doctors",
-    "pharmacy": "Find Pharmacy",
-    "healthExpertise": "Healthcare Expertise",
-    "patientCommunication": "Patient Communication",
-    "providerCollaboration": "Provider Collaboration",
-    "workflowAutomation": "Workflow Automation",
-    "resources": "Resources",
-    "aboutUs": "About Us",
+    "inquiryText": "Para soporte o cualquier consulta relacionada, escríbanos a",
+    "followOnSocialMedia": "Síguenos en las redes sociales",
+    "solution": "Solución",
+    "doctors": "encontrar doctores",
+    "pharmacy": "encontrar farmacia",
+    "healthExpertise": "Experiencia en atención médica",
+    "patientCommunication": "Comunicación con el paciente",
+    "providerCollaboration": "Colaboración del proveedor",
+    "workflowAutomation": "Automatización del flujo de trabajo",
+    "resources": "Recursos",
+    "aboutUs": "Sobre nosotros",
     "blog": "Blog",
-    "successStories": "Success stories",
-    "whitePapers": "White papers",
-    "career": "Career / CSR",
-    "podcastAndVideos": "Podcasts / Videos",
-    "comingSoon": "Coming Soon on",
+    "successStories": "Historias de éxito",
+    "whitePapers": "Libros blancos",
+    "career": "Carrera / RSE",
+    "podcastAndVideos": "Pódcasts/vídeos",
+    "comingSoon": "Próximamente",
 
-    "copyright": "© 2024 © RapidoRelief. All Rights Reserved.",
-    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2024 © RapidoRelief. Reservados todos los derechos.",
+    "privacyPolicy": "política de privacidad",
     "legal": "legal",
-    "cookies": "cookies",
-    "termsAndConditions": "terms & conditions"
+    "cookies": "galletas",
+    "termsAndConditions": "términos y condiciones"
   }
 }

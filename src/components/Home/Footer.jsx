@@ -10,9 +10,10 @@ import Glinkedin from "../../assets/images/Glinkedin.svg";
 import { Link } from "react-router-dom";
 import LanguageSelector from "./language-select";
 import { useState } from "react";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <div className="bg-green-dark">
       <div className="relative mx-auto w-10/12 py-9 2xl:max-w-[1161px]">

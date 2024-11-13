@@ -1,6 +1,7 @@
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const FAQSection = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-[#F6FCF3]">
       <div className="mx-auto w-11/12 py-20 2xl:max-w-[1161px]">

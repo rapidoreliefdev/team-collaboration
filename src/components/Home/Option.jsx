@@ -7,10 +7,11 @@ import Ambulance from "../../assets/images/Ambulancenew.svg";
 import Mental from "../../assets/images/Mentalnew.svg";
 
 import "./option.css";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function SearchTags() {
+  const { t } = useTranslation();
   return (
     <div className="#pt-[72px] mx-auto w-11/12 2xl:max-w-[1161px]">
       <div className="overflow-hidden rounded-b-[25px] border-[1px] border-[#1A4402]">

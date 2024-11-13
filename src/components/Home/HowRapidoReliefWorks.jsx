@@ -1,9 +1,10 @@
 import contact from "../../assets/images/contacts-fill.svg";
 import survey from "../../assets/images/survey-fill.svg";
 import heart from "../../assets/images/heart-pulse-fill.svg";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function HowRapidoReliefWorks() {
+  const { t } = useTranslation();
   return (
     <div className="mx-auto w-11/12 py-[81px] xl:w-[1161px]">
       <div className="mb-8 flex flex-wrap items-center justify-center gap-4 md:gap-[27px]">

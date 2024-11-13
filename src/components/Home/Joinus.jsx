@@ -1,8 +1,9 @@
 import React from "react";
 import Joinus from "../../assets/images/Joinus.svg";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Jobs() {
+  const { t } = useTranslation();
   return (
     <div className="my-[66px] bg-white">
       <div className="mx-auto w-11/12 2xl:max-w-[1154px]">
