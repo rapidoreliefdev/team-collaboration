@@ -48,146 +48,146 @@
     "aboutUs": "Over ons"
   },
   "fundraise": {
-    "heading": "Help build The Future of Instant Medical Care",
-    "body": "Your support helps connect individuals to life-saving medical care when they need it most. Join us in making healthcare accessible to everyone, everywhere.",
-    "donate": "Donate Now",
-    "supportByShopping": "Support by Shopping",
-    "invitation": "Become member of our community?",
-    "signUp": "Sign up",
-    "howYouCanHelp": "How You Can Help Build Rapido Relief App",
-    "ctaBody": "Building an app that transforms lives requires resources. With your help, we can bring Rapido Relief App to those who need it the most.\n\nThere are two ways you can support us: by donating or purchasing one of our carefully selected healthy products. Every contribution brings us one step closer to our goal.",
-    "shopNow": "Shop Now",
-    "productSectionHeader": "Featured Healthy Affiliate Products",
-    "productSectionSecondHeader": "Shop Our Health & Wellness Products to Support Rapido Relief",
-    "productSectionBody": "By purchasing any of these products, a percentage of the proceeds will go directly to the development of the Rapido Relief App. Not only will you be supporting our project, but you’ll also be investing in your health and well-being",
-    "description1": "Support your immune system with our trusted organic multivitamin. 10% of proceeds go towards Rapido Relief.",
-    "description2": "Track your health and fitness with this sleek wearable. Support our app development while improving your well-being.",
-    "description3": "Relax and relieve stress with this calming aromatherapy diffuser. Every purchase helps build the Rapido Relief App",
-    "buyNow": "Buy Now"
+    "heading": "Bouw mee aan de toekomst van directe medische zorg",
+    "body": "Uw steun helpt mensen levensreddende medische zorg te bieden wanneer ze die het meest nodig hebben. Help ons mee om gezondheidszorg voor iedereen, overal, toegankelijk te maken.",
+    "donate": "Doneer nu",
+    "supportByShopping": "Ondersteuning door te winkelen",
+    "invitation": "Lid worden van onze community?",
+    "signUp": "Schrijf je in",
+    "howYouCanHelp": "Hoe u kunt helpen bij het bouwen van de Rapido Relief-app",
+    "ctaBody": "Voor het bouwen van een app die levens transformeert, zijn middelen nodig. Met uw hulp kunnen we de Rapido Relief App beschikbaar maken voor degenen die deze het meest nodig hebben.\n\nEr zijn twee manieren waarop u ons kunt steunen: door een donatie te doen of een van onze zorgvuldig geselecteerde gezonde producten te kopen. Elke bijdrage brengt ons een stap dichter bij ons doel.",
+    "shopNow": "Winkel nu",
+    "productSectionHeader": "Uitgelichte gezonde aangesloten producten",
+    "productSectionSecondHeader": "Koop onze gezondheids- en welzijnsproducten ter ondersteuning van Rapido Relief",
+    "productSectionBody": "Door een van deze producten te kopen, gaat een percentage van de opbrengst rechtstreeks naar de ontwikkeling van de Rapido Relief App. U steunt niet alleen ons project, maar u investeert ook in uw gezondheid en welzijn",
+    "description1": "Ondersteun uw immuunsysteem met onze vertrouwde biologische multivitamine. 10% van de opbrengst gaat naar Rapido Relief.",
+    "description2": "Houd uw gezondheid en conditie bij met deze slanke wearable. Ondersteun onze app-ontwikkeling en verbeter tegelijkertijd uw welzijn.",
+    "description3": "Ontspan en verlicht stress met deze kalmerende aromatherapie-diffuser. Elke aankoop helpt bij het bouwen van de Rapido Relief App",
+    "buyNow": "Koop nu"
   },
   "travalTime": {
-    "cutDownOnTime": "Cut Down On Travel Time",
-    "zeroWaitingPeriod": "Zero Waiting Period",
-    "certifiedExperts": "Certified Experts"
+    "cutDownOnTime": "Verminder de reistijd",
+    "zeroWaitingPeriod": "Nul wachttijd",
+    "certifiedExperts": "Gecertificeerde deskundigen"
   },
   "productAds": {
-    "productEssentials": "Products Essentials",
-    "bottleWithCork": "Bottle With Wooden Cork",
-    "productFurniture": "Products Furniture",
-    "plywoodChair": "Hauteville Plywood Chair"
+    "productEssentials": "Producten die essentieel zijn",
+    "bottleWithCork": "Fles Met Houten Kurk",
+    "productFurniture": "Producten Meubilair",
+    "plywoodChair": "Hauteville multiplex stoel"
   },
   "trendingProducts": {
-    "heading": "Trending Products Reviews",
+    "heading": "Trending productrecensies",
     "subHeadings": {
-      "one": "Ayurvedic Products",
-      "two": "Vitamins & Protein suplement",
-      "three": "Mother & Baby care",
-      "four": "Healthy foods & Drinks"
+      "one": "Ayurvedische producten",
+      "two": "Vitaminen en eiwitsupplement",
+      "three": "Moeder- en babyverzorging",
+      "four": "Gezond eten en drinken"
     },
-    "branded": "Branded"
+    "branded": "Gemerkt"
   },
   "providerMarket": {
-    "heading": "Are you a provider & interested in reaching new patients?",
-    "body": "List your practice on Rapido Relief Marketplace & be discovered",
-    "buttonText": "Enlist your Practice or Store on Rapido Relief App"
+    "heading": "Bent u een aanbieder en geïnteresseerd in het bereiken van nieuwe patiënten?",
+    "body": "Plaats uw praktijk op Rapido Relief Marketplace en wordt ontdekt",
+    "buttonText": "Meld uw praktijk of winkel aan op de Rapido Relief-app"
   },
   "home": {
-    "heroHeading": "Revolutionary Healthcare for the 21st Century",
-    "heroSubHeading": "We're pioneering the future of healthcare with cutting-edge telehealth and telemedicine solution",
-    "subscribeNow": "Subscribe Now",
-    "invitationText": "To become community member",
+    "heroHeading": "Revolutionaire gezondheidszorg voor de 21e eeuw",
+    "heroSubHeading": "We zijn pioniers in de toekomst van de gezondheidszorg met de allernieuwste telezorg- en telegeneeskundeoplossingen",
+    "subscribeNow": "Abonneer je nu",
+    "invitationText": "Om lid van de gemeenschap te worden",
     "howRapidoReliefWorks": "How Rapido Relief Works",
-    "itIsSimple": "it's very simple",
+    "itIsSimple": "het is heel eenvoudig",
     "firstSection": {
       "item1": {
-        "topic": "Sign Up and Confirm Your Registration",
-        "text1": "Create an account quickly with your email or social login.",
-        "text2": "Confirm your registration to get started!"
+        "topic": "Meld u aan en bevestig uw registratie",
+        "text1": "Maak snel een account aan met uw e-mailadres of sociale login.",
+        "text2": "Bevestig uw registratie om aan de slag te gaan!"
       },
       "item2": {
-        "topic": "Choose a Plan & Access Exclusive Services",
-        "text1": "Select a subscription that fits your needs and make a secure payment.",
-        "text2": "Unlock exclusive access to healthcare services, support, and resources."
+        "topic": "Kies een abonnement en krijg toegang tot exclusieve services",
+        "text1": "Selecteer een abonnement dat bij u past en voer een veilige betaling uit.",
+        "text2": "Ontgrendel exclusieve toegang tot gezondheidszorgdiensten, ondersteuning en middelen."
       },
       "item3": {
-        "topic": "Connect & Start Your Health Journey",
-        "text1": "Enjoy seamless access to healthcare professionals and a range of support options.",
-        "text2": "Get the care you need anytime, anywhere!"
+        "topic": "Verbind en start uw gezondheidsreis",
+        "text1": "Geniet van naadloze toegang tot zorgprofessionals en een scala aan ondersteuningsopties.",
+        "text2": "Altijd en overal de zorg die u nodig heeft!"
       }
     },
-    "seeADoctor": "See a doctor with or without insurance!",
+    "seeADoctor": "Ga naar een arts, met of zonder verzekering!",
     "options": {
-      "label1": "Search",
-      "placeholder1": "Condition, Physician or Pharmacy",
-      "label2": "Location",
-      "placeholder2": "City, State or Zip/Post Code",
-      "label3": "Have Insurance",
-      "placeholder3": "Choose Insurance",
-      "card1Name": "Consult Online",
-      "card2Name": "Find Pharmacy",
-      "card3Name": "Find a Doctor",
-      "card4Name": "Find a Hospital",
-      "card5Name": "Emergency Ambulance",
-      "card6Name": "Mental Health"
+      "label1": "Zoekopdracht",
+      "placeholder1": "Conditie, arts of apotheek",
+      "label2": "Locatie",
+      "placeholder2": "Plaats, staat of postcode",
+      "label3": "Verzekering hebben",
+      "placeholder3": "Kies Verzekering",
+      "card1Name": "Online raadplegen",
+      "card2Name": "Zoek apotheek",
+      "card3Name": "Zoek een dokter",
+      "card4Name": "Zoek een ziekenhuis",
+      "card5Name": "Noodambulance",
+      "card6Name": "Geestelijke gezondheid"
     },
     "vision": {
-      "cardName1": "Telemedicine Consultations",
-      "cardDescription1": "On-demand teleconsultations with general physicians for preliminary medical advice and non-emergency healthcare concerns.",
-      "cardName2": "Virtual Therapy Sessions",
-      "cardDescription2": "Access to virtual mental health sessions with licensed therapists to provide support and guidance in times of need.",
-      "cardName3": "Prescription Consultations",
-      "cardDescription3": "Immediate access to prescription consultations with experienced pharmacists for quick and convenient medication assistance."
+      "cardName1": "Telegeneeskundige consultaties",
+      "cardDescription1": "On-demand teleconsulten met huisartsen voor voorlopig medisch advies en niet-dringende gezondheidszorgproblemen.",
+      "cardName2": "Virtuele therapiesessies",
+      "cardDescription2": "Toegang tot virtuele geestelijke gezondheidszorgsessies met erkende therapeuten om ondersteuning en begeleiding te bieden in tijden van nood.",
+      "cardName3": "Receptconsulten",
+      "cardDescription3": "Onmiddellijke toegang tot receptconsulten met ervaren apothekers voor snelle en gemakkelijke medicatiehulp."
     },
     "help": {
-      "aboutHeading": "About Rapido Relief App",
-      "aboutBody": "Rapido Relief App is revolutionizing emergency healthcare by offering immediate access to qualified professionals through our innovative telehealthcare platform. We prioritize rapid response and efficient care to ensure your peace of mind during emergencies.\n\n Experience peace of mind knowing that Rapido Relief App offers immediate access to quality healthcare professionals. From medical advice to urgent care, we ensure swift and efficient connections when you need it the most.",
-      "featureTitle1": "All-in-one",
-      "featureDescription1": "Complete healthcare",
-      "featureTitle2": "Fast & Accurate",
-      "featureDescription2": "Test reports",
+      "aboutHeading": "Over de Rapido Relief-app",
+      "aboutBody": "De Rapido Relief App zorgt voor een revolutie in de spoedeisende gezondheidszorg door directe toegang te bieden aan gekwalificeerde professionals via ons innovatieve telezorgplatform. We geven prioriteit aan een snelle reactie en efficiënte zorg om uw gemoedsrust tijdens noodsituaties te garanderen.\n\n Ervaar gemoedsrust in de wetenschap dat de Rapido Relief-app onmiddellijke toegang biedt tot hoogwaardige gezondheidszorgprofessionals. Van medisch advies tot spoedeisende zorg: wij zorgen voor snelle en efficiënte verbindingen wanneer u deze het meest nodig heeft.",
+      "featureTitle1": "Alles-in-één",
+      "featureDescription1": "Volledige gezondheidszorg",
+      "featureTitle2": "Snel en nauwkeurig",
+      "featureDescription2": "Testrapporten",
       "featureTitle3": "24/7",
-      "featureDescription3": "Customer support"
+      "featureDescription3": "Klantenondersteuning"
     },
     "telehealth": {
-      "heading": "Let’s get you a doctor who gets you",
-      "subHeading1": "Telehealth AI Chatbot",
-      "subHeading2": "See specialists who accept your health insurance on our platform",
-      "subHeading3": "Mental Health Support",
-      "subHeading4": "SmartAlert System",
-      "body1": "With Rapido, patients can schedule have virtual consultations with our telehealth Chatbot, whether you're seeking routine check-ups, specialist opinions, or mental health support.",
-      "body2": "Join us on this inspiring journey as we harness the potential of AI to redefine healthcare, one innovative solution at a time.",
-      "text": "rapido chatbot booking Appointments",
-      "body3": "Our platform also provides mental health support with licensed therapists available for counseling sessions and emotional support.",
-      "body4": " Users can send emergency alerts with a simple press of a button."
+      "heading": "Laten we een dokter voor je regelen die je krijgt",
+      "subHeading1": "Telezorg AI-chatbot",
+      "subHeading2": "Bekijk op ons platform welke specialisten uw zorgverzekering accepteren",
+      "subHeading3": "Ondersteuning van de geestelijke gezondheidszorg",
+      "subHeading4": "SmartAlert-systeem",
+      "body1": "Met Rapido kunnen patiënten virtuele consultaties plannen met onze telezorg-chatbot, of u nu op zoek bent naar routinecontroles, specialistisch advies of ondersteuning op het gebied van de geestelijke gezondheidszorg.",
+      "body2": "Ga met ons mee op deze inspirerende reis terwijl we het potentieel van AI benutten om de gezondheidszorg te herdefiniëren, één innovatieve oplossing tegelijk.",
+      "text": "rapido chatbot boekingsafspraken",
+      "body3": "Ons platform biedt ook ondersteuning op het gebied van de geestelijke gezondheidszorg, waarbij erkende therapeuten beschikbaar zijn voor counselingsessies en emotionele ondersteuning.",
+      "body4": "Gebruikers kunnen met een simpele druk op de knop noodwaarschuwingen verzenden."
     },
     "faq": {
-      "heading": "FAQ's",
-      "subHeading1": "Swift access",
-      "subHeading2": "Quick assistance",
-      "subHeading3": "Rapid connections",
-      "subHeading4": "Immediate help",
-      "body1": "Our telehealthcare platform offers immediate assistance from qualified healthcare professionals, ensuring rapid response in emergency situations.",
-      "body2": " Our platform facilitates quick connections with healthcare experts, providing swift solutions to medical emergencies.",
-      "body3": "Need urgent help? Our app connects you with healthcare professionals swiftly, ensuring timely assistance in emergencies.",
-      "body4": "Rapidly access qualified healthcare professionals through our app, receiving immediate help when you need it most."
+      "heading": "Veelgestelde vragen",
+      "subHeading1": "Snelle toegang",
+      "subHeading2": "Snelle hulp",
+      "subHeading3": "Snelle verbindingen",
+      "subHeading4": "Onmiddellijke hulp",
+      "body1": "Ons telezorgplatform biedt onmiddellijke hulp van gekwalificeerde zorgprofessionals, waardoor een snelle respons in noodsituaties wordt gegarandeerd.",
+      "body2": "Ons platform faciliteert snelle verbindingen met gezondheidszorgexperts en biedt snelle oplossingen voor medische noodsituaties.",
+      "body3": "Heeft u dringend hulp nodig? Onze app verbindt u snel met zorgprofessionals, zodat u in noodgevallen tijdig hulp kunt krijgen.",
+      "body4": "Krijg snel toegang tot gekwalificeerde zorgprofessionals via onze app en ontvang onmiddellijke hulp wanneer u die het meest nodig heeft."
     },
-    "jobsHeading": "Featured Customers & Partners",
+    "jobsHeading": "Uitgelichte klanten en partners",
     "joinUs": {
-      "heading": "rapido relief jobs",
-      "body": "Join us, and help transform healthcare for everyone",
-      "buttonText": "View job openings"
+      "heading": "rapido-hulpbanen",
+      "body": "Sluit u bij ons aan en help mee de gezondheidszorg voor iedereen te transformeren",
+      "buttonText": "Bekijk vacatures"
     }
   },
   "Esg": {
-    "areYouACustomer": "Are you already a customer and need support?",
-    "talkOnWhatsapp": "Talk on WhatsApp",
-    "insights": "insights",
-    "seeAllNews": "See All News",
-    "date1": "Jun 25, 2024",
-    "topic1": "Breaking Barriers: How Rapido AI Transforms Mental Health",
-    "topic2": "Empowering Patients: Rapido’s Telehealth Success Stories",
-    "topic3": "Rapido’s AI-Driven Telehealth: Bridging the Gap Healthcare",
-    "topic4": "The Future of Telemedicine: Insights from Experts"
+    "areYouACustomer": "Bent u al klant en heeft u ondersteuning nodig?",
+    "talkOnWhatsapp": "Praat op WhatsApp",
+    "insights": "inzichten",
+    "seeAllNews": "Bekijk al het nieuws",
+    "date1": "25 juni 2024",
+    "topic1": "Barrières doorbreken: hoe Rapido AI de geestelijke gezondheid transformeert",
+    "topic2": "Patiënten empoweren: Rapido's succesverhalen op het gebied van telezorg",
+    "topic3": "Rapido's AI-gestuurde telezorg: de kloof in de gezondheidszorg overbruggen",
+    "topic4": "De toekomst van telegeneeskunde: inzichten van experts"
   },
   "form": {
     "enterYourName": "Voer uw naam in",
@@ -196,28 +196,28 @@
     "termsAgreement": "Door dit vakje aan te vinken, bevestigt u dat u onze gebruiksvoorwaarden met betrekking tot de opslag van de via dit formulier ingediende gegevens heeft gelezen en ermee akkoord gaat."
   },
   "footer": {
-    "inquiryText": "For support or any-related inquiries, please write to us at",
-    "followOnSocialMedia": "Follow Us On Social Media",
-    "solution": "Solution",
-    "doctors": "Find Doctors",
-    "pharmacy": "Find Pharmacy",
-    "healthExpertise": "Healthcare Expertise",
-    "patientCommunication": "Patient Communication",
-    "providerCollaboration": "Provider Collaboration",
-    "workflowAutomation": "Workflow Automation",
-    "resources": "Resources",
-    "aboutUs": "About Us",
-    "blog": "Blog",
-    "successStories": "Success stories",
-    "whitePapers": "White papers",
-    "career": "Career / CSR",
-    "podcastAndVideos": "Podcasts / Videos",
-    "comingSoon": "Coming Soon on",
+    "inquiryText": "Voor ondersteuning of gerelateerde vragen kunt u ons schrijven op",
+    "followOnSocialMedia": "Volg ons op sociale media",
+    "solution": "Oplossing",
+    "doctors": "Vind artsen",
+    "pharmacy": "Zoek apotheek",
+    "healthExpertise": "Deskundigheid in de gezondheidszorg",
+    "patientCommunication": "Patiëntencommunicatie",
+    "providerCollaboration": "Samenwerking tussen aanbieders",
+    "workflowAutomation": "Automatisering van de workflow",
+    "resources": "Bronnen",
+    "aboutUs": "Over ons",
+    "blog": "Bloggen",
+    "successStories": "Succesverhalen",
+    "whitePapers": "Witboeken",
+    "career": "Carrière / MVO",
+    "podcastAndVideos": "Podcasts/video's",
+    "comingSoon": "Binnenkort beschikbaar",
 
-    "copyright": "© 2024 © RapidoRelief. All Rights Reserved.",
-    "privacyPolicy": "Privacy Policy",
-    "legal": "legal",
-    "cookies": "cookies",
-    "termsAndConditions": "terms & conditions"
+    "copyright": "© 2024 © RapidoRelief. Alle rechten voorbehouden.",
+    "privacyPolicy": "Privacybeleid",
+    "legal": "legaal",
+    "cookies": "koekjes",
+    "termsAndConditions": "algemene voorwaarden"
   }
 }

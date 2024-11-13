@@ -151,10 +151,10 @@ export default function Footer() {
                     </li>
                     <li>
                       <h5 className="f-f-r text-start text-xs text-white">
-                        {t("footer.getItOn")}
+                        {t("getItOn")}
                       </h5>
                       <h3 className="f-f-m text-lg leading-4 text-white sm:text-2xl">
-                        {t("footer.googlePlay")}
+                        {t("googlePlay")}
                       </h3>
                     </li>
                   </ul>
@@ -166,10 +166,10 @@ export default function Footer() {
                     </li>
                     <li>
                       <h5 className="f-f-r text-start text-xs text-white">
-                        {t("footer.downloadOn")}
+                        {t("downloadOn")}
                       </h5>
                       <h3 className="f-f-m text-lg leading-4 text-white sm:text-2xl">
-                        {t("footer.appStore")}
+                        {t("appStore")}
                       </h3>
                     </li>
                   </ul>

@@ -48,7 +48,7 @@ export default function Esg() {
           </div>
           <div className="col-span-12 sm:col-span-5">
             <div className="mt-4 text-end sm:mt-0">
-              <button className="h-[50px] w-full rounded-3xl bg-green-dark sm:w-[215px] lg:h-[64px]">
+              <button className="h-[50px] w-full rounded-3xl bg-green-dark px-8 sm:w-fit lg:h-[64px]">
                 <ul className="inline-flex items-center space-x-4">
                   <li className="f-f-b text-xl font-extrabold text-white">
                     {t("Esg.seeAllNews")}
