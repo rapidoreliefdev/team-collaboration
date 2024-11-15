@@ -1,17 +1,13 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import IconGlobe from "../../assets/icons/icon-translate.svg";
-import EnglishFlag from "../../assets/images/flags-en-GB.svg";
-import SpanishFlag from "../../assets/images/flags-es-ES.svg";
-import BrazilianFlag from "../../assets/images/flags-pt-BR.svg";
-import DutchFlag from "../../assets/images/flags-nl-Nl.svg";
 
 export default function LanguageSelector({ type = "text" }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState({
     name: "English",
     code: "En",
-    image: EnglishFlag,
+    image: "../../assets/images/flags-en-GB.svg",
   });
 
   const { i18n } = useTranslation();
@@ -25,10 +21,22 @@ export default function LanguageSelector({ type = "text" }) {
   };
 
   const languages = [
-    { name: "English", code: "En", image: EnglishFlag },
-    { name: "Portuguese", code: "Br", image: BrazilianFlag },
-    { name: "Espanol", code: "Es", image: SpanishFlag },
-    { name: "Dutch", code: "Nl", image: DutchFlag },
+    {
+      name: "English",
+      code: "En",
+      image: "../../assets/images/flags-en-GB.svg",
+    },
+    {
+      name: "Portuguese",
+      code: "Br",
+      image: "../../assets/images/flags-pt-BR.svg",
+    },
+    {
+      name: "Espanol",
+      code: "Es",
+      image: "../../assets/images/flags-es-ES.svg",
+    },
+    { name: "Dutch", code: "Nl", image: "../../assets/images/flags-nl-Nl.svg" },
   ];
 
   return (

@@ -28,10 +28,10 @@ const Card = ({ name, description }) => {
   return (
     <div className="flex w-full justify-center">
       <div className="bg-[#EAF9D6] p-[24px] pb-10">
-        <div className="f-f-r text-[25px] font-semibold leading-[30px] text-[#4d3e3e]">
+        <h1 className="f-f-r text-center text-[25px] font-semibold leading-[30px] text-[#4d3e3e]">
           {name}
-        </div>
-        <p className="f-f-r mt-3 text-[20px] font-normal leading-[30px] text-[#647067]">
+        </h1>
+        <p className="f-f-r mt-3 text-center text-[20px] font-normal leading-[30px] text-[#647067]">
           {description}
         </p>
       </div>
