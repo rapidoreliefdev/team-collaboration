@@ -89,25 +89,25 @@ export default function Footer() {
           </div>
           <div className="col-span-12 md:col-span-6 xl:col-span-3">
             <div className="mt-3 text-center xl:mt-0 xl:pl-20">
-              <h1 className="f-f-r text-xl font-semibold text-white">
+              <h1 className="f-f-r text-nowrap text-xl font-semibold text-white">
                 {t("footer.solution")}
               </h1>
-              <h1 className="f-f-r mt-4 text-xl text-white">
+              <h1 className="f-f-r mt-4 text-nowrap text-xl text-white">
                 {t("footer.doctors")}
               </h1>
-              <h1 className="f-f-r mt-3 text-xl text-white">
+              <h1 className="f-f-r mt-3 text-nowrap text-xl text-white">
                 {t("footer.pharmacy")}
               </h1>
-              <h1 className="f-f-r mt-3 text-xl text-white">
+              <h1 className="f-f-r mt-3 text-nowrap text-xl text-white">
                 {t("footer.healthExpertise")}
               </h1>
-              <h1 className="f-f-r mt-3 text-xl text-white">
+              <h1 className="f-f-r mt-3 text-nowrap text-xl text-white">
                 {t("footer.patientCommunication")}
               </h1>
-              <h1 className="f-f-r mt-3 text-xl text-white">
+              <h1 className="f-f-r mt-3 text-nowrap text-xl text-white">
                 {t("footer.providerCollaboration")}
               </h1>
-              <h1 className="f-f-r mt-3 text-xl text-white">
+              <h1 className="f-f-r mt-3 text-nowrap text-xl text-white">
                 {t("footer.workflowAutomation")}
               </h1>
             </div>

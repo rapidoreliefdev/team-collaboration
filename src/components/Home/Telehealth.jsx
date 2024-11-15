@@ -6,7 +6,7 @@ export default function Telehealth() {
   const { t } = useTranslation();
   return (
     <div className="mx-auto w-11/12 py-[75px] 2xl:max-w-[1161px]">
-      <h1 className="f-f-b mx-0 mb-[75px] w-[300px] text-center text-[40px] font-extrabold leading-[45px] tracking-[-1.05px] text-[#2F3C33] sm:min-w-[380px] sm:text-right">
+      <h1 className="f-f-b #w-[300px] mx-0 mb-[75px] text-center text-[40px] font-extrabold leading-[45px] tracking-[-1.05px] text-[#2F3C33] sm:min-w-[380px]">
         {t("home.telehealth.heading")}
       </h1>
       <div className="grid grid-cols-12">
@@ -15,10 +15,10 @@ export default function Telehealth() {
             <p className="f-f-b text-[40px] font-extrabold leading-[56px] tracking-[-1.2px] text-[#2F3C33]">
               {t("home.telehealth.subHeading1")}
             </p>
-            <p className="f-f-r mt-6 max-w-[327px] text-[18px] font-normal leading-[160%] tracking-[-0.18px] text-[#647067]">
+            <p className="f-f-r mx-auto mt-6 max-w-[327px] text-[18px] font-normal leading-[160%] tracking-[-0.18px] text-[#647067]">
               {t("home.telehealth.body1")}
             </p>
-            <p className="f-f-r mt-5 max-w-[327px] text-[18px] font-normal leading-[160%] tracking-[-0.18px] text-[#647067]">
+            <p className="f-f-r mx-auto mt-5 max-w-[327px] text-[18px] font-normal leading-[160%] tracking-[-0.18px] text-[#647067]">
               {t("home.telehealth.body2")}
             </p>
             <h5 className="f-f-r mt-5 text-[14px] font-black uppercase tracking-[1.4px] text-[#647067]">

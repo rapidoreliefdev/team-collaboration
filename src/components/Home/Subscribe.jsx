@@ -32,7 +32,7 @@ export default function Subscribe() {
                 <div className="col-span-12 sm:col-span-4">
                   <button className="f-f-m mt-3 h-11 w-full rounded-[50px] bg-green-dark text-xl text-green sm:mt-0 sm:h-[50px] sm:rounded-none sm:rounded-r-[50px] md:text-5xl">
                     <ul className="inline-flex items-center space-x-3">
-                      <li>{t("form.subscribe")}</li>
+                      <li className="text-[70%]">{t("form.subscribe")}</li>
                       <li>
                         <img
                           src={Grightarrow}

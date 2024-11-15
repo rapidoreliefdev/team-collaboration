@@ -12,6 +12,7 @@ import "./navbar.css";
 import MenuItem from "./menu-item";
 import AccountCreate from "./account-create";
 import { useTranslation } from "react-i18next";
+import LanguageSelector from "./language-select";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -19,6 +20,7 @@ export default function Navbar() {
   const [navbar, setnavbar] = useState(false);
   const [open, setOpen] = React.useState(false);
   const [modal2Open, setModal2Open] = useState(false);
+  const [isTablet, setIsTablet] = useState(window.innerWidth < 1024);
 
   const { t } = useTranslation();
 
@@ -32,27 +34,38 @@ export default function Navbar() {
   }, [selectedLanguage]);
 
   useEffect(() => {
+    const handleResize = () => {
+      setIsTablet(window.innerWidth < 1024);
+    };
     if (selectedLanguage === "Portuguese" && window.location.pathname === "/") {
       // navigate("/homeportuguese");
       navigate("/homeportuguese");
-    } else if (
-      selectedLanguage === "English" &&
-      window.location.pathname === "/homeportuguese"
-    ) {
-      navigate("/");
     }
+    // else if (
+    //   selectedLanguage === "English" &&
+    //   window.location.pathname === "/homeportuguese"
+    // ) {
+    //   navigate("/");
+    // }
     if (
       selectedLanguage === "Portuguese" &&
       window.location.pathname === "/aboutus"
     ) {
       // navigate("/aboutusportuguese");
       navigate("/aboutus");
-    } else if (
-      selectedLanguage === "English" &&
-      window.location.pathname === "/aboutusportuguese"
-    ) {
-      navigate("/aboutus");
     }
+    // } else if (
+    //   selectedLanguage === "English" &&
+    //   window.location.pathname === "/aboutusportuguese"
+    // ) {
+    //   navigate("/aboutus");
+    // }
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, [selectedLanguage, window.location.pathname, navigate]);
 
   const handleOpen = () => setOpen(!open);
@@ -63,72 +76,72 @@ export default function Navbar() {
     setIsDropdownOpen(false); // Close the dropdown after selecting a language
   };
 
-  function LanguageSelector() {
-    return (
-      <div className="relative">
-        <button
-          id="dropdownNavbarLink"
-          onClick={toggleDropdown}
-          className="flex w-full items-center justify-between px-3 py-2 md:w-auto lg:p-0"
-        >
-          {selectedLanguage === "English" ? (
-            <>
-              <img src={engFlag} className="h-[23px] w-[33px]" alt="English" />
-              {/* <span className="ml-2">English</span> */}
-            </>
-          ) : (
-            <>
-              <img src={flags} className="h-[23px] w-[33px]" alt="Portuguese" />
-              {/* <span className="ml-2">Portuguese</span> */}
-            </>
-          )}
-          <svg
-            className="ml-[9px]"
-            xmlns="http://www.w3.org/2000/svg"
-            width="10"
-            height="7"
-            viewBox="0 0 10 7"
-            fill="none"
-          >
-            <path
-              d="M0 1.11158L0.729927 0.325928L5 4.96131L9.27007 0.325928L10 1.11158L5 6.49333L0 1.11158Z"
-              fill="white"
-            />
-          </svg>
-        </button>
-        {isDropdownOpen && (
-          <ul className="absolute left-0 top-full bg-white shadow-md">
-            <li>
-              <button
-                className="w-full px-3 py-2 text-left"
-                onClick={() => handleLanguageChange("English")}
-              >
-                <img
-                  src={engFlag}
-                  className="h-[23px] w-[33px]"
-                  alt="English"
-                />
-                {/* <span className="ml-2">English</span> */}
-              </button>
-            </li>
-            <li>
-              <button
-                className="w-full px-3 py-2 text-left"
-                onClick={() => handleLanguageChange("Portuguese")}
-              >
-                <img
-                  src={flags}
-                  className="h-[23px] w-[33px]"
-                  alt="Portuguese"
-                />
-                {/* <span className="ml-2">Portuguese</span> */}
-              </button>
-            </li>
-          </ul>
-        )}
-      </div>
-    );
-  }
+  // function LanguageSelector() {
+  //   return (
+  //     <div className="relative">
+  //       <button
+  //         id="dropdownNavbarLink"
+  //         onClick={toggleDropdown}
+  //         className="flex w-full items-center justify-between px-3 py-2 md:w-auto lg:p-0"
+  //       >
+  //         {selectedLanguage === "English" ? (
+  //           <>
+  //             <img src={engFlag} className="h-[23px] w-[33px]" alt="English" />
+  //             {/* <span className="ml-2">English</span> */}
+  //           </>
+  //         ) : (
+  //           <>
+  //             <img src={flags} className="h-[23px] w-[33px]" alt="Portuguese" />
+  //             {/* <span className="ml-2">Portuguese</span> */}
+  //           </>
+  //         )}
+  //         <svg
+  //           className="ml-[9px]"
+  //           xmlns="http://www.w3.org/2000/svg"
+  //           width="10"
+  //           height="7"
+  //           viewBox="0 0 10 7"
+  //           fill="none"
+  //         >
+  //           <path
+  //             d="M0 1.11158L0.729927 0.325928L5 4.96131L9.27007 0.325928L10 1.11158L5 6.49333L0 1.11158Z"
+  //             fill="white"
+  //           />
+  //         </svg>
+  //       </button>
+  //       {isDropdownOpen && (
+  //         <ul className="absolute left-0 top-full bg-white shadow-md">
+  //           <li>
+  //             <button
+  //               className="w-full px-3 py-2 text-left"
+  //               onClick={() => handleLanguageChange("English")}
+  //             >
+  //               <img
+  //                 src={engFlag}
+  //                 className="h-[23px] w-[33px]"
+  //                 alt="English"
+  //               />
+  //               {/* <span className="ml-2">English</span> */}
+  //             </button>
+  //           </li>
+  //           <li>
+  //             <button
+  //               className="w-full px-3 py-2 text-left"
+  //               onClick={() => handleLanguageChange("Portuguese")}
+  //             >
+  //               <img
+  //                 src={flags}
+  //                 className="h-[23px] w-[33px]"
+  //                 alt="Portuguese"
+  //               />
+  //               {/* <span className="ml-2">Portuguese</span> */}
+  //             </button>
+  //           </li>
+  //         </ul>
+  //       )}
+  //     </div>
+  //   );
+  // }
 
   return (
     <>
@@ -187,31 +200,37 @@ export default function Navbar() {
               </g>
             </svg>
           </Link>
-          <button
-            onClick={() => setnavbar(!navbar)}
-            data-collapse-toggle="navbar-dropdown"
-            type="button"
-            className="inline-flex h-10 w-10 items-center justify-center p-2 lg:hidden"
-            aria-controls="navbar-dropdown"
-            aria-expanded="false"
-          >
-            <span className="sr-only">{t("navigation.open")}</span>
-            <svg
-              className="h-5 w-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="#B2FF87"
-              viewBox="0 0 17 14"
+
+          <div className="flex items-center">
+            {/*language selector here*/}
+            {isTablet && <LanguageSelector type="image" />}
+
+            <button
+              onClick={() => setnavbar(!navbar)}
+              data-collapse-toggle="navbar-dropdown"
+              type="button"
+              className="inline-flex h-10 w-10 items-center justify-center p-2 lg:hidden"
+              aria-controls="navbar-dropdown"
+              aria-expanded="false"
             >
-              <path
-                stroke="#B2FF87"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
-          </button>
+              <span className="sr-only">{t("navigation.open")}</span>
+              <svg
+                className="h-5 w-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#B2FF87"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="#B2FF87"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
 
           <div
             className={` ${
@@ -243,7 +262,7 @@ export default function Navbar() {
                   { label: t("navigation.labels.OurProviders"), link: "" },
                   { label: t("navigation.labels.Blog"), link: "" },
                   { label: t("navigation.labels.OurSolutions"), link: "" },
-                  { label: t("navigation.labels.WorkWithUs!"), link: "" },
+                  { label: t("navigation.labels.WorkWithUs"), link: "" },
                   { label: t("navigation.labels.WhatItCost"), link: "" },
                   // { label: "Contact" },
                   // { label: "FAQ" },
@@ -341,33 +360,37 @@ export default function Navbar() {
           <div className="category-row">
             <div className="category-item">{t("navigation.UrgentCare")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">{t("Pediatricians")}</div>
+            <div className="category-item">{t("navigation.Pediatricians")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">{t("Ophthalmologists")}</div>
+            <div className="category-item">
+              {t("navigation.Ophthalmologists")}
+            </div>
             <div className="category-gap"></div>
-            <div className="category-item">{t("Optometrists")}</div>
+            <div className="category-item">{t("navigation.Optometrists")}</div>
             <div className="category-gap"></div>
           </div>
           {/* 3rd row */}
           <div className="category-row">
-            <div className="category-item">{t("OBGYNs")}</div>
+            <div className="category-item">{t("navigation.OBGYNs")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">{t("Chiropractors")}</div>
+            <div className="category-item">{t("navigation.Chiropractors")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">{t("Dermatologists")}</div>
+            <div className="category-item">
+              {t("navigation.Dermatologists")}
+            </div>
             <div className="category-gap"></div>
-            <div className="category-item">{t("Podiatrists")}</div>
+            <div className="category-item">{t("navigation.Podiatrists")}</div>
             <div className="category-gap"></div>
           </div>
           {/* 4th row */}
           <div className="category-row">
-            <div className="category-item">Psychiatrists</div>
+            <div className="category-item">{t("navigation.Psychiatrists")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Dentists</div>
+            <div className="category-item">{t("navigation.Dentists")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Cardiologists</div>
+            <div className="category-item">{t("navigation.Cardiologists")}</div>
             <div className="category-gap"></div>
-            <div className="category-item">Online Doctors</div>
+            <div className="category-item">{t("navigation.OnlineDoctors")}</div>
             <div className="category-gap"></div>
           </div>
 
