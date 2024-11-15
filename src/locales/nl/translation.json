@@ -38,6 +38,11 @@
     "Cardiologists": "Cardiologen",
     "OnlineDoctors": "Online artsen"
   },
+  "getItOn": "KRIJG HET AAN",
+  "googlePlay": "Google Play",
+  "downloadOn": "Downloaden op de",
+  "appStore": "App Store",
+  "watchVideo": "Bekijk video's",
   "aboutPage": {
     "Greetings": "Hé daar!",
     "founder": "Oprichter",
@@ -96,7 +101,7 @@
     "heroSubHeading": "We zijn pioniers in de toekomst van de gezondheidszorg met de allernieuwste telezorg- en telegeneeskundeoplossingen",
     "subscribeNow": "Abonneer je nu",
     "invitationText": "Om lid van de gemeenschap te worden",
-    "howRapidoReliefWorks": "How Rapido Relief Works",
+    "howRapidoReliefWorks": "Hoe Rapido Relief werkt",
     "itIsSimple": "het is heel eenvoudig",
     "firstSection": {
       "item1": {

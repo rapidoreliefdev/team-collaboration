@@ -201,15 +201,14 @@ export default function Navbar() {
             </svg>
           </Link>
 
-          <div className="flex items-center">
-            {/*language selector here*/}
+          <div className="flex items-center lg:hidden">
             {isTablet && <LanguageSelector type="image" />}
 
             <button
               onClick={() => setnavbar(!navbar)}
               data-collapse-toggle="navbar-dropdown"
               type="button"
-              className="inline-flex h-10 w-10 items-center justify-center p-2 lg:hidden"
+              className="inline-flex h-10 w-10 items-center justify-center p-2"
               aria-controls="navbar-dropdown"
               aria-expanded="false"
             >
@@ -318,6 +317,7 @@ export default function Navbar() {
                   </button>
                 </Link>
               </li>
+              <LanguageSelector type="image" />
             </ul>
           </div>
         </div>
