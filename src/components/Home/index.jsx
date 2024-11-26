@@ -28,7 +28,7 @@ export default function Index() {
   const { t } = useTranslation();
   const { isModalVisible, modalContent } = useModal();
   return (
-    <div className="f-f-r m-0 w-screen p-0">
+    <div className="f-f-r m-0 w-screen overflow-x-hidden p-0">
       {/* <ChatBot/> */}
       <div className={`herobg w-full bg-cover bg-center bg-no-repeat`}>
         {/* <Header /> */}

@@ -67,7 +67,7 @@ export default function Subscribe() {
           </div>
         </div>
       </div>
-      <div className="border-[rgba(26, 68, 2, 0.50)] mt-20 border-b"></div>
+      {/* <div className="border-[rgba(26, 68, 2, 0.50)] mt-20 border-b"></div> */}
     </div>
   );
 }

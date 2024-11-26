@@ -140,8 +140,8 @@
       "cardDescription1": "Teleconsultas sob demanda com médicos de clínica geral para aconselhamento médico preliminar e questões de saúde não emergenciais.",
       "cardName2": "Sessões de terapia virtual",
       "cardDescription2": "Acesso a sessões virtuais de saúde mental com terapeutas licenciados para fornecer apoio e orientação em momentos de necessidade.",
-      "cardName3": "Consultas de prescrição",
-      "cardDescription3": "Acesso imediato a consultas de prescrição com farmacêuticos experientes para assistência medicamentosa rápida e conveniente."
+      "cardName3": "Saúde vestível",
+      "cardDescription3": "Oferecemos uma variedade de dispositivos médicos inteligentes, desde monitores de frequência cardíaca fetal até sistemas de alerta de emergência."
     },
     "help": {
       "aboutHeading": "Sobre o aplicativo Rapido Relief",
@@ -182,6 +182,96 @@
       "body": "Junte-se a nós e ajude a transformar a saúde para todos",
       "buttonText": "Veja vagas de emprego"
     }
+  },
+  "privacyPolicy": {
+    "mainHeader": "NOSSA POLÍTICA DE PRIVACIDADE",
+    "introBody": "Política de Privacidade do Aplicativo Rapido Relief",
+    "lastUpdated": "Última atualização: 10 de março de 2024",
+    "welcomeBody": "Bem-vindo ao Aplicativo Rapido Relief, operado pela Rapido Relief App Limited ('Rapido Relief App', 'nós'). Sua privacidade é importante para nós, e estamos comprometidos em proteger suas informações pessoais. Esta Política de Privacidade explica como coletamos, usamos e compartilhamos suas informações quando você acessa ou utiliza nosso site, aplicativo móvel e serviços relacionados (coletivamente, os 'Serviços').",
+    "consentMessage": "Ao usar ou acessar os Serviços, você reconhece que leu, entendeu e concorda com as práticas e políticas descritas nesta Política de Privacidade. Se você não concordar com esta Política de Privacidade, por favor, não utilize os Serviços.",
+    "subHeading1": "Uso de Cookies no Aplicativo Rapido Relief:",
+    "body1": "Utilizamos vários tipos de Cookies para diferentes propósitos para melhorar sua experiência no Aplicativo Rapido Relief:",
+    "subHeading2": "Cookies Essenciais:",
+    "list1": {
+      "item1": "Necessários para recursos ou serviços solicitados.",
+      "item2": "Por exemplo, habilitar logins seguros.",
+      "item3": "Desativar estes cookies pode limitar certas funções."
+    },
+    "subHeading3": "Cookies Funcionais:",
+    "list2": {
+      "item1": "Registram escolhas e configurações, proporcionando uma experiência personalizada.",
+      "item2": "Reconhecem usuários que retornam e mantêm suas preferências."
+    },
+    "subHeading4": "Cookies de Desempenho/Analíticos:",
+    "list3": {
+      "item1": "Compreender o comportamento dos visitantes, analisar visualizações de página e medir o desempenho.",
+      "item2": "Ajudar a otimizar campanhas publicitárias.",
+      "item3": "Os serviços do Google Analytics podem ser usados para esses cookies."
+    },
+    "subHeading5": "Cookies de Retargeting/Publicidade:",
+    "list4": {
+      "item1": "Coletar dados de atividade online para oferecer publicidade relevante.",
+      "item2": "Mais detalhes sobre anúncios baseados em interesses são fornecidos abaixo."
+    },
+    "subHeading6": "Web Beacons:",
+    "list5": {
+      "item1": "Pequenos arquivos gráficos que rastreiam o uso do Serviço, serviços web de anunciantes e a interação com e-mails.",
+      "item2": "Facilitam a análise do engajamento do usuário e aprimoram a publicidade baseada em interesses."
+    },
+    "subHeading7": "Identificadores de Dispositivos Móveis:",
+    "list6": {
+      "item1": "Ajudam a entender a demografia do usuário e comportamentos na Internet.",
+      "item2": "Rastreiam atividades, localizações e tipos de dispositivos.",
+      "item3": "Coletam dados como endereço IP, servidor de domínio e informações do navegador."
+    },
+    "subHeading8": "Correspondência Entre Dispositivos:",
+    "list7": {
+      "item1": "Identifica interações do usuário em vários dispositivos.",
+      "item2": "Análise e direcionamento de anúncios em dispositivos associados."
+    },
+    "subHeading9": "Gerenciamento de Cookies:",
+    "body2": "Você tem a opção de aceitar ou rejeitar Cookies por meio das configurações do seu navegador. A maioria dos navegadores permite desativar Cookies ou solicitar aceitação. Identificadores de dispositivos móveis também podem ser rejeitados ajustando as configurações do dispositivo móvel. Excluir Cookies existentes pode exigir a reconfiguração de preferências durante acessos posteriores ao Serviço.",
+    "subHeading10": "Opção Não Rastrear:",
+    "body3": "Embora alguns navegadores ofereçam uma opção de &quot;Não Rastrear&quot;, nossos Serviços, como muitos outros, atualmente não suportam essa solicitação. Para mais detalhes sobre como gerenciar Cookies, visite a seção de preferências ou opções no menu do seu navegador.",
+    "subHeading11": "Anúncios Baseados em Interesses:",
+    "body4": "Podemos exibir anúncios, incluindo de redes de terceiros, baseados nos interesses dos usuários. As informações para esses anúncios podem ser derivadas de dados fornecidos pelos usuários ou inferidas de sua atividade online. A adesão aos princípios da Digital Advertising Alliance (&quot;DAA&quot;) garante o controle do usuário sobre anúncios personalizados. As opções de exclusão podem ser exercidas por meio das páginas de exclusão do DAA ou Network Advertising Initiative (&quot;NAI&quot;), e a exclusão é aplicável por navegador e dispositivo. Observe que optar pela exclusão não elimina todos os anúncios, mas garante a entrega de conteúdo não baseado em interesses. Mesmo após optar pela exclusão, ferramentas de rastreamento ainda podem ser usadas para análises gerais e entrega de anúncios.",
+    "subHeading12": "Segurança de Dados:",
+    "body5": "Garantir a segurança dos seus Dados Pessoais é nossa principal prioridade. Empregamos uma combinação de medidas de segurança físicas, técnicas, organizacionais e administrativas para proteger seus dados contra acesso não autorizado, uso e divulgação. Essas medidas estão alinhadas aos padrões da indústria e abrangem aspectos tanto de transmissão quanto de armazenamento de dados. Utilizamos a tecnologia de Secure Sockets Layer (SSL) para criptografar Dados Pessoais durante a transmissão.",
+    "body6": "Suas informações são armazenadas e processadas em servidores nos Estados Unidos e no exterior, apoiados por sistemas de backup e arquivamento padrão da indústria. Embora implementemos práticas de segurança robustas, sua colaboração na proteção de seus dados é vital. Isso inclui escolher e proteger cuidadosamente sua senha, controlar o acesso aos seus dispositivos e sair após acessar sua conta.",
+    "body7": "Apesar de nossos esforços diligentes, é importante reconhecer que nenhum método de transmissão ou armazenamento de dados pela Internet é totalmente infalível. Não garantimos segurança absoluta contra roubo, destruição, perda ou divulgação inadvertida de suas informações, exceto conforme explicitamente exigido por lei.",
+    "body8": "No caso de um comprometimento aparente da segurança dos seus Dados Pessoais, comprometemo-nos a notificá-lo imediatamente. As notificações serão entregues através do endereço de e-mail fornecido, portanto, mantê-lo atualizado no perfil da sua conta é crucial. Se preferir, você pode entrar em contato conosco pelo e-mail Privacy-Notice@rapidorelief.com especificando seu endereço. O consentimento para notificações por e-mail está implícito, salvo indicação em contrário.",
+    "subHeading13": "Retenção de dados:",
+    "body9": "A retenção de seus Dados Pessoais é realizada com base na necessidade de fornecer nossos Serviços ou cumprir finalidades comerciais. Fatores como origem dos dados, finalidade da coleta e sensibilidade são considerados no estabelecimento dos períodos de retenção. Em certos casos, os dados poderão ser retidos por um período prolongado para cumprimento de obrigações legais, resolução de litígios, cobrança de taxas devidas, prestação de Serviços ou conforme estipulado pela legislação aplicável.",
+    "subHeading14": "Exemplos de nossa abordagem de retenção incluem:",
+    "list8": {
+      "item1": "As informações e credenciais da conta são retidas enquanto sua conta estiver ativa.",
+      "item2": "Os dados do dispositivo/IP são retidos para integridade e eficiência do sistema.",
+      "item3": "As informações de saúde protegidas (PHI) são retidas em conformidade com os acordos de parceria comercial e os regulamentos da HIPAA."
+    },
+    "body10": "Além disso, as informações podem ser retidas de forma anônima ou agregada quando a identificação pessoal for desnecessária. Essa estrutura de retenção garante o alinhamento com as regulamentações de privacidade e o gerenciamento responsável de dados.",
+    "subHeading15": "Privacidade das Crianças:",
+    "body11": "Os Serviços não se destinam ao uso por crianças menores de 13 anos de idade e não coletamos intencionalmente Dados Pessoais de indivíduos dessa faixa etária. Se você tiver menos de 13 anos, evite tentar se registrar ou usar os Serviços ou enviar quaisquer Dados Pessoais. Ao acessar ou enviar informações aos Serviços, você confirma que tem mais de 13 anos. De acordo com os Termos de Uso, se tomarmos conhecimento de que os Dados Pessoais foram fornecidos diretamente por uma criança menor de 13 anos sem o consentimento dos pais, usaremos esses dados apenas para nos comunicarmos com a criança (ou com seus pais/responsáveis) e informá-los sobre a incapacidade de usar os Serviços. Posteriormente, eliminaremos os Dados Pessoais da criança. Se você suspeitar que uma criança menor de 13 anos nos forneceu Dados Pessoais, entre em contato conosco pelo e-mail Privacy@rapidorelief.com.",
+    "body12": "Para utilizadores com idade entre 13 anos e a maioridade no seu local de residência, os Serviços só podem ser utilizados com consentimento parental ou sob supervisão parental. Os pais ou responsáveis ​​legais que utilizem os Serviços em nome de um filho menor deverão cumprir o Contrato. Qualquer informação fornecida durante a utilização dos Serviços em nome de um filho menor será tratada como Dados Pessoais, conforme descrito neste documento.",
+    "body13": "Ao utilizar os Serviços em nome de outra pessoa, independentemente da idade, você concorda que poderemos contatá-lo para qualquer comunicação relacionada ao Serviço ou avisos legalmente exigidos. Além disso, você se compromete a encaminhar ou compartilhar tais comunicações com a pessoa para quem você está usando os Serviços.",
+    "subHeading16": "Como usamos informações que não são dados pessoais nem PHI:",
+    "body14": "As informações coletadas pelo Rapido Relief App que não se qualificam como dados pessoais ou informações de saúde protegidas (PHI) podem ser utilizadas para vários fins permitidos pela lei aplicável. Isso inclui compreender a demografia dos usuários e melhorar a experiência digital de saúde. Dados desidentificados ou agregados podem ser usados ​​para insights analíticos.",
+    "subHeading17": "Controlando seus dados pessoais e notificações:",
+    "body15": "Se você for um usuário registrado, poderá gerenciar Dados Pessoais específicos ou detalhes da conta fazendo login e acessando sua conta. Para encerrar sua conta, entre em contato conosco em Privacy@rapidorelief.com e faremos o possível para excluir sua conta imediatamente. Observe que certas informações podem ser retidas de acordo com nossas políticas internas de retenção de dados. Em caso de perda, roubo ou uso não autorizado dos dados da sua conta, informe-nos imediatamente.",
+    "subHeading18": "Exercendo seus direitos:",
+    "body16": "Para exercer seus direitos sob a CCPA, VCDPA ou CPA, você deve enviar uma solicitação fornecendo informações suficientes para verificarmos sua identidade e descrevendo sua solicitação detalhadamente. Cada solicitação que atenda a esses critérios será considerada uma &quot;Solicitação Válida&quot;. Você não precisa de uma conta para enviar uma solicitação válida.",
+    "body17": "Responderemos dentro do prazo legal exigido e não cobraremos nenhuma taxa, a menos que sua solicitação seja considerada excessiva, repetitiva ou manifestamente infundada. Se for aplicada uma taxa, iremos notificá-lo antes de concluir sua solicitação.",
+    "subHeading19": "Envie uma solicitação válida usando estes métodos:",
+    "list9": {
+      "item1": "Para titulares de contas, use a guia “Privacidade de dados” nas configurações da sua conta.",
+      "item2": "Para não correntistas, envie o formulário em https://www.rapidorelief.com/privacy-settings.",
+      "item3": "Desative por meio da guia “Privacidade de dados” ou visite https://www.rapidorelief.com/privacy-settings para obter informações confidenciais, “venda”, “compartilhamento” ou desativação de publicidade direcionada.",
+      "item4": "Para assistência ou dúvidas, ligue para (000) 000-0000 ou envie um e-mail para Consumer-Privacy@rapidorelief.com."
+    },
+    "subHeading20": "Alterações nesta Política de Privacidade:",
+    "body18": "Poderemos alterar a Política de Privacidade a nosso critério e notificaremos você sobre alterações por e-mail ou através de um aviso na página inicial do nosso site. A utilização das informações coletadas está sujeita à Política de Privacidade em vigor no momento da coleta das informações.",
+    "subHeading21": "Informações de contato:",
+    "body19": "Para dúvidas ou comentários sobre esta Política de Privacidade, seus Dados Pessoais e seus direitos, entre em contato conosco:",
+    "subHeading22": "E-mail: Privacy@rapidorelief.com"
   },
   "Esg": {
     "areYouACustomer": "Você já é cliente e precisa de suporte?",

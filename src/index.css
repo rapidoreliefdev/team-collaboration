@@ -89,6 +89,11 @@ body {
   src: url("./assets/fontfamily/RockSalt-Regular.ttf");
 }
 
+@font-face {
+  font-family: El Messiri;
+  src: url("./assets/fontfamily/ElMessiri-VariableFont_wght.ttf");
+}
+
 .f-f-b {
   font-family: Roboto-Bold;
 }
@@ -137,4 +142,7 @@ body {
 }
 .f-f-r-r {
   font-family: RockSalt-Regular;
+}
+.f-f-e {
+  font-family: El Messiri;
 }

@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import IconGlobe from "../../assets/icons/icon-translate.svg";
+import FlagBritian from "../../assets/images/flags-en-GB.svg";
+import FlagBrazil from "../../assets/images/flags-pt-BR.svg";
+import FlagSpain from "../../assets/images/flags-es-ES.svg";
+import FlagNetherlands from "../../assets/images/flags-nl-Nl.svg";
 
 export default function LanguageSelector({ type = "text" }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState({
     name: "English",
     code: "En",
-    image: "../../assets/images/flags-en-GB.svg",
+    image: IconGlobe,
   });
 
   const { i18n } = useTranslation();
@@ -24,19 +28,19 @@ export default function LanguageSelector({ type = "text" }) {
     {
       name: "English",
       code: "En",
-      image: "../../assets/images/flags-en-GB.svg",
+      image: FlagBritian,
     },
     {
       name: "Portuguese",
       code: "Br",
-      image: "../../assets/images/flags-pt-BR.svg",
+      image: FlagBrazil,
     },
     {
       name: "Espanol",
       code: "Es",
-      image: "../../assets/images/flags-es-ES.svg",
+      image: FlagSpain,
     },
-    { name: "Dutch", code: "Nl", image: "../../assets/images/flags-nl-Nl.svg" },
+    { name: "Dutch", code: "Nl", image: FlagNetherlands },
   ];
 
   return (

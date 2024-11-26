@@ -140,8 +140,8 @@
       "cardDescription1": "On-demand teleconsulten met huisartsen voor voorlopig medisch advies en niet-dringende gezondheidszorgproblemen.",
       "cardName2": "Virtuele therapiesessies",
       "cardDescription2": "Toegang tot virtuele geestelijke gezondheidszorgsessies met erkende therapeuten om ondersteuning en begeleiding te bieden in tijden van nood.",
-      "cardName3": "Receptconsulten",
-      "cardDescription3": "Onmiddellijke toegang tot receptconsulten met ervaren apothekers voor snelle en gemakkelijke medicatiehulp."
+      "cardName3": "Draagbare gezondheidszorg",
+      "cardDescription3": "We bieden een reeks slimme medische draagbare apparaten, van foetale hartslagmeters tot noodwaarschuwingssystemen."
     },
     "help": {
       "aboutHeading": "Over de Rapido Relief-app",
@@ -182,6 +182,96 @@
       "body": "Sluit u bij ons aan en help mee de gezondheidszorg voor iedereen te transformeren",
       "buttonText": "Bekijk vacatures"
     }
+  },
+  "privacyPolicy": {
+    "mainHeader": "ONS PRIVACYBELEID",
+    "introBody": "Privacybeleid van de Rapido Relief-app",
+    "lastUpdated": "Laatst bijgewerkt: 10 maart 2024",
+    "welcomeBody": "Welkom bij de Rapido Relief App, beheerd door Rapido Relief App Limited ('Rapido Relief App', 'wij' of 'ons'). Uw privacy is belangrijk voor ons en wij doen er alles aan om uw persoonlijke gegevens te beschermen. In dit privacybeleid wordt uitgelegd hoe wij uw gegevens verzamelen, gebruiken en delen wanneer u onze website, mobiele applicatie en aanverwante diensten (gezamenlijk de 'Diensten') bezoekt of gebruikt.",
+    "consentMessage": "Door de Services te gebruiken of er toegang toe te krijgen, erkent u dat u de praktijken en het beleid zoals uiteengezet in dit Privacybeleid hebt gelezen, begrepen en ermee akkoord gaat. Als u het niet eens bent met dit privacybeleid, maak dan geen gebruik van de Services.",
+    "subHeading1": "Cookiegebruik in de Rapido Relief-app:",
+    "body1": "We gebruiken verschillende soorten cookies voor verschillende doeleinden om uw ervaring op de Rapido Relief-app te verbeteren:",
+    "subHeading2": "Essentiële cookies:",
+    "list1": {
+      "item1": "Noodzakelijk voor gevraagde functies of services.",
+      "item2": "Bijvoorbeeld door veilig inloggen mogelijk te maken.",
+      "item3": "Als u deze uitschakelt, kunnen bepaalde functies worden beperkt."
+    },
+    "subHeading3": "Functionele cookies:",
+    "list2": {
+      "item1": "Leg keuzes en instellingen vast en zorg voor een persoonlijke ervaring.",
+      "item2": "Herken terugkerende gebruikers en onderhoud voorkeuren."
+    },
+    "subHeading4": "Prestatie/analytische cookies:",
+    "list3": {
+      "item1": "Begrijp bezoekersgedrag, analyseer paginaweergaven en meet de prestaties.",
+      "item2": "Hulp bij het optimaliseren van advertentiecampagnes.",
+      "item3": "Voor deze cookies kunnen Google Analytics-diensten worden gebruikt."
+    },
+    "subHeading5": "Retargeting-/advertentiecookies:",
+    "list4": {
+      "item1": "Verzamel online activiteitsgegevens om relevante advertenties weer te geven.",
+      "item2": "Hieronder vindt u meer informatie over op interesses gebaseerde advertenties."
+    },
+    "subHeading6": "Webbakens:",
+    "list5": {
+      "item1": "Kleine grafische bestanden die het servicegebruik, webservices van adverteerders en e-mailbetrokkenheid bijhouden.",
+      "item2": "Vergemakkelijk de analyse van gebruikersbetrokkenheid en verbeter op interesses gebaseerde advertenties."
+    },
+    "subHeading7": "Identificatiegegevens van mobiele apparaten:",
+    "list6": {
+      "item1": "Hulp bij het begrijpen van de demografische gegevens van gebruikers en internetgedrag.",
+      "item2": "Volg activiteiten, locaties en apparaattypen.",
+      "item3": "Verzamelt gegevens zoals IP-adres, domeinserver en browserinformatie."
+    },
+    "subHeading8": "Matching tussen verschillende apparaten:",
+    "list7": {
+      "item1": "Identificeert gebruikersinteracties op meerdere apparaten.",
+      "item2": "Analyse en advertentietargeting op bijbehorende apparaten."
+    },
+    "subHeading9": "Cookiebeheer:",
+    "body2": "U heeft de keuze om cookies te accepteren of te weigeren via uw browserinstellingen. De meeste browsers staan ​​het uitschakelen van cookies toe of vragen om acceptatie. ID's van mobiele apparaten kunnen ook worden afgewezen door de instellingen van mobiele apparaten aan te passen. Voor het verwijderen van bestaande cookies kan het opnieuw configureren van voorkeuren nodig zijn tijdens daaropvolgende toegang tot de Dienst.",
+    "subHeading10": "Optie Niet volgen:",
+    "body3": "Hoewel sommige browsers een &quot;Do Not Track&quot; optie ondersteunen onze Services, net als vele andere, dit verzoek momenteel niet. Voor meer informatie over het beheren van cookies kunt u het voorkeuren- of optiegedeelte van het menu van uw browser bezoeken.",
+    "subHeading11": "Op interesses gebaseerde advertenties:",
+    "body4": "We kunnen advertenties weergeven, inclusief netwerken van derden, op basis van gebruikersinteresses. Informatie voor dergelijke advertenties kan worden afgeleid uit door gebruikers verstrekte gegevens of worden afgeleid uit online activiteiten. Het naleven van de principes van de Digital Advertising Alliance ('DAA') garandeert gebruikerscontrole over aangepaste advertenties. Opt-out-keuzes kunnen worden uitgeoefend via de opt-out-pagina's van DAA of Network Advertising Initiative (&quot;NAT&quot;), en afmelden is van toepassing per browser en apparaat. Houd er rekening mee dat het afmelden niet alle advertenties elimineert, maar wel zorgt voor niet-op interesses gebaseerde inhoudslevering. Zelfs nadat u zich heeft afgemeld, kunnen trackingtools nog steeds worden gebruikt voor algemene analyse- en advertentieweergavedoeleinden.",
+    "subHeading12": "Gegevensbeveiliging:",
+    "body5": "Het garanderen van de veiligheid van uw Persoonsgegevens is onze topprioriteit. Door gebruik te maken van een combinatie van fysieke, technische, organisatorische en administratieve beveiligingsmaatregelen beschermen wij uw gegevens tegen ongeoorloofde toegang, gebruik en openbaarmaking. Deze maatregelen zijn in lijn met de industriestandaarden en hebben betrekking op zowel datatransmissie- als opslagaspecten. Met behulp van Secure Sockets Layer (SSL)-technologie coderen we persoonlijke gegevens tijdens de verzending.",
+    "body6": "Uw informatie wordt opgeslagen en verwerkt op servers in de Verenigde Staten en daarbuiten, ondersteund door industriestandaard back-up- en archiveringssystemen. Hoewel we robuuste beveiligingspraktijken implementeren, is uw medewerking bij het beschermen van uw gegevens van cruciaal belang. Dit omvat het oordeelkundig selecteren en beveiligen van uw wachtwoord, het controleren van de toegang tot uw apparaten en het uitloggen na toegang tot uw account.",
+    "body7": "Ondanks onze toegewijde inspanningen is het belangrijk om te erkennen dat geen enkele methode voor gegevensoverdracht of -opslag via internet volledig waterdicht is. Wij garanderen geen absolute veiligheid tegen diefstal, vernietiging, verlies of onbedoelde openbaarmaking van uw gegevens, behalve zoals uitdrukkelijk vereist door de wet.",
+    "body8": "In het geval van een waargenomen inbreuk op de veiligheid van uw Persoonsgegevens, verbinden wij ons ertoe u hiervan onmiddellijk op de hoogte te stellen. Meldingen worden verzonden via het door u opgegeven e-mailadres, dus het is van cruciaal belang dat u dit up-to-date houdt in uw accountprofiel. Indien u dit verkiest, kunt u zich hiervoor aanmelden door contact met ons op te nemen via Privacy-Notice@rapidorelief.com en uw adres op te geven. Toestemming voor e-mailmeldingen is impliciet, tenzij anders vermeld.",
+    "subHeading13": "Gegevensretentie:",
+    "body9": "Het bewaren van uw Persoonsgegevens vindt plaats op basis van de noodzaak om onze Diensten te leveren of zakelijke doeleinden te vervullen. Bij het vaststellen van bewaartermijnen wordt rekening gehouden met factoren zoals de gegevensbron, het doel van de verzameling en de gevoeligheid. In bepaalde gevallen kunnen gegevens gedurende een langere periode worden bewaard om te voldoen aan wettelijke verplichtingen, geschillen op te lossen, verschuldigde vergoedingen te innen, diensten te verlenen of zoals bepaald door de toepasselijke wetgeving.",
+    "subHeading14": "Voorbeelden van onze retentieaanpak zijn:",
+    "list8": {
+      "item1": "Accountgegevens en inloggegevens worden bewaard zolang uw account actief is.",
+      "item2": "Apparaat-/IP-gegevens worden bewaard voor systeemintegriteit en efficiëntie.",
+      "item3": "Beschermde gezondheidsinformatie (PHI) wordt bewaard in overeenstemming met Business Associate Agreements en HIPAA-regelgeving."
+    },
+    "body10": "Bovendien kan informatie in anonieme of geaggregeerde vorm worden bewaard wanneer persoonlijke identificatie niet nodig is. Dit retentiekader zorgt voor aansluiting op de privacyregelgeving en verantwoord databeheer.",
+    "subHeading15": "Privacy van kinderen:",
+    "body11": "De Diensten zijn niet bedoeld voor gebruik door kinderen jonger dan 13 jaar, en wij verzamelen niet bewust Persoonsgegevens van personen in deze leeftijdsgroep. Als u jonger bent dan 13 jaar, probeer dan niet te registreren of de Services te gebruiken of persoonlijke gegevens in te dienen. Door toegang te krijgen tot of informatie in te dienen bij de Diensten, bevestigt u dat u ouder bent dan 13 jaar. In overeenstemming met de Gebruiksvoorwaarden zullen we, als we ons ervan bewust worden dat Persoonsgegevens rechtstreeks zijn verstrekt door een kind jonger dan 13 jaar zonder ouderlijke toestemming, dergelijke gegevens alleen gebruiken om met het kind (of zijn ouder/voogd) te communiceren en hem of haar te informeren over het onvermogen om de Diensten te gebruiken. Vervolgens verwijderen wij de Persoonsgegevens van het kind. Als u vermoedt dat een kind jonger dan 13 jaar ons persoonlijke gegevens heeft verstrekt, neem dan contact met ons op via Privacy@rapidorelief.com.",
+    "body12": "Voor gebruikers van 13 jaar tot meerderjarig in hun woonplaats mogen de Diensten alleen worden gebruikt met toestemming van de ouders of onder ouderlijk toezicht. Ouders of wettelijke voogden die de Diensten namens een minderjarig kind gebruiken, moeten de Overeenkomst naleven. Alle informatie die wordt verstrekt tijdens het gebruik van de Services namens een minderjarig kind, wordt behandeld als Persoonsgegevens, zoals hierin uiteengezet.",
+    "body13": "Wanneer u de Diensten gebruikt namens een andere persoon, ongeacht de leeftijd, gaat u ermee akkoord dat wij contact met u kunnen opnemen voor alle Dienstgerelateerde communicatie of wettelijk verplichte kennisgevingen. Bovendien verplicht u zich ertoe dergelijke communicatie door te sturen of te delen met de persoon voor wie u de Services gebruikt.",
+    "subHeading16": "Hoe we informatie gebruiken die geen persoonlijke gegevens of PHI is:",
+    "body14": "Informatie verzameld door de Rapido Relief App die niet in aanmerking komt als persoonlijke gegevens of beschermde gezondheidsinformatie (PHI) kan worden gebruikt voor verschillende doeleinden die zijn toegestaan ​​door de toepasselijke wetgeving. Dit omvat onder meer het begrijpen van de demografische gegevens van gebruikers en het verbeteren van de digitale gezondheidszorgervaring. Geanonimiseerde of geaggregeerde gegevens kunnen worden gebruikt voor analytische inzichten.",
+    "subHeading17": "Beheer van uw persoonlijke gegevens en meldingen:",
+    "body15": "Als u een geregistreerde gebruiker bent, kunt u specifieke persoonlijke gegevens of accountgegevens beheren door in te loggen en toegang te krijgen tot uw account. Om uw account te sluiten, kunt u contact met ons opnemen via Privacy@rapidorelief.com. Wij zullen dan proberen uw account zo snel mogelijk te verwijderen. Houd er rekening mee dat bepaalde informatie kan worden bewaard in overeenstemming met ons interne beleid voor het bewaren van gegevens. In geval van verlies, diefstal of ongeoorloofd gebruik van uw accountgegevens, verzoeken wij u ons hiervan onmiddellijk op de hoogte te stellen.",
+    "subHeading18": "Uw rechten uitoefenen:",
+    "body16": "Om uw rechten onder de CCPA, VCDPA of CPA uit te oefenen, moet u een verzoek sturen met voldoende informatie zodat wij uw identiteit kunnen verifiëren en uw verzoek gedetailleerd beschrijven. Elk verzoek dat aan deze criteria voldoet, wordt beschouwd als een &quot;Geldig verzoek.&quot; U heeft geen account nodig om een ​​geldig verzoek in te dienen.",
+    "body17": "We zullen binnen de vereiste wettelijke termijn reageren en zullen geen kosten in rekening brengen, tenzij uw verzoek buitensporig, repetitief of kennelijk ongegrond wordt geacht. Als er kosten van toepassing zijn, stellen we u hiervan op de hoogte voordat we uw verzoek voltooien.",
+    "subHeading19": "Dien een geldig verzoek in met behulp van deze methoden:",
+    "list9": {
+      "item1": "Voor accounthouders: gebruik het tabblad ‘Gegevensprivacy’ in uw accountinstellingen.",
+      "item2": "Voor niet-accounthouders kunt u het formulier indienen op https://www.rapidorelief.com/privacy-settings.",
+      "item3": "Meld u af via het tabblad 'Gegevensprivacy' of ga naar https://www.rapidorelief.com/privacy-settings voor het afmelden voor gevoelige informatie, 'verkopen', 'delen' of gerichte advertenties.",
+      "item4": "Voor hulp of vragen kunt u bellen met (000) 000-0000 of een e-mail sturen naar Consumer-Privacy@rapidorelief.com."
+    },
+    "subHeading20": "Wijzigingen in dit privacybeleid:",
+    "body18": "Wij kunnen het Privacybeleid naar eigen goeddunken wijzigen en zullen u per e-mail of via een mededeling op de startpagina van onze website op de hoogte stellen van wijzigingen. Het gebruik van verzamelde informatie is onderworpen aan het privacybeleid dat van kracht is op het moment dat de informatie wordt verzameld.",
+    "subHeading21": "Contactgegevens:",
+    "body19": "Voor vragen of opmerkingen over dit privacybeleid, uw persoonlijke gegevens en uw rechten kunt u contact met ons opnemen via:",
+    "subHeading22": "E-mail: Privacy@rapidorelief.com"
   },
   "Esg": {
     "areYouACustomer": "Bent u al klant en heeft u ondersteuning nodig?",

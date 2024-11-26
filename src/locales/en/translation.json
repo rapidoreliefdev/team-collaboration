@@ -43,6 +43,7 @@
   "downloadOn": "Download on the",
   "appStore": "App Store",
   "watchVideo": "Watch videos",
+  "search": "Search",
   "aboutPage": {
     "founder": "Founder",
     "Greetings": "Hey there!",
@@ -140,8 +141,8 @@
       "cardDescription1": "On-demand teleconsultations with general physicians for preliminary medical advice and non-emergency healthcare concerns.",
       "cardName2": "Virtual Therapy Sessions",
       "cardDescription2": "Access to virtual mental health sessions with licensed therapists to provide support and guidance in times of need.",
-      "cardName3": "Prescription Consultations",
-      "cardDescription3": "Immediate access to prescription consultations with experienced pharmacists for quick and convenient medication assistance."
+      "cardName3": "Wearable Healthcare",
+      "cardDescription3": "We offer a range of smart medical wearable devices, from fetal heart rate monitors to emergency alert systems."
     },
     "help": {
       "aboutHeading": "About Rapido Relief App",
@@ -182,6 +183,121 @@
       "body": "Join us, and help transform healthcare for everyone",
       "buttonText": "View job openings"
     }
+  },
+  "privacyPolicy": {
+    "mainHeader": "OUR PRIVACY POLICY",
+    "introBody": "Rapido Relief App Privacy Policy",
+    "lastUpdated": "Last updated: March 10, 2024",
+    "welcomeBody": "Welcome to Rapido Relief App, operated by Rapido Relief App Limited ('Rapido Relief App,' 'we,' or 'us'). Your privacy is important to us, and we are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and share your information when you access or use our website, mobile application, and related services (collectively, the 'Services').",
+    "consentMessage": "By using or accessing the Services, you acknowledge that you have read, understood, and agree to the practices and policies outlined in this Privacy Policy. If you do not agree with this Privacy Policy, please do not use the Services.",
+    "subHeading1": "Cookies Usage at Rapido Relief App:",
+    "body1": "We utilize various types of Cookies for different purposes to enhance your experience on the Rapido Relief App:",
+    "subHeading2": "Essential Cookies:",
+    "list1": {
+      "item1": "Necessary for requested features or services.",
+      "item2": "For instance, enabling secure logins.",
+      "item3": "Disabling these may limit certain features."
+    },
+    "subHeading3": "Functional Cookies:",
+    "list2": {
+      "item1": "Record choices and settings, providing a personalized experience.",
+      "item2": "Recognize returning users and maintain preferences."
+    },
+    "subHeading4": "Performance/Analytical Cookies:",
+    "list3": {
+      "item1": "Understand visitor behavior, analyze page views, and measure performance.",
+      "item2": "Aid in optimizing advertising campaigns.",
+      "item3": "Google Analytics services may be used for these cookies."
+    },
+    "subHeading5": "Retargeting/Advertising Cookies:",
+    "list4": {
+      "item1": "Collect online activity data to deliver relevant advertising.",
+      "item2": "More details on interest-based ads are provided below."
+    },
+    "subHeading6": "Web Beacons:",
+    "list5": {
+      "item1": "Tiny graphic files tracking Service usage, advertiser web services, and email engagement.",
+      "item2": "Facilitate analysis of user engagement and enhance interest-based advertising."
+    },
+    "subHeading7": "Mobile Device Identifiers:",
+    "list6": {
+      "item1": "Aid in understanding user demographics and internet behaviors.",
+      "item2": "Track activities, locations, and device types.",
+      "item3": "Collects data like IP address, domain server, and browser information."
+    },
+    "subHeading8": "Cross Device Matching:",
+    "list7": {
+      "item1": "Identifies user interactions across multiple devices.",
+      "item2": "Analysis and advertisement targeting across associated devices."
+    },
+    "subHeading9": "Cookie Management:",
+    "body2": "You have the choice to accept or reject Cookies through your browser settings. Most browsers allow disabling Cookies or prompting for acceptance. Mobile device identifiers can also be rejected by adjusting mobile device settings. Deleting existing Cookies may require reconfiguration of preferences during subsequent Service access.",
+    "subHeading10": "Do Not Track Option:",
+    "body3": "While some browsers offer a &quot;Do Not Track&quot; option, our Services, like many others, do not currently support this request. For more details on managing Cookies, visit the preferences or options section of your browser's menu.",
+    "subHeading11": "Interest-Based Advertisements:",
+    "body4": "We may display advertisements, including third-party networks, based on user interests. Information for such ads may be derived from user-provided data or inferred from online activity. Adherence to Digital Advertising Alliance (&quot;DAA&quot;) principles ensures user control over customized ads. Opt-out choices can be exercised through DAA or Network Advertising Initiative (&quot;NAI&quot;) opt-out pages, and opting out is applicable per browser and device. Note that opting out doesn't eliminate all ads but ensures non-interest-based content delivery. Even after opting out, tracking tools may still be used for general analytics and ad delivery purposes.",
+    "subHeading12": "Data Security:",
+    "body5": "Ensuring the security of your Personal Data is our top priority. Employing a blend of physical, technical, organizational, and administrative security measures, we safeguard your data from unauthorized access, use, and disclosure. These measures align with industry standards and cover both data transmission and storage aspects. Utilizing Secure Sockets Layer (SSL) technology, we encrypt Personal Data during transmission.",
+    "body6": "Your information is stored and processed on servers within the United States and abroad, supported by industry-standard backup and archival systems. While we implement robust security practices, your collaboration in protecting your data is vital. This includes judiciously selecting and securing your password, controlling access to your devices, and signing out after accessing your account.",
+    "body7": "Despite our diligent efforts, it&rsquo;s important to acknowledge that no method of data transmission or storage over the Internet is entirely foolproof. We do not guarantee absolute security against theft, destruction, loss, or inadvertent disclosure of your information, except as explicitly mandated by law.",
+    "body8": "In the event of a perceived compromise to the security of your Personal Data, we commit to notifying you promptly. Notifications will be delivered through your provided email address, so keeping it updated in your account profile is crucial. If preferred, you can opt by reaching out to us at Privacy-Notice@rapidorelief.com specifying your address. Consent for email notifications is implied unless otherwise stated.",
+    "subHeading13": "Data Retention:",
+    "body9": "Retention of your Personal Data is conducted based on the necessity to deliver our Services or fulfill business purposes. Factors such as data source, purpose of collection, and sensitivity are considered when establishing retention periods. In certain cases, data may be retained for an extended period to comply with legal obligations, resolve disputes, collect owed fees, provide Services, or as stipulated by applicable laws.",
+    "subHeading14": "Examples of our retention approach include:",
+    "list8": {
+      "item1": "Account information and credentials are retained as long as your account is active.",
+      "item2": "Device/IP data is retained for system integrity and efficiency.",
+      "item3": "Protected Health Information (PHI) is retained in compliance with Business Associate Agreements and HIPAA regulations."
+    },
+    "body10": "Additionally, information may be retained in an anonymous or aggregated form when personal identification is unnecessary. This retention framework ensures alignment with privacy regulations and responsible data management.",
+    "subHeading15": "Children's Privacy:",
+    "body11": "The Services are not intended for use by children under 13 years of age, and we do not knowingly collect Personal Data from individuals in this age group. If you are under 13, please refrain from attempting to register or use the Services or submit any Personal Data. By accessing or submitting information to the Services, you confirm that you are over 13 years old. In accordance with the Terms of Use, if we become aware that Personal Data has been directly provided by a child under 13 without parental consent, we will use such data only to communicate with the child (or their parent/guardian) and inform them of the inability to use the Services. Subsequently, we will delete the child's Personal Data. If you suspect a child under 13 has provided us with Personal Data, contact us at Privacy@rapidorelief.com.",
+    "body12": "For users aged 13 to the age of majority in their place of residence, Services may be used only with parental consent or under parental supervision. Parents or legal guardians using the Services on behalf of a minor child must comply with the Agreement. Any information provided while using the Services on behalf of a minor child will be treated as Personal Data, as outlined herein.",
+    "body13": "When using the Services on behalf of another person, irrespective of age, you agree that we may contact you for any Service-related communication or legally required notices. Additionally, you commit to forwarding or sharing such communications with the person for whom you are using the Services.",
+    "subHeading16": "How We Use Information That is Neither Personal Data nor PHI:",
+    "body14": "Information collected by Rapido Relief App that does not qualify as Personal Data or Protected Health Information (PHI) may be utilized for various purposes permitted by applicable law. This includes understanding user demographics and improving the digital healthcare experience. De-identified or aggregated data may be used for analytical insights.",
+    "subHeading17": "Controlling Your Personal Data & Notifications:",
+    "body15": "If you are a registered user, you can manage specific Personal Data or account details by logging in and accessing your account. To close your account, contact us at Privacy@rapidorelief.com, and we will endeavor to delete your account promptly. Note that certain information may be retained in accordance with our internal data retention policies. In the event of lost, stolen, or unauthorized use of your account data, please promptly inform us.",
+    "subHeading18": "Exercising Your Rights:",
+    "body16": "To exercise your rights under the CCPA, VCDPA, or CPA, you must send a request providing sufficient information for us to verify your identity and describing your request in detail. Each request meeting these criteria will be considered a &quot;Valid Request.&quot; You don't need an account to submit a Valid Request.",
+    "body17": "We will respond within the required legal timeframe and won't charge a fee unless your request is deemed excessive, repetitive, or manifestly unfounded. If a fee applies, we'll notify you before completing your request.",
+    "subHeading19": "Submit a Valid Request using these methods:",
+    "list9": {
+      "item1": "For account holders, use the “Data Privacy” tab in your account settings.",
+      "item2": "For non-account holders, submit the form at https://www.rapidorelief.com/privacy-settings.",
+      "item3": "Opt-out through the “Data Privacy” tab or visit https://www.rapidorelief.com/privacy-settings for sensitive information, “selling,” “sharing,” or targeted advertising opt-outs.",
+      "item4": "For assistance or questions, call (000) 000-0000 or email Consumer-Privacy@rapidorelief.com."
+    },
+    "subHeading20": "Changes to this Privacy Policy:",
+    "body18": "We may amend the Privacy Policy at our discretion and will notify you of changes by email or through a notice on our website homepage. The use of collected information is subject to the Privacy Policy in effect when the information is collected.",
+    "subHeading21": "Contact Information:",
+    "body19": "For questions or comments about this Privacy Policy, your Personal Data, and your rights, contact us at:",
+    "subHeading22": "Email: Privacy@rapidorelief.com"
+  },
+  "explore": {
+    "header": "We care",
+    "headerHighlighted": "about your health",
+    "heroSupportingText": "Good health is the state of mental, physical and social well being and it does not just mean absence of diseases.",
+    "buttonText1": "Book Best Doctor Near You!",
+    "invitation": "Become member of our community?",
+    "location": "Location",
+    "haveInsurance": "Have Insurance",
+    "consultOnline": "Consult Online",
+    "findPharmacy": "Find Pharmacy",
+    "findDoctor": "Find a Doctors",
+    "findHospital": "Find a Hospital",
+    "emergencyAmbulance": "Emergency Ambulance",
+    "mentalHealth": "Mental Health",
+    "availableSpecialty": "Available Specialty",
+    "howItWorks": "How it Works",
+    "createAccount": "Create your account.",
+    "signUp": "Sign up and complete your registration.Once done, you'll instantly view the visit cost.",
+    "chooseProvider": "Choose a provider or schedule an appointment:",
+    "chooseProviderBody": "Select the next available healthcare professional or book an appointment at your convenience. Share your concerns and provide background information by answering a few quick questions.",
+    "subHeading1": "Begin your live virtual consultation",
+    "supportingText": "Connect with one of our board-certified doctors who will assess your symptoms and provide a personalized treatment plan. If necessary, receive prescriptions conveniently delivered to you or sent directly to your local pharmacy.",
+    "healthIsOurSpecialty": "Your whole Health is Our Specialty",
+    "learnMore": "LEARN MORE"
   },
   "Esg": {
     "areYouACustomer": "Are you already a customer and need support?",
