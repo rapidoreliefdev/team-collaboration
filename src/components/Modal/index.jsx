@@ -1,13 +1,16 @@
-function index({ isVisible, onClose, children }) {
+import { useModal } from "../../Contexts/ModalContext";
+
+function Modal({ isVisible, onClose, children }) {
+  const { closeModal } = useModal();
   if (!isVisible) return;
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg relative max-w-md w-full">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+      <div className="relative h-[72vh] w-[95vw] overflow-y-auto">
         <button
-          onClick={onClose}
-          className="absolute top-2 right-2 text-gray-500 hover:text-red-500"
+          onClick={closeModal}
+          className="absolute right-2 top-2 rounded-full text-gray-500 hover:text-red-500"
         >
-          ✖️ Close
+          ✖️
         </button>
 
         {children}
@@ -16,4 +19,4 @@ function index({ isVisible, onClose, children }) {
   );
 }
 
-export default index;
+export default Modal;

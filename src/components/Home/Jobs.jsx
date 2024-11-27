@@ -42,7 +42,7 @@ export default function Jobs() {
   };
   const { t } = useTranslation();
   return (
-    <div className="my-[66px] bg-white">
+    <div className="my-[66px] overflow-hidden bg-white">
       <div className="mx-auto w-11/12 2xl:max-w-[1161px]">
         <h1 className="f-f-r mb-5 text-center text-[40px] font-medium leading-normal text-[#1A4402]">
           {t("home.jobsHeading")}

@@ -38,24 +38,24 @@ export default function Login() {
 
   return (
     <div>
-      <div className="grid grid-cols-12 items-center w-[900px] mx-auto">
+      <div className="#w-[900px] mx-auto grid h-full w-full grid-cols-12 items-center">
         <div className="col-span-12 lg:col-span-6">
-          <div className="bg-green-dark h-auto lg:h-auto py-10 lg:py-[300px]">
+          <div className="h-auto bg-green-dark py-10 lg:h-auto lg:py-[300px]">
             <img
               src={Loginmobile}
-              className="w-[325px] h-full mx-auto"
+              className="mx-auto h-full w-[325px]"
               alt=""
             />
           </div>
         </div>
 
-        <div className="col-span-12 lg:col-span-6 p-4 sm:p-20 bg-white">
+        <div className="col-span-12 h-full bg-white p-4 sm:p-20 lg:col-span-6">
           <div className="text-center md:text-start">
-            <ul className="2xl:inline-flex items-center mt-3 2xl:mt-0 2xl:space-x-7">
-              <li className="f-f-m text-green-dark text-7xl">Welcome Back</li>
-              <li className="w-[280px] h-[50px] border-[2px] mt-3 2xl:mt-0 border-green-dark rounded-md p-[6px]  inline-flex space-x-2 items-center">
+            <ul className="mt-3 items-center 2xl:mt-0 2xl:inline-flex 2xl:space-x-7">
+              <li className="f-f-m text-7xl text-green-dark">Welcome Back</li>
+              <li className="mt-3 inline-flex h-[50px] w-[280px] items-center space-x-2 rounded-md border-[2px] border-green-dark p-[6px] 2xl:mt-0">
                 <button
-                  className={`hover:bg-green-dark hover:text-white w-[150px] h-[40px] rounded-[5px] f-f-r text-white text-2xl ${
+                  className={`f-f-r h-[40px] w-[150px] rounded-[5px] text-2xl text-white hover:bg-green-dark hover:text-white ${
                     activeTab === "Super Admin"
                       ? "bg-green-dark text-white"
                       : "bg-transparent text-green-dark"
@@ -65,7 +65,7 @@ export default function Login() {
                   Super Admin
                 </button>
                 <button
-                  className={`hover:bg-green-dark hover:text-white w-[113px] h-[40px] rounded-[5px] f-f-r text-white text-2xl ${
+                  className={`f-f-r h-[40px] w-[113px] rounded-[5px] text-2xl text-white hover:bg-green-dark hover:text-white ${
                     activeTab === "Provider"
                       ? "bg-green-dark text-white"
                       : "bg-transparent text-green-dark"
@@ -78,12 +78,12 @@ export default function Login() {
             </ul>
           </div>
           <div className="mt-[65px] w-full 2xl:w-[450px]">
-            <h1 className="f-f-m text-xl text-green-dark ">
+            <h1 className="f-f-m text-xl text-green-dark">
               Email Address/Phone Number
             </h1>
             <input
               type="text"
-              className="rounded-[5px] border-[1.5px] border-green-dark w-full 2xl:w-[450px] h-[50px] f-f-m text-lg pl-[18px] mt-3 text-red-vlight"
+              className="f-f-m mt-3 h-[50px] w-full rounded-[5px] border-[1.5px] border-green-dark pl-[18px] text-lg text-red-vlight 2xl:w-[450px]"
               placeholder="Email Address/Phone Number"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -91,54 +91,54 @@ export default function Login() {
             <p className="f-f-m text-tiny text-red-vlight">Required</p>
           </div>
           <div className="mt-[53px] w-full 2xl:w-[450px]">
-            <h1 className="f-f-m text-xl text-green-dark ">Password</h1>
+            <h1 className="f-f-m text-xl text-green-dark">Password</h1>
             <input
               type="password"
-              className="rounded-[5px] border-[1.5px] border-green-dark w-full 2xl:w-[450px] h-[50px] f-f-m text-lg pl-[18px] mt-3 text-red-vlight"
+              className="f-f-m mt-3 h-[50px] w-full rounded-[5px] border-[1.5px] border-green-dark pl-[18px] text-lg text-red-vlight 2xl:w-[450px]"
               placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-            <ul className="inline-flex items-center w-full">
+            <ul className="inline-flex w-full items-center">
               <li>
                 <p className="f-f-m text-tiny text-red-vlight">Required</p>
               </li>
               <li className="ml-auto">
-                <a href="" className="f-f-r text-lg text-green-dark ">
+                <a href="" className="f-f-r text-lg text-green-dark">
                   Forgot password?
                 </a>
               </li>
             </ul>
           </div>
           <button
-            className="w-[100px] h-10 rounded-[3px] bg-green-dark f-f-r text-xl text-white mt-[23px]"
+            className="f-f-r mt-[23px] h-10 w-[100px] rounded-[3px] bg-green-dark text-xl text-white"
             onClick={handleLogin}
           >
             Login
           </button>
-          <h1 className="f-f-r text-green-dark text-lg mt-[10px]">
+          <h1 className="f-f-r mt-[10px] text-lg text-green-dark">
             Don’t have an account?{" "}
             <a href="/register" className="font-semibold">
               Create Account
             </a>
           </h1>
-          <h2 className="connectset mt-[45px] f-f-li-k text-tiny">
+          <h2 className="connectset f-f-li-k mt-[45px] text-tiny">
             Or connect with
           </h2>
-          <div className="justify-center w-full inline-flex space-x-4 sm:space-x-[39px] items-center mt-5">
-            <button className="w-[94px] h-[61px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
-              <img src={Googlered} className="w-6 h-6 mx-auto" alt="" />
+          <div className="mt-5 inline-flex w-full items-center justify-center space-x-4 sm:space-x-[39px]">
+            <button className="h-[61px] w-[94px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
+              <img src={Googlered} className="mx-auto h-6 w-6" alt="" />
             </button>
-            <button className="w-[94px] h-[61px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
-              <img src={Appleblack} className="w-6 h-6 mx-auto" alt="" />
+            <button className="h-[61px] w-[94px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
+              <img src={Appleblack} className="mx-auto h-6 w-6" alt="" />
             </button>
-            <button className="w-[94px] h-[61px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
-              <img src={Facebookblue} className="w-6 h-6 mx-auto" alt="" />
+            <button className="h-[61px] w-[94px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
+              <img src={Facebookblue} className="mx-auto h-6 w-6" alt="" />
             </button>
           </div>
           <img
             src={Bottomlogo}
-            className="w-[145px] h-[149px] mx-auto mt-[43px]"
+            className="mx-auto mt-[43px] h-[149px] w-[145px]"
             alt=""
           />
         </div>
