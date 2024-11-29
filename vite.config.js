@@ -5,14 +5,14 @@ import { viteStaticCopy } from "vite-plugin-static-copy";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    // viteStaticCopy({
-    //   targets: [
-    //     {
-    //       src: "src/assets",
-    //       dest: "",
-    //     },
-    //   ],
-    // }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: "src/assets",
+          dest: "",
+        },
+      ],
+    }),
     react(),
   ],
 });
