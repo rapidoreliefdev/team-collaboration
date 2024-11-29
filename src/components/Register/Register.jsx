@@ -15,7 +15,7 @@ export default function Signup() {
           </div>
         </div>
 
-        <div className="col-span-12 h-full bg-white p-4 sm:p-20 lg:col-span-6">
+        <div className="#bg-white col-span-12 h-full bg-[#EAF9D6] p-4 sm:p-20 lg:col-span-6">
           <img
             src={Bottomlogo}
             className="#mt-[43px] mx-auto mt-5 h-[149px] w-[145px] lg:hidden"

@@ -49,7 +49,7 @@ export default function Login() {
           </div>
         </div>
 
-        <div className="col-span-12 h-full bg-white p-4 sm:p-20 lg:col-span-6">
+        <div className="#bg-white col-span-12 h-full bg-[#EAF9D6] p-4 sm:p-20 lg:col-span-6">
           <div className="text-center md:text-start">
             <ul className="mt-3 items-center 2xl:mt-0 2xl:inline-flex 2xl:space-x-7">
               <li className="f-f-m text-7xl text-green-dark">Welcome Back</li>
