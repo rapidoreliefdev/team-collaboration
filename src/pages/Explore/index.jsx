@@ -387,14 +387,10 @@ const Explore = () => {
                 />
               </div>
               <div className="col-span-12 lg:col-span-7">
-                <ul className="inline-flex items-center space-x-5">
-                  <h1
-                    style={{ fontFamily: "serif" }}
-                    className="text-xl text-black sm:text-9xl"
-                  >
-                    {t("explore.howItWorks")}
-                  </h1>
-                </ul>
+                <h1 className="f-f-e text-center text-[48px] font-normal text-black sm:text-[64px] lg:text-left">
+                  {t("explore.howItWorks")}
+                </h1>
+
                 <div className="ml-5 pl-10">
                   <ul className="mt-9 inline-flex items-center space-x-5">
                     {/* <li><img src={Intuitive} className='h-[80px] w-80px]' alt="" /></li> */}
