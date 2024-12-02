@@ -31,7 +31,7 @@ export default function Index() {
   const [partnerDialogOpen, setPartnerDialogOpen] = useState(false);
 
   return (
-    <div className="f-f-r m-0 w-lvw overflow-x-hidden p-0">
+    <div className="f-f-r m-0 w-lvw p-0" id="home">
       {/* <ChatBot/> */}
       <PartnerDialog
         open={partnerDialogOpen}

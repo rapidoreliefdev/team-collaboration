@@ -178,7 +178,7 @@ const Explore = () => {
 
   return (
     <>
-      <div>
+      <div id="explore">
         <div className="main-wrapper-explore text-black">
           <Navbar />
           <div className="mx-auto w-11/12 2xl:max-w-[1154px]">

@@ -21,6 +21,10 @@ export default function Navbar() {
   const [open, setOpen] = React.useState(false);
   const [modal2Open, setModal2Open] = useState(false);
   const [isTablet, setIsTablet] = useState(window.innerWidth < 1024);
+  const [isExplorePage, setIsExplorePage] = useState(
+    document.getElementById("explore"),
+  );
+  console.log(isExplorePage);
 
   const { t } = useTranslation();
 
@@ -30,6 +34,7 @@ export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
+    setIsExplorePage(document.getElementById("explore"));
     localStorage.setItem("selectedLanguage", selectedLanguage);
   }, [selectedLanguage]);
 
@@ -145,7 +150,13 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="w-full border-gray-200 bg-[#336109]">
+      <nav
+        className={
+          isExplorePage
+            ? "bg-[#1A4402]/50"
+            : "w-full border-gray-200 bg-transparent"
+        }
+      >
         <div className="mx-auto flex w-11/12 flex-wrap items-center justify-between p-4 xl:w-[1161px]">
           <Link
             to="/"
