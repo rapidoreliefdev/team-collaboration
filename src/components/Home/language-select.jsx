@@ -6,7 +6,13 @@ export default function LanguageSelector({ type = "text" }) {
   const [selectedLanguage, setSelectedLanguage] = useState({
     name: "English",
     code: "En",
-    image: "assets/icons/icon-translate.svg",
+    image: (
+      <img
+        src="assets/icons/icon-translate.svg"
+        alt="globe icon"
+        className="h-full w-full"
+      />
+    ),
   });
 
   const { i18n } = useTranslation();
@@ -23,19 +29,47 @@ export default function LanguageSelector({ type = "text" }) {
     {
       name: "English",
       code: "En",
-      image: "assets/images/flags-en-GB.svg",
+      image: (
+        <img
+          src="assets/images/flags-en-GB.svg"
+          alt="british flag"
+          className="h-full w-full"
+        />
+      ),
     },
     {
       name: "Portuguese",
       code: "Br",
-      image: "assets/images/flags-pt-BR.svg",
+      image: (
+        <img
+          src="assets/images/flags-pt-BR.svg"
+          alt="brazil's flag"
+          className="h-full w-full"
+        />
+      ),
     },
     {
       name: "Espanol",
       code: "Es",
-      image: "assets/images/flags-es-ES.svg",
+      image: (
+        <img
+          src="assets/images/flags-es-ES.svg"
+          alt="spanish flag"
+          className="h-full w-full"
+        />
+      ),
     },
-    { name: "Dutch", code: "Nl", image: "assets/images/flags-nl-Nl.svg" },
+    {
+      name: "Dutch",
+      code: "Nl",
+      image: (
+        <img
+          src="assets/images/flags-nl-Nl.svg"
+          alt="dutch flag"
+          className="h-full w-full"
+        />
+      ),
+    },
   ];
 
   return (
@@ -43,11 +77,7 @@ export default function LanguageSelector({ type = "text" }) {
       {type === "image" && (
         <div className="relative h-8 w-12 px-2">
           <div className="h-full w-full" onClick={toggleDropdown}>
-            <img
-              src={selectedLanguage.image}
-              alt={selectedLanguage.name}
-              className="h-full w-full"
-            />
+            {selectedLanguage.image}
           </div>
           <div
             className={`absolute right-1/2 flex w-full translate-x-1/2 flex-col overflow-hidden rounded-sm bg-white/30 transition-all duration-300 ${isOpen ? "max-h-24" : "max-h-0"}`}
@@ -61,11 +91,7 @@ export default function LanguageSelector({ type = "text" }) {
                   toggleDropdown();
                 }}
               >
-                <img
-                  src={language.image}
-                  alt={language.name}
-                  className="h-full w-full"
-                />
+                {language.image}
               </div>
             ))}
           </div>
