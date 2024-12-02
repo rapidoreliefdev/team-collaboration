@@ -12,7 +12,7 @@ import {
 } from "@material-tailwind/react";
 import { getIPAndCountry } from "../../services/getRegion";
 
-export default function DialogDefault({ open, setOpen, handleOpen }) {
+export default function PartnerDialog({ open, setOpen, handleOpen }) {
   const { partnerSignup } = useAuth();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -94,36 +94,33 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
       <Dialog
         open={open}
         handler={() => handleOpen()}
-        className=" bg-green-light 2xl:min-w-[1200px] relative sm:p-5 md:p-9 "
+        className="relative bg-green-light sm:p-5 md:p-9 2xl:min-w-[1200px]"
       >
-        <DialogBody
-          className="  overflow-y-scroll  "
-          style={{ height: "80vh" }}
-        >
-          <div className="grid grid-cols-12  items-center">
+        <DialogBody className="overflow-y-scroll" style={{ height: "80vh" }}>
+          <div className="grid grid-cols-12 items-center">
             <div className="col-span-12 2xl:col-span-5">
               <img
                 src={Individual}
-                className="w-auto 2xl:-mr-20 2xl:w-[548px] h-auto 2xl:h-full mx-auto"
+                className="mx-auto h-auto w-auto 2xl:-mr-20 2xl:h-full 2xl:w-[548px]"
                 alt=""
               />
             </div>
             <div className="col-span-12 2xl:col-span-7">
-              <div className="bg-red-vlight rounded-[35px] p-[27px]">
-                <h1 className="f-f-m text-2xl sm:text-6xl text-white text-center uppercase">
+              <div className="rounded-[35px] bg-red-vlight p-[27px]">
+                <h1 className="f-f-m text-center text-2xl uppercase text-white sm:text-6xl">
                   Fill in your credentials and click on the the Submit button
                 </h1>
-                <div className="grid grid-cols-12 gap-2 sm:gap-3 xl:gap-[47px] items-center">
+                <div className="grid grid-cols-12 items-center gap-2 sm:gap-3 xl:gap-[47px]">
                   <div className="col-span-12 xl:col-span-6">
                     <label
                       htmlFor=""
-                      className="f-f-r text-green text-xl sm:text-2xl"
+                      className="f-f-r text-xl text-green sm:text-2xl"
                     >
                       First Name
                     </label>
                     <input
                       type="text"
-                      className="rounded-[14px] border-[1.5px] bg-white border-green-dark f-f-m text-lg text-red-vlight pl-5 h-[50px] w-full mt-2 outline-none "
+                      className="f-f-m mt-2 h-[50px] w-full rounded-[14px] border-[1.5px] border-green-dark bg-white pl-5 text-lg text-red-vlight outline-none"
                       placeholder="Your First Name"
                       value={firstName}
                       onChange={(e) => setFirstName(e.target.value)}
@@ -132,13 +129,13 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
                   <div className="col-span-12 xl:col-span-6">
                     <label
                       htmlFor=""
-                      className="f-f-r text-green text-xl sm:text-2xl"
+                      className="f-f-r text-xl text-green sm:text-2xl"
                     >
                       Last Name
                     </label>
                     <input
                       type="text"
-                      className="rounded-[14px] border-[1.5px] bg-white border-green-dark f-f-m text-lg text-red-vlight pl-5 h-[50px] w-full mt-2 outline-none "
+                      className="f-f-m mt-2 h-[50px] w-full rounded-[14px] border-[1.5px] border-green-dark bg-white pl-5 text-lg text-red-vlight outline-none"
                       placeholder="Your Last Name"
                       value={lastName}
                       onChange={(e) => setLastName(e.target.value)}
@@ -148,13 +145,13 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
                 <div className="mt-2 sm:mt-3">
                   <label
                     htmlFor=""
-                    className="f-f-r text-green text-xl sm:text-2xl "
+                    className="f-f-r text-xl text-green sm:text-2xl"
                   >
                     Professional Name *
                   </label>
                   <input
                     type="text"
-                    className="rounded-[14px] border-[1.5px] bg-white border-green-dark f-f-m text-lg text-red-vlight pl-5 h-[45px] sm:h-[50px] w-full mt-2 outline-none "
+                    className="f-f-m mt-2 h-[45px] w-full rounded-[14px] border-[1.5px] border-green-dark bg-white pl-5 text-lg text-red-vlight outline-none sm:h-[50px]"
                     placeholder="Your Professional Name"
                     value={professionalName}
                     onChange={(e) => setProfessionalName(e.target.value)}
@@ -163,13 +160,13 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
                 <div className="mt-2 sm:mt-3">
                   <label
                     htmlFor=""
-                    className="f-f-r text-green text-xl sm:text-2xl "
+                    className="f-f-r text-xl text-green sm:text-2xl"
                   >
                     Practice Specialty or Pharmacy Store Name *
                   </label>
                   <input
                     type="text"
-                    className="rounded-[14px] border-[1.5px] bg-white border-green-dark f-f-m text-lg text-red-vlight pl-5 h-[45px] sm:h-[50px] w-full mt-2 outline-none "
+                    className="f-f-m mt-2 h-[45px] w-full rounded-[14px] border-[1.5px] border-green-dark bg-white pl-5 text-lg text-red-vlight outline-none sm:h-[50px]"
                     placeholder="Your Practice Name"
                     value={practiceName}
                     onChange={(e) => setPracticeName(e.target.value)}
@@ -178,13 +175,13 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
                 <div className="mt-2 sm:mt-3">
                   <label
                     htmlFor=""
-                    className="f-f-r text-green text-xl sm:text-2xl "
+                    className="f-f-r text-xl text-green sm:text-2xl"
                   >
                     What’s your role at the practice? *
                   </label>
                   <input
                     type="text"
-                    className="rounded-[14px] border-[1.5px] bg-white border-green-dark f-f-m text-lg text-red-vlight pl-5 h-[45px] sm:h-[50px] w-full mt-2 outline-none "
+                    className="f-f-m mt-2 h-[45px] w-full rounded-[14px] border-[1.5px] border-green-dark bg-white pl-5 text-lg text-red-vlight outline-none sm:h-[50px]"
                     placeholder="Your Role Name"
                     value={role}
                     onChange={(e) => setRole(e.target.value)}
@@ -193,13 +190,13 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
                 <div className="mt-2 sm:mt-3">
                   <label
                     htmlFor=""
-                    className="f-f-r text-green text-xl sm:text-2xl "
+                    className="f-f-r text-xl text-green sm:text-2xl"
                   >
                     Email Address
                   </label>
                   <input
                     type="text"
-                    className="rounded-[14px] border-[1.5px] bg-white border-green-dark f-f-m text-lg text-red-vlight pl-5 h-[45px] sm:h-[50px] w-full mt-2 outline-none "
+                    className="f-f-m mt-2 h-[45px] w-full rounded-[14px] border-[1.5px] border-green-dark bg-white pl-5 text-lg text-red-vlight outline-none sm:h-[50px]"
                     placeholder="Your Email Address"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -208,20 +205,20 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
                 <div className="mt-2 sm:mt-3">
                   <label
                     htmlFor=""
-                    className="f-f-r text-green text-xl sm:text-2xl "
+                    className="f-f-r text-xl text-green sm:text-2xl"
                   >
                     Phone Number
                   </label>
                   <input
                     type="text"
-                    className="rounded-[14px] border-[1.5px] bg-white border-green-dark f-f-m text-lg text-red-vlight pl-5 h-[45px] sm:h-[50px] w-full mt-2 outline-none "
+                    className="f-f-m mt-2 h-[45px] w-full rounded-[14px] border-[1.5px] border-green-dark bg-white pl-5 text-lg text-red-vlight outline-none sm:h-[50px]"
                     placeholder="Your Last Name"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                   />
                 </div>
-                <div className="mt-5 ">
-                  <div className=" items-center ">
+                <div className="mt-5">
+                  <div className="items-center">
                     <input
                       type="checkbox"
                       className="green-box"
@@ -231,19 +228,16 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
                     />
                     <label
                       htmlFor="vehicle2"
-                      className=" f-f-m text-green-dark ml-[20px] text-2xl relative top-[-6px] "
+                      className="f-f-m relative top-[-6px] ml-[20px] text-2xl text-green-dark"
                     >
                       I accept all{" "}
-                      <span className=" text-green ">
-                        {" "}
-                        terms and condition{" "}
-                      </span>{" "}
+                      <span className="text-green"> terms and condition </span>{" "}
                     </label>
                   </div>
                 </div>
-                <div className="text-center mt-4">
+                <div className="mt-4 text-center">
                   <button
-                    className="w-full sm:w-[298px] h-[50px] sm:h-[63px] bg-green-dark rounded-[14px] border border-green f-f-m text-5xl sm:text-7xl text-white "
+                    className="f-f-m h-[50px] w-full rounded-[14px] border border-green bg-green-dark text-5xl text-white sm:h-[63px] sm:w-[298px] sm:text-7xl"
                     onClick={handleSubmit}
                   >
                     Submit
@@ -254,12 +248,13 @@ export default function DialogDefault({ open, setOpen, handleOpen }) {
           </div>
         </DialogBody>
 
+        {/* close button */}
         <button
           onClick={() => handleOpen()}
-          className="  absolute top-[5px] right-[5px] "
+          className="absolute right-[5px] top-[5px]"
         >
           <svg
-            className=" w-[25px] md:w-[30px] h-[25px] md:h-[30px] "
+            className="h-[25px] w-[25px] md:h-[30px] md:w-[30px]"
             viewBox="0 0 30 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

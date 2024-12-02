@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./header";
 import Hero from "./Hero";
 import Option from "./Option";
@@ -23,13 +23,20 @@ import { useModal } from "../../Contexts/ModalContext";
 import Signup from "../Register/Register";
 import Login from "../Login";
 import { useTranslation } from "react-i18next";
+import PartnerDialog from "./Dilogbox/Partner";
 
 export default function Index() {
   const { t } = useTranslation();
   const { isModalVisible, modalContent } = useModal();
+  const [partnerDialogOpen, setPartnerDialogOpen] = useState(false);
+
   return (
     <div className="f-f-r m-0 w-lvw overflow-x-hidden p-0">
       {/* <ChatBot/> */}
+      <PartnerDialog
+        open={partnerDialogOpen}
+        handleOpen={() => setPartnerDialogOpen((open) => !open)}
+      />
       <div className={`herobg w-full bg-cover bg-center bg-no-repeat`}>
         {/* <Header /> */}
         <Navbar />
@@ -47,7 +54,9 @@ export default function Index() {
         <Vision />
       </div>
       <Help />
-      <ProviderMarketplace />
+      <ProviderMarketplace
+        btnOnClick={() => setPartnerDialogOpen((open) => !open)}
+      />
       <Telehealth />
       <FAQSection />
       <Jobs />

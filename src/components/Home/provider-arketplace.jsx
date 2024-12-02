@@ -3,7 +3,7 @@ import ImageTwo from "../../assets/images/market-2.png";
 import ImageThree from "../../assets/images/market-3.svg";
 import { useTranslation } from "react-i18next";
 
-export default function ProviderMarketplace() {
+export default function ProviderMarketplace({ btnOnClick }) {
   const { t } = useTranslation();
   return (
     <div className="my-5 w-full bg-[#1A4402] 2xl:mx-auto 2xl:max-w-[1161px]">
@@ -23,6 +23,7 @@ export default function ProviderMarketplace() {
           </p>
 
           <button
+            onClick={btnOnClick}
             style={{ fontWeight: 500 }}
             className="f-f-m mt-2 flex items-center justify-start gap-3 rounded-[10px] bg-[#EAF9D6] px-[16px] py-[12px] text-[18px] font-medium leading-normal tracking-[-0.36px] text-[#1A4402]"
           >

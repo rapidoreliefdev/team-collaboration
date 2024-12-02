@@ -151,6 +151,7 @@ export default function Navbar() {
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
+            {/* rapid relief icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="49"
@@ -204,6 +205,7 @@ export default function Navbar() {
           <div className="flex items-center lg:hidden">
             {isTablet && <LanguageSelector type="image" />}
 
+            {/* show dropdown navbar */}
             <button
               onClick={() => setnavbar(!navbar)}
               data-collapse-toggle="navbar-dropdown"
