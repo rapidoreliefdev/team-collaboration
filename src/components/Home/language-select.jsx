@@ -6,7 +6,7 @@ export default function LanguageSelector({ type = "text" }) {
   const [selectedLanguage, setSelectedLanguage] = useState({
     name: "English",
     code: "En",
-    image: "../../assets/icons/icon-translate.svg",
+    image: "assets/icons/icon-translate.svg",
   });
 
   const { i18n } = useTranslation();
@@ -23,19 +23,19 @@ export default function LanguageSelector({ type = "text" }) {
     {
       name: "English",
       code: "En",
-      image: "../../assets/images/flags-en-GB.svg",
+      image: "assets/images/flags-en-GB.svg",
     },
     {
       name: "Portuguese",
       code: "Br",
-      image: "../../assets/images/flags-pt-BR.svg",
+      image: "assets/images/flags-pt-BR.svg",
     },
     {
       name: "Espanol",
       code: "Es",
-      image: "../../assets/images/flags-es-ES.svg",
+      image: "assets/images/flags-es-ES.svg",
     },
-    { name: "Dutch", code: "Nl", image: "../../assets/images/flags-nl-Nl.svg" },
+    { name: "Dutch", code: "Nl", image: "assets/images/flags-nl-Nl.svg" },
   ];
 
   return (
