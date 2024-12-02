@@ -1,10 +1,5 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import IconGlobe from "../../assets/icons/icon-translate.svg";
-import FlagBritian from "../../assets/images/flags-en-GB.svg";
-import FlagBrazil from "../../assets/images/flags-pt-BR.svg";
-import FlagSpain from "../../assets/images/flags-es-ES.svg";
-import FlagNetherlands from "../../assets/images/flags-nl-Nl.svg";
 
 export default function LanguageSelector({ type = "text" }) {
   const [isOpen, setIsOpen] = useState(false);
