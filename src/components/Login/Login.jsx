@@ -1,9 +1,4 @@
 import React, { useState } from "react";
-import Loginmobile from "../../assets/images/Loginmobile.svg";
-import Googlered from "../../assets/images/Googlered.svg";
-import Appleblack from "../../assets/images/Appleblack.svg";
-import Facebookblue from "../../assets/images/Facebookblue.svg";
-import Bottomlogo from "../../assets/images/Bottomlogo.svg";
 import { useAuth } from "../services/authService";
 import { message } from "antd";
 import { useNavigate } from "react-router-dom";
@@ -42,7 +37,7 @@ export default function Login() {
         <div className="col-span-12 lg:col-span-6">
           <div className="h-auto bg-green-dark py-10 lg:h-auto lg:py-[300px]">
             <img
-              src={Loginmobile}
+              src="../../assets/images/Loginmobile.svg"
               className="mx-auto h-full w-[325px]"
               alt=""
             />
@@ -127,17 +122,29 @@ export default function Login() {
           </h2>
           <div className="mt-5 inline-flex w-full items-center justify-center space-x-4 sm:space-x-[39px]">
             <button className="h-[61px] w-[94px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
-              <img src={Googlered} className="mx-auto h-6 w-6" alt="" />
+              <img
+                src="../../assets/images/Googlered.svg"
+                className="mx-auto h-6 w-6"
+                alt=""
+              />
             </button>
             <button className="h-[61px] w-[94px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
-              <img src={Appleblack} className="mx-auto h-6 w-6" alt="" />
+              <img
+                src="../../assets/images/Appleblack.svg"
+                className="mx-auto h-6 w-6"
+                alt=""
+              />
             </button>
             <button className="h-[61px] w-[94px] rounded-[5px] bg-white-vdark shadow-md shadow-red-dark">
-              <img src={Facebookblue} className="mx-auto h-6 w-6" alt="" />
+              <img
+                src="../../assets/images/Facebookblue.svg"
+                className="mx-auto h-6 w-6"
+                alt=""
+              />
             </button>
           </div>
           <img
-            src={Bottomlogo}
+            src="../../assets/images/Bottomlogo.svg"
             className="mx-auto mt-[43px] h-[149px] w-[145px]"
             alt=""
           />

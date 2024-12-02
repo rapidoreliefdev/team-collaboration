@@ -104,26 +104,23 @@ const Explore = () => {
   const testimonials = [
     {
       name: "Tamarind",
-      role: "Cardiologist Patient",
+      role: t("explore.patientsTestimonial.testimonialRole1"),
       rating: 5,
-      feedback:
-        "Thanks for all of the services, no doubt it is the best connection",
+      feedback: t("explore.patientsTestimonial.testimonialFeedback1"),
       image: imgTamarin, // Replace with your image URL
     },
     {
       name: "Charlie",
-      role: "Neurologist Patient",
+      role: t("explore.patientsTestimonial.testimonialRole2"),
       rating: 5,
-      feedback:
-        "Thanks for all of the services, no doubt it is the best connection",
+      feedback: t("explore.patientsTestimonial.testimonialFeedback2"),
       image: imgCharlie,
     },
     {
       name: "Colin Lay",
-      role: "Cardiologist Patient",
+      role: t("explore.patientsTestimonial.testimonialRole3"),
       rating: 5,
-      feedback:
-        "Thanks for all of the services, no doubt it is the best connection",
+      feedback: t("explore.patientsTestimonial.testimonialFeedback3"),
       image: imgColinLay,
     },
   ];
@@ -207,13 +204,14 @@ const Explore = () => {
                     <Button className="explore-hero-button primary-color-bg">
                       {t("explore.buttonText1")}
                     </Button>
-                    <img
+                    <Button></Button>
+                    {/* <img
                       className="img-explore-watch"
-                      src={WatchVideo}
+                      src=""
                       width={130}
                       height={100}
                       alt="watch-video"
-                    />
+                    /> */}
                   </div>
                   <p className="subtitle-explore mt-3">
                     {t("explore.invitation")}
@@ -496,39 +494,40 @@ const Explore = () => {
           </div>
         </div>
 
-        {/* Book Appointmnet */}
+        {/* Book Appointment */}
         <section className="mx-auto mt-10 flex w-11/12 flex-col justify-center 2xl:max-w-[1154px]">
           <h1 className="f-f-e text-center text-11xl text-[#2E333E] sm:text-[64px]">
-            Book Appointment
+            {t("explore.bookAppointmentSection.title")}
           </h1>
           <p className="mx-auto mt-[30px] w-10/12 text-center text-2xl text-[#2E333E] lg:w-[672px]">
-            Schedule your next appointment effortlessly, We will contact you to
-            confirm your request or change the time or day if unavailable.{" "}
+            {t("explore.bookAppointmentSection.supportingText")}{" "}
           </p>
           <div className="mt-[43px] flex w-full flex-wrap justify-center gap-10 xl:flex-nowrap xl:justify-between">
             <div className="flex w-[384px] flex-col items-center gap-3">
               <img src={iconTelephone} alt="" />
-              <h3 className="f-f-e text-[32px]">Give us a call</h3>
+              <h3 className="f-f-e text-[32px]"></h3>
               <p className="mx-auto w-9/12 text-center text-xl">
-                Lorem ipsum dolor sit amet sit dignissim pellentesque
+                {t("explore.bookAppointmentSection.body1")}
               </p>
               <p className="text-xl text-[#1A4402]">(12) 345-67890</p>
             </div>
             <div className="flex w-[394px] flex-col items-center gap-3">
               <img src={iconMail} alt="" />
-              <h3 className="f-f-e text-[32px]">Send us an email</h3>
+              <h3 className="f-f-e text-[32px]"></h3>
               <p className="mx-auto w-9/12 text-center text-xl">
-                Lorem ipsum dolor sit amet sit dignissim pellentesque
+                {t("explore.bookAppointmentSection.body2")}
               </p>
               <p className="text-xl text-[#1A4402]">contact@example.com</p>
             </div>
             <div className="flex w-[394px] flex-col items-center gap-3">
               <img src={iconClinic} alt="" />
-              <h3 className="f-f-e text-[32px]">Visit to clinic</h3>
+              <h3 className="f-f-e text-[32px]"></h3>
               <p className="mx-auto w-9/12 text-center text-xl">
-                Lorem ipsum dolor sit amet sit dignissim pellentesque
+                {t("explore.bookAppointmentSection.body3")}
               </p>
-              <p className="text-xl text-[#1A4402]">Cooks mill road halifax</p>
+              <p className="text-xl text-[#1A4402]">
+                {t("explore.bookAppointmentSection.address")}
+              </p>
             </div>
           </div>
           {/* <img src={BookAppointment} alt="" /> */}
@@ -539,12 +538,13 @@ const Explore = () => {
         <Jobs />
       </div>
 
+      {/* Patients Testimonial */}
       <section className="mx-auto w-11/12 2xl:max-w-[1154px]">
         <h1 className="f-f-m-p text-center text-[48px] text-[#1A4402]/50">
-          Patients Testimonial
+          {t("explore.patientsTestimonial.title")}
         </h1>
         <h3 className="text-center text-xl text-[#749D1C]">
-          Let’s see what our happy patients says
+          {t("explore.patientsTestimonial.supportingText")}
         </h3>
         <div className="testimonial-slider">
           <Slider {...settings2}>
@@ -584,7 +584,7 @@ const Explore = () => {
                   htmlFor=""
                   className="mb-[15px] text-xl font-semibold text-[#1A4402]"
                 >
-                  Name
+                  {t("explore.patientsTestimonial.form.name")}
                 </label>
                 <input
                   type="text"
@@ -597,7 +597,7 @@ const Explore = () => {
                   htmlFor=""
                   className="mb-[15px] text-xl font-semibold text-[#1A4402]"
                 >
-                  Phone Number
+                  {t("explore.patientsTestimonial.form.phoneNumber")}
                 </label>
                 <input
                   type="tel"
@@ -613,7 +613,7 @@ const Explore = () => {
                   htmlFor=""
                   className="mb-[15px] text-xl font-semibold text-[#1A4402]"
                 >
-                  Email Address
+                  {t("explore.patientsTestimonial.form.email")}
                 </label>
                 <input
                   type="email"
@@ -626,7 +626,7 @@ const Explore = () => {
                   htmlFor=""
                   className="mb-[15px] text-xl font-semibold text-[#1A4402]"
                 >
-                  Service
+                  {t("explore.patientsTestimonial.form.service")}
                 </label>
                 <input
                   type="text"
@@ -643,7 +643,7 @@ const Explore = () => {
                 htmlFor=""
                 className="mb-[10px] text-xl font-semibold text-[#1A4402]"
               >
-                Message
+                {t("explore.patientsTestimonial.form.message")}
               </label>
               <textarea
                 name=""
@@ -654,7 +654,7 @@ const Explore = () => {
             </div>
 
             <button className="w-full rounded-lg bg-[#1A4402] px-[30px] py-[15px] text-[25px] font-semibold text-white hover:bg-[#1A4402]/90">
-              Submit
+              {t("explore.patientsTestimonial.form.submit")}
             </button>
           </div>
         </form>

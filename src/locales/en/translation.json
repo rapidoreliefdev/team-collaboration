@@ -44,6 +44,7 @@
   "appStore": "App Store",
   "watchVideo": "Watch videos",
   "search": "Search",
+  "years": "years",
   "aboutPage": {
     "founder": "Founder",
     "Greetings": "Hey there!",
@@ -284,11 +285,14 @@
     "haveInsurance": "Have Insurance",
     "consultOnline": "Consult Online",
     "findPharmacy": "Find Pharmacy",
-    "findDoctor": "Find a Doctors",
+    "findDoctor": "Find a Doctor",
     "findHospital": "Find a Hospital",
     "emergencyAmbulance": "Emergency Ambulance",
     "mentalHealth": "Mental Health",
     "availableSpecialty": "Available Specialty",
+    "doctors": {
+      "btnText": "Book an Appointment"
+    },
     "howItWorks": "How it Works",
     "createAccount": "Create your account.",
     "signUp": "Sign up and complete your registration.Once done, you'll instantly view the visit cost.",
@@ -297,7 +301,36 @@
     "subHeading1": "Begin your live virtual consultation",
     "supportingText": "Connect with one of our board-certified doctors who will assess your symptoms and provide a personalized treatment plan. If necessary, receive prescriptions conveniently delivered to you or sent directly to your local pharmacy.",
     "healthIsOurSpecialty": "Your whole Health is Our Specialty",
-    "learnMore": "LEARN MORE"
+    "learnMore": "LEARN MORE",
+    "bookAppointmentSection": {
+      "title": "Book Appointment",
+      "supportingText": "Schedule your next appointment effortlessly, We will contact you to confirm your request or change the time or day if unavailable.",
+      "subHeading1": "Give us a call",
+      "body1": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "subHeading2": "Send us an email",
+      "body2": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "subHeading3": "Visit to clinic",
+      "body3": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "address": "Cooks mill road halifax"
+    },
+    "patientsTestimonial": {
+      "title": "Patients Testimonial",
+      "suppportingText": "Let’s see what our happy patients says",
+      "testimonialRole1": "Cardiologist Patient",
+      "testimonialRole2": "Neurologist Patient",
+      "testimonialRole3": "Cardiologist Patient",
+      "testimonialFeedback1": "Thanks for all of the services, no doubt it is the best connection",
+      "testimonialFeedback2": "Thanks for all of the services, no doubt it is the best connection",
+      "testimonialFeedback3": "Thanks for all of the services, no doubt it is the best connection",
+      "form": {
+        "name": "Name",
+        "phoneNumber": "Phone Number",
+        "email": "Email Address",
+        "service": "Service",
+        "message": "Message",
+        "submit": "Submit"
+      }
+    }
   },
   "Esg": {
     "areYouACustomer": "Are you already a customer and need support?",

@@ -43,6 +43,7 @@
   "downloadOn": "Baixe no",
   "appStore": "App Store",
   "watchVideo": "Assistir vídeos",
+  "search": "Procurar",
   "aboutPage": {
     "Greetings": "Ei!",
     "founder": "Fundador",
@@ -272,6 +273,63 @@
     "subHeading21": "Informações de contato:",
     "body19": "Para dúvidas ou comentários sobre esta Política de Privacidade, seus Dados Pessoais e seus direitos, entre em contato conosco:",
     "subHeading22": "E-mail: Privacy@rapidorelief.com"
+  },
+  "explore": {
+    "header": "We care",
+    "headerHighlighted": "about your health",
+    "heroSupportingText": "Good health is the state of mental, physical and social well being and it does not just mean absence of diseases.",
+    "buttonText1": "Book Best Doctor Near You!",
+    "invitation": "Become member of our community?",
+    "location": "Location",
+    "haveInsurance": "Have Insurance",
+    "consultOnline": "Consult Online",
+    "findPharmacy": "Find Pharmacy",
+    "findDoctor": "Find a Doctors",
+    "findHospital": "Find a Hospital",
+    "emergencyAmbulance": "Emergency Ambulance",
+    "mentalHealth": "Mental Health",
+    "availableSpecialty": "Available Specialty",
+    "doctors": {
+      "btnText": "Book an Appointment"
+    },
+    "howItWorks": "How it Works",
+    "createAccount": "Create your account.",
+    "signUp": "Sign up and complete your registration.Once done, you'll instantly view the visit cost.",
+    "chooseProvider": "Choose a provider or schedule an appointment:",
+    "chooseProviderBody": "Select the next available healthcare professional or book an appointment at your convenience. Share your concerns and provide background information by answering a few quick questions.",
+    "subHeading1": "Begin your live virtual consultation",
+    "supportingText": "Connect with one of our board-certified doctors who will assess your symptoms and provide a personalized treatment plan. If necessary, receive prescriptions conveniently delivered to you or sent directly to your local pharmacy.",
+    "healthIsOurSpecialty": "Your whole Health is Our Specialty",
+    "learnMore": "LEARN MORE",
+    "bookAppointmentSection": {
+      "title": "Book Appointment",
+      "supportingText": "Schedule your next appointment effortlessly, We will contact you to confirm your request or change the time or day if unavailable.",
+      "subHeading1": "Give us a call",
+      "body1": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "subHeading2": "Send us an email",
+      "body2": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "subHeading3": "Visit to clinic",
+      "body3": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "address": "Cooks mill road halifax"
+    },
+    "patientsTestimonial": {
+      "title": "Depoimento de Pacientes",
+      "suppportingText": "Vamos ver o que nossos pacientes felizes dizem",
+      "testimonialRole1": "Paciente Cardiologista",
+      "testimonialRole2": "Paciente Neurologista",
+      "testimonialRole3": "Paciente Cardiologista",
+      "testimonialFeedback1": "Obrigado por todos os serviços, sem dúvida é a melhor conexão",
+      "testimonialFeedback2": "Obrigado por todos os serviços, sem dúvida é a melhor conexão",
+      "testimonialFeedback3": "Obrigado por todos os serviços, sem dúvida é a melhor conexão",
+      "form": {
+        "name": "Nome",
+        "phoneNumber": "Número de telefone",
+        "email": "Endereço de email",
+        "service": "Serviço",
+        "message": "Mensagem",
+        "submit": "Enviar"
+      }
+    }
   },
   "Esg": {
     "areYouACustomer": "Você já é cliente e precisa de suporte?",

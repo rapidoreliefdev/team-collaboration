@@ -145,7 +145,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="border-gray-200 bg-[#336109]">
+      <nav className="w-full border-gray-200 bg-[#336109]">
         <div className="mx-auto flex w-11/12 flex-wrap items-center justify-between p-4 xl:w-[1161px]">
           <Link
             to="/"

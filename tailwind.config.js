@@ -99,5 +99,11 @@ export default withMT({
       "12xl": "65px",
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
+  variants: {
+    extend: {
+      scrollbar: ["hidden"],
+    },
+  },
+  safelist: ["scrollbar-hidden"],
 });

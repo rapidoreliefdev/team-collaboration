@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import Google from "../../assets/images/Google play2.svg";
-import Apple from "../../assets/images/Appss.svg";
-import Rapidologo from "../../assets/images/Group 17155.svg";
-import Heroimg from "../../assets/images/landing-hero.png";
+// import Rapidologo from "../../assets/images/Group 17155.svg";
 import { DialogDefault } from "./Dilogbox/individul";
 import { Link } from "react-router-dom";
 import DownloadButton from "./download-btn";
@@ -37,12 +34,12 @@ export default function Hero() {
 
           <div className="mt-6 flex flex-wrap items-center justify-start gap-5 xl:mt-[60px]">
             <DownloadButton
-              imageSrc={Google}
+              imageSrc="../../assets/images/Google play2.svg"
               primaryText={t("getItOn")}
               secondaryText={t("googlePlay")}
             />
             <DownloadButton
-              imageSrc={Apple}
+              imageSrc="../../assets/images/Appss.svg"
               primaryText={t("downloadOn")}
               secondaryText={t("appStore")}
             />
@@ -64,30 +61,34 @@ export default function Hero() {
             </h1>
           </div>
 
-          {/* <h1
+          <h1
             style={{ fontWeight: 500 }}
-            className="f-f-r text-[25px] leading-normal text-white mt-3 xl:mt-[24px] "
+            className="f-f-r mt-3 text-[25px] leading-normal text-white xl:mt-[24px]"
           >
             Become member of our community?
             <span
               onClick={() => handleOpen()}
-              className=" text-[#58FD0A] pl-4 cursor-pointer"
+              className="cursor-pointer pl-4 text-[#58FD0A]"
             >
               Sign up
             </span>
-          </h1> */}
+          </h1>
         </div>
         <div className="col-span-1 lg:col-span-5">
-          <img src={Heroimg} className="h-auto w-full lg:h-full" alt="" />
+          <img
+            src="../../assets/images/landing-hero.png"
+            className="h-auto w-full lg:h-full"
+            alt=""
+          />
         </div>
       </div>
-      {/* <div className="text-center mt-14 lg:mt-[92px]">
-        <ul className="lg:inline-flex items-center sm:space-x-5 pb-5 sm:pb-[45px]">
-          <li className="f-f-m  text-xl md:text-5xl text-green">
+      {/* <div className="mt-14 text-center lg:mt-[92px]">
+        <ul className="items-center pb-5 sm:space-x-5 sm:pb-[45px] lg:inline-flex">
+          <li className="f-f-m text-xl text-green md:text-5xl">
             do you want to Get Involved with our Case Studies reviews
           </li>
           <li>
-            <button className="w-full sm:w-[230px] h-[38px] md:h-[45px] mt-4 lg:mt-0 mb-3 lg:mb-0 bg-white rounded-xl f-f-m text-xl sm:text-3xl md:text-5xl text-green-dark cursor-pointer">
+            <button className="f-f-m mb-3 mt-4 h-[38px] w-full cursor-pointer rounded-xl bg-white text-xl text-green-dark sm:w-[230px] sm:text-3xl md:h-[45px] md:text-5xl lg:mb-0 lg:mt-0">
               then, Click here
             </button>
           </li>

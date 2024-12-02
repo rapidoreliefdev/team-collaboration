@@ -1,8 +1,9 @@
-import { t } from "i18next";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const WatchVideo = () => {
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation();
   return (
     <>
       <div
@@ -34,6 +35,7 @@ const WatchVideo = () => {
           {t("watchVideo")}
         </h1>
       </div>
+
       <div
         className={`absolute left-0 top-0 z-[99999999] h-screen w-full transform transition-all duration-300 ease-in-out ${
           open
@@ -41,12 +43,13 @@ const WatchVideo = () => {
             : "pointer-events-none -translate-y-2 opacity-0"
         }`}
       >
-        <div className="flex h-full w-full items-center justify-center">
-          <div className="relative flex items-center justify-center bg-[#B2FF87] p-10">
+        <div className="flex h-full items-center justify-center">
+          <div className="relative flex h-72 w-[95%] items-center justify-center bg-[#B2FF87] p-10 sm:h-[350px] sm:w-[516px]">
             {/* Youtube video player */}
+
             <iframe
-              width="560"
-              height="315"
+              width="100%"
+              height="100%"
               src="https://www.youtube.com/embed/ac7r4S6onpw?si=HhN5f7biGhfqSj4K"
               title="YouTube video player"
               frameborder="0"
@@ -54,6 +57,7 @@ const WatchVideo = () => {
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
+
             {/* Close Button */}
             <button
               onClick={() => setOpen((prev) => !prev)}

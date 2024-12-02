@@ -43,6 +43,7 @@
   "downloadOn": "Downloaden op de",
   "appStore": "App Store",
   "watchVideo": "Bekijk video's",
+  "search": "Zoekopdracht",
   "aboutPage": {
     "Greetings": "Hé daar!",
     "founder": "Oprichter",
@@ -272,6 +273,63 @@
     "subHeading21": "Contactgegevens:",
     "body19": "Voor vragen of opmerkingen over dit privacybeleid, uw persoonlijke gegevens en uw rechten kunt u contact met ons opnemen via:",
     "subHeading22": "E-mail: Privacy@rapidorelief.com"
+  },
+  "explore": {
+    "header": "Het maakt ons uit",
+    "headerHighlighted": "over uw gezondheid",
+    "heroSupportingText": "Een goede gezondheid is de toestand van mentaal, fysiek en sociaal welzijn en betekent niet alleen de afwezigheid van ziekten.",
+    "buttonText1": "Boek de Beste Arts bij jou in de buurt!",
+    "invitation": "Lid worden van onze community?",
+    "location": "Locatie",
+    "haveInsurance": "Verzekering hebben",
+    "consultOnline": "Online raadplegen",
+    "findPharmacy": "Zoek apotheek",
+    "findDoctor": "Zoek een dokter",
+    "findHospital": "Zoek een ziekenhuis",
+    "emergencyAmbulance": "Noodambulance",
+    "mentalHealth": "Geestelijke gezondheid",
+    "availableSpecialty": "Beschikbare specialiteit",
+    "doctors": {
+      "btnText": "Boek een afspraak"
+    },
+    "howItWorks": "Hoe het werkt",
+    "createAccount": "Maak uw account aan.",
+    "signUp": "Meld u aan en voltooi uw registratie. Zodra u klaar bent, ziet u direct de bezoekkosten.",
+    "chooseProvider": "Kies een provider of plan een afspraak:",
+    "chooseProviderBody": "Selecteer de volgende beschikbare zorgverlener of boek een afspraak wanneer het u uitkomt. Deel uw zorgen en geef achtergrondinformatie door een paar korte vragen te beantwoorden.",
+    "subHeading1": "Begin uw live virtuele consultatie",
+    "supportingText": "Neem contact op met een van onze board-gecertificeerde artsen die uw symptomen zal beoordelen en een persoonlijk behandelplan zal opstellen. Ontvang indien nodig recepten gemakkelijk bij u thuisbezorgd of rechtstreeks naar uw plaatselijke apotheek gestuurd.",
+    "healthIsOurSpecialty": "Uw hele gezondheid is onze specialiteit",
+    "learnMore": "LEES MEER",
+    "bookAppointmentSection": {
+      "title": "Afspraak maken",
+      "supportingText": "Plan moeiteloos uw volgende afspraak. Wij nemen contact met u op om uw verzoek te bevestigen of de tijd of dag te wijzigen als deze niet beschikbaar is.",
+      "subHeading1": "Bel ons",
+      "body1": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "subHeading2": "Stuur ons een e-mail",
+      "body2": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "subHeading3": "Bezoek aan kliniek",
+      "body3": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "address": "Cooks mill road halifax"
+    },
+    "patientsTestimonial": {
+      "title": "Getuigenis van patiënten",
+      "suppportingText": "Laten we eens kijken wat onze tevreden patiënten zeggen",
+      "testimonialRole1": "Cardioloog Patiënt",
+      "testimonialRole2": "Neuroloog-patiënt",
+      "testimonialRole3": "Cardioloog Patiënt",
+      "testimonialFeedback1": "Bedankt voor alle diensten, het is ongetwijfeld de beste verbinding",
+      "testimonialFeedback2": "Bedankt voor alle diensten, het is ongetwijfeld de beste verbinding",
+      "testimonialFeedback3": "Bedankt voor alle diensten, het is ongetwijfeld de beste verbinding",
+      "form": {
+        "name": "Naam",
+        "phoneNumber": "Telefoonnummer",
+        "email": "E-mailadres",
+        "service": "Dienst",
+        "message": "Bericht",
+        "submit": "Indienen"
+      }
+    }
   },
   "Esg": {
     "areYouACustomer": "Bent u al klant en heeft u ondersteuning nodig?",

@@ -43,6 +43,7 @@
   "downloadOn": "Descargar en el",
   "appStore": "App Store",
   "watchVideo": "Ver vídeos",
+  "search": "Buscar",
   "aboutPage": {
     "Greetings": "¡Ey!",
     "founder": "Fundador",
@@ -272,6 +273,63 @@
     "subHeading21": "Información del contacto:",
     "body19": "Si tiene preguntas o comentarios sobre esta Política de Privacidad, sus Datos Personales y sus derechos, contáctenos en:",
     "subHeading22": "Correo electrónico: Privacidad@rapidorelief.com"
+  },
+  "explore": {
+    "header": "nos importa",
+    "headerHighlighted": "sobre tu salud",
+    "heroSupportingText": "La buena salud es el estado de bienestar mental, físico y social y no significa sólo ausencia de enfermedades.",
+    "buttonText1": "Reserve el mejor doctor cerca de usted!",
+    "invitation": "¿Hacerse miembro de nuestra comunidad?",
+    "location": "Ubicación",
+    "haveInsurance": "Tener seguro",
+    "consultOnline": "Consultar en línea",
+    "findPharmacy": "encontrar farmacia",
+    "findDoctor": "encontrar un medico",
+    "findHospital": "encontrar un hospital",
+    "emergencyAmbulance": "Ambulancia de emergencia",
+    "mentalHealth": "Salud mental",
+    "availableSpecialty": "Especialidad disponible",
+    "doctors": {
+      "btnText": "Reserve una cita"
+    },
+    "howItWorks": "Cómo funciona",
+    "createAccount": "Crea tu cuenta.",
+    "signUp": "Regístrese y complete su registro. Una vez hecho esto, verá instantáneamente el costo de la visita.",
+    "chooseProvider": "Elija un proveedor o programe una cita:",
+    "chooseProviderBody": "Seleccione el siguiente profesional sanitario disponible o reserve una cita según le convenga. Comparta sus inquietudes y brinde información general respondiendo algunas preguntas rápidas..",
+    "subHeading1": "Comience su consulta virtual en vivo",
+    "supportingText": "Conéctese con uno de nuestros médicos certificados que evaluará sus síntomas y le brindará un plan de tratamiento personalizado. Si es necesario, reciba recetas cómodamente entregadas a usted o enviadas directamente a su farmacia local.",
+    "healthIsOurSpecialty": "Your whole Health is Our Specialty",
+    "learnMore": "APRENDE MÁS",
+    "bookAppointmentSection": {
+      "title": "Reservar cita",
+      "supportingText": "Programe su próxima cita sin esfuerzo. Nos comunicaremos con usted para confirmar su solicitud o cambiar la hora o el día si no está disponible.",
+      "subHeading1": "Llámanos",
+      "body1": "",
+      "subHeading2": "Send us an email",
+      "body2": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "subHeading3": "Visit to clinic",
+      "body3": "Lorem ipsum dolor sit amet sit dignissim pellentesque",
+      "address": "Cooks mill road halifax"
+    },
+    "patientsTestimonial": {
+      "title": "Testimonio de pacientes",
+      "suppportingText": "Veamos lo que dicen nuestros pacientes felices.",
+      "testimonialRole1": "Cardiólogo Paciente",
+      "testimonialRole2": "Paciente neurólogo",
+      "testimonialRole3": "Cardiólogo Paciente",
+      "testimonialFeedback1": "Gracias por todos los servicios, sin duda es la mejor conexión.",
+      "testimonialFeedback2": "Gracias por todos los servicios, sin duda es la mejor conexión.",
+      "testimonialFeedback3": "Gracias por todos los servicios, sin duda es la mejor conexión.",
+      "form": {
+        "name": "Nombre",
+        "phoneNumber": "Número de teléfono",
+        "email": "Dirección de correo electrónico",
+        "service": "Servicio",
+        "message": "Mensaje",
+        "submit": "Entregar"
+      }
+    }
   },
   "Esg": {
     "areYouACustomer": "¿Ya eres cliente y necesitas soporte?",
