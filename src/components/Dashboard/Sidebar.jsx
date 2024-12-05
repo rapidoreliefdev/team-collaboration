@@ -16,84 +16,80 @@ export default function Header() {
   // Function to handle logout
   const handleLogout = () => {
     logout();
-    message.success("Logout successful")
+    message.success("Logout successful");
   };
 
   return (
-    <div className="rapido-side bg-white w-[200px] fixed top-0 left-0 z-50  py-[14px] h-screen max-h-screen overflow-y-auto overflow-x-hidden">
-      <div className=" pl-[36px] ">
-        <img
-          src={rapidologodashboard}
-          alt=""
-          className=" w-[142px] h-[30px] "
-        />
+    <div className="rapido-side #bg-white fixed left-0 top-0 z-50 h-screen max-h-screen w-[200px] overflow-y-auto overflow-x-hidden bg-green-dark py-[14px]">
+      <div className="pl-[36px]">
+        <img src={rapidologodashboard} alt="" className="h-[30px] w-[142px]" />
       </div>
-      <h2 className=" f-f-r text-base text-grey-vdark ml-[50px] mt-[36px] ">
+      <h2 className="f-f-r ml-[50px] mt-[36px] text-base text-grey-light">
         Supper Admin
       </h2>
-      <div className=" pl-[54px] ">
-        <ul className="inline-flex items-center space-x-[10px] mt-4">
+      <div className="pl-[54px]">
+        <ul className="mt-4 inline-flex items-center space-x-[10px]">
           <li>
-            <img src={Dashbord} className="w-3 h-3" alt="" />
+            <img src={Dashbord} className="h-3 w-3" alt="" />
           </li>
-          <li className="f-f-b text-base text-green-dark">Dashbord</li>
+          <li className="f-f-b text-base text-green-light">Dashbord</li>
         </ul>
 
-        <ul className="inline-flex items-center space-x-[10px] mt-4">
+        <ul className="mt-4 inline-flex items-center space-x-[10px]">
           <li>
-            <img src={individual2} className="w-3 h-3" alt="" />
+            <img src={individual2} className="h-3 w-3" alt="" />
           </li>
-          <li className="f-f-b text-base text-blue-vdark">Individual</li>
+          <li className="f-f-b text-base text-blue-light">Individual</li>
         </ul>
 
-        <ul className="inline-flex items-center space-x-[10px] mt-4">
+        <ul className="mt-4 inline-flex items-center space-x-[10px]">
           <li>
-            <img src={Doctors} className="w-3 h-3" alt="" />
+            <img src={Doctors} className="h-3 w-3" alt="" />
           </li>
-          <li className="f-f-b text-base text-blue-vdark">Doctors</li>
+          <li className="f-f-b text-base text-blue-light">Doctors</li>
         </ul>
 
-        <ul className="inline-flex items-center space-x-[10px] mt-4">
+        <ul className="mt-4 inline-flex items-center space-x-[10px]">
           <li>
-            <img src={Pharmacies} className="w-3 h-3" alt="" />
+            <img src={Pharmacies} className="h-3 w-3" alt="" />
           </li>
-          <li className="f-f-b text-base text-blue-vdark">Pharmacies</li>
+          <li className="f-f-b text-base text-blue-light">Pharmacies</li>
         </ul>
 
-        <ul className="inline-flex items-center space-x-[10px] mt-4">
+        <ul className="mt-4 inline-flex items-center space-x-[10px]">
           <li>
-            <img src={Patients} className="w-3 h-3" alt="" />
+            <img src={Patients} className="h-3 w-3" alt="" />
           </li>
-          <li className="f-f-b text-base text-blue-vdark">Patients</li>
+          <li className="f-f-b text-base text-blue-light">Patients</li>
         </ul>
 
-        <ul className="inline-flex items-center space-x-[10px] mt-4">
+        <ul className="mt-4 inline-flex items-center space-x-[10px]">
           <li>
-            <img src={Payments} className="w-3 h-3" alt="" />
+            <img src={Payments} className="h-3 w-3" alt="" />
           </li>
-          <li className="f-f-b text-base text-blue-vdark">Payments</li>
+          <li className="f-f-b text-base text-blue-light">Payments</li>
         </ul>
       </div>
-      <div className="h-[1px] w-full bg-[#E8E8E8] mt-4"></div>
+      <div className="mt-4 h-[1px] w-full bg-[#E8E8E8]"></div>
 
-      <ul className="inline-flex items-center space-x-[10px] mt-[17px] pl-[54px]">
+      <ul className="mt-[17px] inline-flex items-center space-x-[10px] pl-[54px]">
         <li>
-          <img src={Help} className="w-3 h-3" alt="" />
+          <img src={Help} className="h-3 w-3" alt="" />
         </li>
-        <li className="f-f-b text-base text-blue-vdark">Help</li>
+        <li className="f-f-b text-base text-blue-light">Help</li>
       </ul>
       <ul
-        className="inline-flex items-center space-x-[10px] mt-[85px] pl-[54px]"
+        className="mt-[85px] inline-flex items-center space-x-[10px] pl-[54px]"
         onClick={handleLogout}
         style={{ cursor: "pointer" }}
       >
         <li>
-          <img src={Logout} className="w-[30px] h-[30px]" alt="" />
+          <img src={Logout} className="h-[30px] w-[30px]" alt="" />
         </li>
-        <li className="f-f-b text-base text-blue-vdark">Logout</li>
+        <li className="f-f-b text-base text-blue-light">Logout</li>
       </ul>
 
-      <div className="w-10 h-10 whitebutton ml-[70px] mt-[140px]"></div>
+      <div className="whitebutton ml-[70px] mt-[140px] h-10 w-10"></div>
     </div>
   );
 }

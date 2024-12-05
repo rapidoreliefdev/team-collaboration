@@ -36,11 +36,10 @@ function App() {
               <Route path="/register" element={<Register />} />
               <Route
                 path="/dashboard"
-                element={
-                  <AuthGuard adminRequired>
-                    <Dashboard />
-                  </AuthGuard>
-                }
+                element={<Dashboard />}
+
+                //               <AuthGuard adminRequired>
+                // </AuthGuard>
               />
 
               {/* portugues pages  */}

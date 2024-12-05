@@ -8,7 +8,7 @@ export default function HowRapidoReliefWorks() {
   return (
     <div className="mx-auto w-11/12 py-[81px] xl:w-[1161px]">
       <div className="mb-8 flex flex-wrap items-center justify-center gap-4 md:gap-[27px]">
-        <h1 className="text-5xl font-medium text-green-dark md:text-7xl">
+        <h1 className="f-f-m text-5xl text-green-dark md:text-7xl">
           {t("home.howRapidoReliefWorks")}
         </h1>
         <h2 className="f-f-li w-full rounded-[10px] bg-green-dark px-3 text-center text-6xl italic text-[#58fd0a] sm:w-fit md:px-[22px] md:text-7xl lg:text-[40px]">

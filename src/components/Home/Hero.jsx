@@ -49,7 +49,7 @@ export default function Hero() {
           <div className="mt-5 flex flex-wrap items-center gap-3 xl:gap-5">
             <button
               onClick={() => handleOpen()}
-              className="text-nowrap rounded-[10px] bg-[#58FD0A] px-[17px] py-2 text-[25px] font-medium text-green-dark"
+              className="f-f-m text-nowrap rounded-[10px] bg-[#58FD0A] px-[17px] py-2 text-[25px] text-green-dark"
             >
               {t("home.subscribeNow")}
             </button>
@@ -60,23 +60,10 @@ export default function Hero() {
               {t("home.invitationText")}
             </h1>
           </div>
-
-          <h1
-            style={{ fontWeight: 500 }}
-            className="f-f-r mt-3 text-[25px] leading-normal text-white xl:mt-[24px]"
-          >
-            Become member of our community?
-            <span
-              onClick={() => handleOpen()}
-              className="cursor-pointer pl-4 text-[#58FD0A]"
-            >
-              Sign up
-            </span>
-          </h1>
         </div>
         <div className="col-span-1 lg:col-span-5">
           <img
-            src="../../assets/images/landing-hero.png"
+            src="../../assets/images/landing-hero.svg"
             className="h-auto w-full lg:h-full"
             alt=""
           />
