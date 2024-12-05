@@ -4,6 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +25,28 @@ body {
   margin: 0;
   padding: 0;
   background: #ffffff;
+}
+
+.slick-dots {
+  bottom: -15px; /* Adjusts dot position */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* Space between dots */
+}
+
+.slick-dots li button::before {
+  font-size: 12px; /* Dot size */
+  color: #d3d3d3; /* Inactive color */
+  opacity: 1;
+}
+
+.slick-dots .slick-active button::before {
+  color: #6cbf24; /* Active dot color */
+}
+
+.slick-dots.custom-dots li.slick-active button {
+  background-color: #6cbf24; /* Active background color */
 }
 
 @font-face {

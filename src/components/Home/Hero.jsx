@@ -6,9 +6,28 @@ import DownloadButton from "./download-btn";
 import { Dialog } from "@material-tailwind/react";
 import WatchVideo from "./watch-video";
 import { useTranslation } from "react-i18next";
+import Slider from "react-slick";
 
 export default function Hero() {
   const [open, setOpen] = useState(false);
+  const settings = {
+    dots: true, // Enables dots
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    customPaging: (i) => (
+      <div
+        style={{
+          width: "8px",
+          height: "8px",
+          borderRadius: "50%",
+          backgroundColor: i === 0 ? "#6CBF24" : "#D3D3D3", // Customize active/inactive colors
+        }}
+      ></div>
+    ),
+    dotsClass: "slick-dots slick-thumb", // Custom class for dots
+  };
 
   const handleOpen = () => setOpen(!open);
 
@@ -49,7 +68,7 @@ export default function Hero() {
           <div className="mt-5 flex flex-wrap items-center gap-3 xl:gap-5">
             <button
               onClick={() => handleOpen()}
-              className="f-f-m text-nowrap rounded-[10px] bg-[#58FD0A] px-[17px] py-2 text-[25px] text-green-dark"
+              className="f-f-m text-nowrap rounded-[10px] bg-[#58FD0A] px-[17px] py-2 text-[25px] uppercase text-green-dark"
             >
               {t("home.subscribeNow")}
             </button>
@@ -61,12 +80,32 @@ export default function Hero() {
             </h1>
           </div>
         </div>
+
+        {/* Image Slider */}
         <div className="col-span-1 lg:col-span-5">
-          <img
-            src="../../assets/images/landing-hero.svg"
-            className="h-auto w-full lg:h-full"
-            alt=""
-          />
+          <Slider {...settings}>
+            <div>
+              <img
+                src="../../assets/images/landing-hero.svg"
+                className="h-auto w-full lg:h-full"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="../../assets/images/landing-hero.svg"
+                className="h-auto w-full lg:h-full"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="../../assets/images/landing-hero.svg"
+                className="h-auto w-full lg:h-full"
+                alt=""
+              />
+            </div>
+          </Slider>
         </div>
       </div>
       {/* <div className="mt-14 text-center lg:mt-[92px]">

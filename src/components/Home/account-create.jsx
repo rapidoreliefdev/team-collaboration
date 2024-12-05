@@ -27,9 +27,9 @@ const AccountCreate = () => {
             fill="white"
           />
         </svg>
-        <p className="f-f-b f-f-b block rounded py-2 text-base text-green-light hover:bg-gray-100 md:border-0 md:hover:bg-transparent lg:p-0">
+        {/* <p className="f-f-b f-f-b block rounded py-2 text-base text-green-light hover:bg-gray-100 md:border-0 md:hover:bg-transparent lg:p-0">
           {t("navigation.account.title")}
-        </p>
+        </p> */}
       </div>
 
       {drop && (
