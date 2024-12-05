@@ -268,6 +268,8 @@ export default function Navbar() {
                 />
               )}
 
+              <MenuItem label={t("navigation.whatWeOffer")} />
+
               <MenuItem
                 label={t("navigation.labels.Explore")}
                 subItems={[
