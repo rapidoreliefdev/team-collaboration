@@ -59,7 +59,7 @@ export default function Cardd() {
         </div>
       </div>
       {/* card section end  */}
-      <div className="mt-[17px] grid grid-cols-12 items-center gap-4 sm:gap-0">
+      {/* <div className="mt-[17px] grid grid-cols-12 items-center gap-4 sm:gap-0">
         <div className="col-span-12 sm:col-span-7">
           <div className="relative items-center">
             <div className="pointer-events-none absolute inset-y-0 start-0 flex items-center pl-[13px]">
@@ -130,7 +130,7 @@ export default function Cardd() {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -62,7 +62,7 @@ export default function Help() {
 
         <div className="max-md:ml-0 max-md:w-full flex flex-col md:w-[67%]">
           <div className="max-md:mt-10 max-md:max-w-full mt-2 flex w-full flex-col items-start">
-            <h1 className="f-f-r text-center text-[40px] font-semibold leading-[64px] tracking-[-0.4px] text-black md:text-start">
+            <h1 className="f-f-m text-center text-[40px] font-semibold leading-[64px] tracking-[-0.4px] text-black md:text-start">
               {t("home.help.aboutHeading")}
             </h1>
 

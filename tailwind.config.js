@@ -98,6 +98,12 @@ export default withMT({
       "11xl": "45px",
       "12xl": "65px",
     },
+    screens: {
+      "min-600": "600px",
+    },
+    boxShadow: {
+      "left-lg": "5px 0 10px 0 rgba(0, 0, 0, 0.1)",
+    },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
   variants: {

@@ -180,23 +180,41 @@ export default function Table() {
         </div>
       ) : (
         <div>
-          <h1 className="f-f-r mt-4 text-7xl text-grey-vdark">Supper Admin</h1>
-          <ul className="mt-4 items-center space-x-[-10px] space-y-2 sm:inline-flex sm:space-y-0">
-            <li>
-              <button
-                className={`f-f-m-m h-[49px] w-full rounded-3xl bg-white text-2xl sm:w-[176px] ${
-                  activeSelection === "Waiting List"
-                    ? "text-black"
-                    : "text-brown-vdark"
-                }`}
-                onClick={() => setActiveSelection("Waiting List")}
+          <h1 className="f-f-r mt-4 text-7xl text-[#749D1C]">Supper Admin</h1>
+          {/* Tabs */}
+          <ul className="min-600:flex-nowrap min-600:gap-0 mt-4 flex w-full flex-wrap items-center justify-center gap-4">
+            {[
+              {
+                text: "Waiting List",
+                position: "translate-x-0",
+                zIndex: "z-30",
+              },
+              { text: "Doctors", position: "-translate-x-4", zIndex: "z-20" },
+              {
+                text: "Pharmacies",
+                position: "-translate-x-8",
+                zIndex: "z-10",
+              },
+            ].map((el, index) => (
+              <li
+                className={`min-600:rounded-b-none min-600:rounded-t-[32px] shadow-left-lg w-32 overflow-hidden rounded-lg [@media(min-width:344px)]:w-36 [@media(min-width:376px)]:w-40 [@media(min-width:408px)]:w-44 ${el.position} ${el.zIndex}`}
+                key={index}
               >
-                Waiting List
-              </button>
-            </li>
-            <li>
+                <button
+                  className={`f-f-m-m h-[49px] w-full bg-white text-2xl ${
+                    activeSelection === el.text
+                      ? "text-black"
+                      : "text-brown-vdark"
+                  }`}
+                  onClick={() => setActiveSelection(el.text)}
+                >
+                  {el.text}
+                </button>
+              </li>
+            ))}
+            {/* <li className="w-full">
               <button
-                className={`f-f-m-m h-[49px] w-full rounded-3xl bg-white text-2xl sm:w-[176px] ${
+                className={`f-f-m-m h-[49px] w-full rounded-3xl bg-white text-2xl sm:w-44 ${
                   activeSelection === "Doctors"
                     ? "text-black"
                     : "text-brown-vdark"
@@ -206,9 +224,9 @@ export default function Table() {
                 Doctors
               </button>
             </li>
-            <li>
+            <li className="w-full">
               <button
-                className={`f-f-m-m h-[49px] w-full rounded-3xl bg-white text-2xl sm:w-[176px] ${
+                className={`f-f-m-m h-[49px] w-full rounded-3xl bg-white text-2xl sm:w-44 ${
                   activeSelection === "Pharmacies"
                     ? "text-black"
                     : "text-brown-vdark"
@@ -217,12 +235,12 @@ export default function Table() {
               >
                 Pharmacies
               </button>
-            </li>
+            </li> */}
           </ul>
 
           {/* table section start */}
 
-          <div className="tableset relative mt-5 h-[341px] overflow-x-auto overflow-y-auto rounded-[15px] bg-white py-5 lg:pl-5">
+          <div className="tableset min-600:mt-0 relative z-40 mt-5 h-[341px] overflow-x-auto overflow-y-auto rounded-[15px] bg-white py-5 lg:pl-5">
             <table className="w-full text-left rtl:text-right">
               <thead className="f-f-b-l table-head h-[43px] text-sm text-[#25282B]">
                 <tr className=" ">
