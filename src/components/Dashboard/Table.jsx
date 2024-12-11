@@ -182,7 +182,7 @@ export default function Table() {
         <div>
           <h1 className="f-f-r mt-4 text-7xl text-[#749D1C]">Supper Admin</h1>
           {/* Tabs */}
-          <ul className="min-600:flex-nowrap min-600:gap-0 mt-4 flex w-full flex-wrap items-center justify-center gap-4">
+          <ul className="min-600:flex-nowrap min-600:gap-0 min-600:justify-start min-600:pl-8 mt-4 flex w-full flex-wrap items-center justify-center gap-4">
             {[
               {
                 text: "Waiting List",
